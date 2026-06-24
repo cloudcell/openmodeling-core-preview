@@ -1,4 +1,3 @@
 # OpenModeling Core preview builds
 
-This repository currently contains preview builds only. The source code is not public yet and is planned for release after the initial alpha preview period.
-
+This repository contains preview builds of OM Core™.  The source code is not public yet. I plan to release it soon after this initial alpha preview period, once packaging, licensing, and repository cleanup are complete.
