@@ -12,7 +12,7 @@ Get the latest build from [GitHub Releases](../../releases).
 
 ## Demo
 
-Watch the demo video: [YouTube](https://youtu.be/9txqmXQFRXc).
+[![Watch the demo video on YouTube](https://img.youtube.com/vi/9txqmXQFRXc/0.jpg)](https://youtu.be/9txqmXQFRXc)
 
 ## Community
 
