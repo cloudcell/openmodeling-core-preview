@@ -1,0 +1,3069 @@
+{
+  "schema_version": 16,
+  "workspace": {
+    "id": "ws_487bf456b91c4ad0bc704b7fa2a3a7f1",
+    "name": "NZ Gadgets & Widgets Financial Model",
+    "dimensions": {
+      "dim_1aad24aa8e8c486f9dc7ef0ea1c56a36": {
+        "id": "dim_1aad24aa8e8c486f9dc7ef0ea1c56a36",
+        "name": "CF",
+        "items": [
+          {
+            "id": "item_533bb36e64f3451e95bcd56bd9e9a3b2",
+            "name": "CFO"
+          },
+          {
+            "id": "item_68cb6b667260434abd77d3b19cac0990",
+            "name": "DeltaWC"
+          },
+          {
+            "id": "item_fbd03d1ff499412592f8b6e0976cf50e",
+            "name": "CFI"
+          },
+          {
+            "id": "item_6ec157c0a4644ca7953444c168c75243",
+            "name": "CFF"
+          },
+          {
+            "id": "item_c1ef65afb42e479b92ae00b6967c8ea9",
+            "name": "FreeCashFlow"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_3f55dc57581f4575ace5aeb5807cc070": {
+        "id": "dim_3f55dc57581f4575ace5aeb5807cc070",
+        "name": "Valuation",
+        "items": [
+          {
+            "id": "item_ad75c04ec65341e68b8d1aa7a4d569f8",
+            "name": "DiscountFactor"
+          },
+          {
+            "id": "item_29589f0192be4699859d4175d5e1e2e8",
+            "name": "PV_FCF"
+          },
+          {
+            "id": "item_86938588ded6469e9954a928eb63251f",
+            "name": "TerminalValue"
+          },
+          {
+            "id": "item_00274b54fb5d4f98bb409221dd73c0ba",
+            "name": "PV_Terminal"
+          },
+          {
+            "id": "item_e4ebf3afe9d04aa39089813ffbcda8ba",
+            "name": "EnterpriseValue"
+          },
+          {
+            "id": "item_8a3afe06d30a4f7c83487fec8fd41164",
+            "name": "EquityValue"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_51301c1abf42400ebd403a8824b0bfc5": {
+        "id": "dim_51301c1abf42400ebd403a8824b0bfc5",
+        "name": "Driver",
+        "items": [
+          {
+            "id": "item_a46a8da7498647b08c027d5afacb1816",
+            "name": "PriceGadgets"
+          },
+          {
+            "id": "item_1c97ec0d973c4acaa298e265b4d12d04",
+            "name": "PriceWidgets"
+          },
+          {
+            "id": "item_9e6f50de3a564ee0a8654c88aeb47a86",
+            "name": "VolumeGadgetsBase"
+          },
+          {
+            "id": "item_febc540bba8941be915ddbab71c209de",
+            "name": "VolumeWidgetsBase"
+          },
+          {
+            "id": "item_a7f1f4dff25746818656774ffbb8a05c",
+            "name": "VolumeGrowthGadgets"
+          },
+          {
+            "id": "item_231758560d26442187c5d13cdb92e023",
+            "name": "VolumeGrowthWidgets"
+          },
+          {
+            "id": "item_7338c11b3ab54e9faae740d925a28969",
+            "name": "VolumeGadgets"
+          },
+          {
+            "id": "item_103651dd237a44ad88fe4e66fd911093",
+            "name": "VolumeWidgets"
+          },
+          {
+            "id": "item_eaaacf14d987440c84710725b9d0a17b",
+            "name": "COGSPercent"
+          },
+          {
+            "id": "item_21287ef77bf04a39a8dd0079989b8f4b",
+            "name": "OpexPercent"
+          },
+          {
+            "id": "item_c1e2aeacc69846fc83761e9b33330167",
+            "name": "DandAPercent"
+          },
+          {
+            "id": "item_b64d35981add450b92406f7d27c9e6fe",
+            "name": "TaxRate"
+          },
+          {
+            "id": "item_95bc26656d3547948d28bb10b5c8285b",
+            "name": "DebtRate"
+          },
+          {
+            "id": "item_367b7edc8b174080b719059ef486253d",
+            "name": "CapexPercent"
+          },
+          {
+            "id": "item_8e5b6db4022246baa4e7292d5a8b8dcd",
+            "name": "WorkingCapitalPercent"
+          },
+          {
+            "id": "item_b0f7f79e27a44cec9fce7c18ea68186e",
+            "name": "RiskFree"
+          },
+          {
+            "id": "item_1de6254d5ad04bd5a8142c097bbc5c6f",
+            "name": "EquityRiskPremium"
+          },
+          {
+            "id": "item_dae8e3fab6054046806c15e4c5dd0525",
+            "name": "Beta"
+          },
+          {
+            "id": "item_028175f4f7a64c3a9bb0fcd2604248f1",
+            "name": "DebtRatio"
+          },
+          {
+            "id": "item_da2b92eae500410ba1782bff08679c07",
+            "name": "EquityRatio"
+          },
+          {
+            "id": "item_d393615c98c945e898aa2d96d7618226",
+            "name": "TerminalGrowth"
+          },
+          {
+            "id": "item_b32454db0e3d4895b354713038505700",
+            "name": "OpeningCash"
+          },
+          {
+            "id": "item_8dab5c60efc14cefb864010365f2adfa",
+            "name": "OpeningPPandE"
+          },
+          {
+            "id": "item_d2735f43b5eb488f8ecabe9e38ce26f6",
+            "name": "OpeningWorkingCapital"
+          },
+          {
+            "id": "item_a8d18f8bc69549818aca7bd45e751f7f",
+            "name": "OpeningDebt"
+          },
+          {
+            "id": "item_7c5e7e98c79348baa302942c669e2ddc",
+            "name": "OpeningEquity"
+          },
+          {
+            "id": "item_71a7a74dfca2410193b704bce9488c92",
+            "name": "OpeningRetainedEarnings"
+          },
+          {
+            "id": "item_692d2b29c67045aca0d1435e5e9bd374",
+            "name": "DebtLevel"
+          },
+          {
+            "id": "item_4ae75f4a41a24faf86bd6c26a883ee6c",
+            "name": "WACC"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_6ba543154a29446aa39c91f38e14744a": {
+        "id": "dim_6ba543154a29446aa39c91f38e14744a",
+        "name": "PL",
+        "items": [
+          {
+            "id": "item_441520d585714ce8867c6af24c354f4c",
+            "name": "RevenueGadgets"
+          },
+          {
+            "id": "item_e5f1c6e3d26b4e44b05d6d3ad652bfdd",
+            "name": "RevenueWidgets"
+          },
+          {
+            "id": "item_e415280564e34f5aa7166feb4979f3bd",
+            "name": "TotalRevenue"
+          },
+          {
+            "id": "item_be88dafd99ac421e832727ca6339bc0f",
+            "name": "COGS"
+          },
+          {
+            "id": "item_15df8269a39d45e884f671eade949eef",
+            "name": "GrossProfit"
+          },
+          {
+            "id": "item_8dd0800c8da14df587a9a045d7ea0227",
+            "name": "Opex"
+          },
+          {
+            "id": "item_1eed9cccdb5643949229c6f04f00f800",
+            "name": "EBITDA"
+          },
+          {
+            "id": "item_d779ddc5c7d342a8b9cac50e761a3e58",
+            "name": "DA"
+          },
+          {
+            "id": "item_f8fb4fef06b540c6aa8ee3c8a49afb9a",
+            "name": "EBIT"
+          },
+          {
+            "id": "item_5d26801e50fd4deebad390efdc15a473",
+            "name": "Interest"
+          },
+          {
+            "id": "item_c0f86fe5440c43829106cb6caa093777",
+            "name": "Taxes"
+          },
+          {
+            "id": "item_59dff7d1e38a4608b8d650b9bc4631f8",
+            "name": "NetIncome"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9": {
+        "id": "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9",
+        "name": "Year",
+        "items": [
+          {
+            "id": "item_dcc7a82f67ae4606a4bca2a64ccec981",
+            "name": "2028"
+          },
+          {
+            "id": "item_d5b3e6c0fbf148fda614369c9fd07936",
+            "name": "2029"
+          },
+          {
+            "id": "item_111ac7b68b324efd90e5376b9fd01106",
+            "name": "2030"
+          },
+          {
+            "id": "item_9c1da82b84dd4ff085014a7ce591c5d9",
+            "name": "2031"
+          },
+          {
+            "id": "item_b656e87b67234894a798614c96d27d5b",
+            "name": "2032"
+          }
+        ],
+        "dim_type": "seq",
+        "is_technical": false
+      },
+      "dim_b34ebf1cb08d489d8b33dc54a9cb6ad4": {
+        "id": "dim_b34ebf1cb08d489d8b33dc54a9cb6ad4",
+        "name": "BS",
+        "items": [
+          {
+            "id": "item_2ba6b475c0444159aed4f350a1330211",
+            "name": "Cash"
+          },
+          {
+            "id": "item_e64bf22981e347439645800c3e7bfb30",
+            "name": "WorkingCapital"
+          },
+          {
+            "id": "item_4ce20cac29384437a2b3df97f01a8b0c",
+            "name": "PPandE"
+          },
+          {
+            "id": "item_1c02e4224a6043659787f1d2e71fb316",
+            "name": "TotalAssets"
+          },
+          {
+            "id": "item_963094b94e114ae1a475b80f4bb07d74",
+            "name": "Debt"
+          },
+          {
+            "id": "item_54e2aa59c6e6427fa09ee8e95706c594",
+            "name": "Equity"
+          },
+          {
+            "id": "item_d7839160306d4143acd27ba22caa914b",
+            "name": "RetainedEarnings"
+          },
+          {
+            "id": "item_a2c6b3f655474be0a25cc396a302e3ff",
+            "name": "NetDebt"
+          },
+          {
+            "id": "item_4a23473874f643b692d7395473a11967",
+            "name": "TotalLiabEquity"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "@": {
+        "id": "@",
+        "name": "@",
+        "items": [
+          {
+            "id": "at_value",
+            "name": "value"
+          },
+          {
+            "id": "at_style",
+            "name": "style"
+          },
+          {
+            "id": "at_format_number",
+            "name": "format_number"
+          },
+          {
+            "id": "at_format_text",
+            "name": "format_text"
+          },
+          {
+            "id": "at_format_null",
+            "name": "format_null"
+          },
+          {
+            "id": "at_format_error",
+            "name": "format_error"
+          },
+          {
+            "id": "at_fill",
+            "name": "fill"
+          },
+          {
+            "id": "at_font_family",
+            "name": "font_family"
+          },
+          {
+            "id": "at_font_size",
+            "name": "font_size"
+          },
+          {
+            "id": "at_font_weight",
+            "name": "font_weight"
+          },
+          {
+            "id": "at_font_italic",
+            "name": "font_italic"
+          },
+          {
+            "id": "at_font_color",
+            "name": "font_color"
+          },
+          {
+            "id": "at_text_h_align",
+            "name": "text_h_align"
+          },
+          {
+            "id": "at_text_v_align",
+            "name": "text_v_align"
+          },
+          {
+            "id": "at_text_indent",
+            "name": "text_indent"
+          },
+          {
+            "id": "at_text_wrap",
+            "name": "text_wrap"
+          },
+          {
+            "id": "at_text_rotation",
+            "name": "text_rotation"
+          },
+          {
+            "id": "at_border_top",
+            "name": "border_top"
+          },
+          {
+            "id": "at_border_bottom",
+            "name": "border_bottom"
+          },
+          {
+            "id": "at_border_left",
+            "name": "border_left"
+          },
+          {
+            "id": "at_border_right",
+            "name": "border_right"
+          },
+          {
+            "id": "at_border_diag_up",
+            "name": "border_diag_up"
+          },
+          {
+            "id": "at_border_diag_down",
+            "name": "border_diag_down"
+          },
+          {
+            "id": "at_validation_type",
+            "name": "validation_type"
+          },
+          {
+            "id": "at_validation_rule",
+            "name": "validation_rule"
+          },
+          {
+            "id": "at_validation_message",
+            "name": "validation_message"
+          },
+          {
+            "id": "at_validation_allow_empty",
+            "name": "validation_allow_empty"
+          },
+          {
+            "id": "at_comment",
+            "name": "comment"
+          },
+          {
+            "id": "@.format_numeric",
+            "name": "format_numeric"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": true
+      },
+      "dim_06288ad6c09140e09cce199c1dd09a97": {
+        "id": "dim_06288ad6c09140e09cce199c1dd09a97",
+        "name": "%CFGITM",
+        "items": [
+          {
+            "id": "item_8f0beffa8fd248b0a94b39a454da554a",
+            "name": "system_table_typ"
+          },
+          {
+            "id": "item_95212ddda083431c99c76c7758c1359a",
+            "name": "system_table_sig"
+          },
+          {
+            "id": "item_437bf1e3d30d4052b1ea6ac343ea718c",
+            "name": "system_table_recnod"
+          },
+          {
+            "id": "item_be2deb98e43743f9b8839f5c325ac19e",
+            "name": "system_table_recedg"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_72dff0672dc14f79ba3bc365a0e13feb": {
+        "id": "dim_72dff0672dc14f79ba3bc365a0e13feb",
+        "name": "%CFGMET",
+        "items": [
+          {
+            "id": "item_d58915fe27f34e24b15dd5324e0084b5",
+            "name": "NUL"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_1b2de2722c364d2186ea67dc4ab944d1": {
+        "id": "dim_1b2de2722c364d2186ea67dc4ab944d1",
+        "name": "%ADR",
+        "items": [
+          {
+            "id": "item_5c12f83bcfb2441db5e00d179bb39a41",
+            "name": "ADR"
+          },
+          {
+            "id": "item_53e1ef8983d541fd9b6c1bf2ae408263",
+            "name": "ARG"
+          },
+          {
+            "id": "item_0ab79b562c43419bbde94534cbe5554d",
+            "name": "SRC"
+          },
+          {
+            "id": "item_87d6bad8b2e44271a65dda038db4d866",
+            "name": "TGT"
+          },
+          {
+            "id": "item_5f100e2c7481439eb7ca0f0fcc773006",
+            "name": "FLD"
+          },
+          {
+            "id": "item_d2f883033a7a45f78e8bedb13f741580",
+            "name": "SIG"
+          },
+          {
+            "id": "item_4f8d2ccc12ed4c6cb370c01e1a64e5be",
+            "name": "OBJ"
+          },
+          {
+            "id": "item_1a35a83a443a485ebb831278decb9f92",
+            "name": "REL"
+          },
+          {
+            "id": "item_57abe6d715e24efeaf7892f85da94931",
+            "name": "REI"
+          },
+          {
+            "id": "item_d9f7a281119648eaa6d12a40d2f6e7c3",
+            "name": "PRD"
+          },
+          {
+            "id": "item_dd39cbf850ae4b44969768ab4ee2743f",
+            "name": "GRD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_2a0df0df38cc4595ac66f56271c19948": {
+        "id": "dim_2a0df0df38cc4595ac66f56271c19948",
+        "name": "%FLD",
+        "items": [
+          {
+            "id": "item_23c4ce7124b943a4ae44c819dce17945",
+            "name": "SRC"
+          },
+          {
+            "id": "item_2acd5fc90e7e425fb8b213e4f419de1e",
+            "name": "TGT"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_31dce83c3d1d4dfbafe7d65bc281b922": {
+        "id": "dim_31dce83c3d1d4dfbafe7d65bc281b922",
+        "name": "%TYPADR",
+        "items": [
+          {
+            "id": "item_87a5679bd9b14b41915dec7301bef8c6",
+            "name": "system_type_nul"
+          },
+          {
+            "id": "item_32041cd4bb39488880b951eeeb6adbfe",
+            "name": "system_type_knd"
+          },
+          {
+            "id": "item_92febba198da4356aa3871e67513e62c",
+            "name": "system_type_dim"
+          },
+          {
+            "id": "item_64823a0cf2124d8c944b60b9e1ff69fe",
+            "name": "system_type_ref"
+          },
+          {
+            "id": "item_444d74d715eb4e24ac1f0615d9fd67f1",
+            "name": "system_type_lbl"
+          },
+          {
+            "id": "item_39f9288a5d31429dbdbe183d7e8f9225",
+            "name": "system_type_act"
+          },
+          {
+            "id": "item_75eaa543c61d4f1a8285c186102c4dfd",
+            "name": "system_type_met"
+          },
+          {
+            "id": "item_3ff14e37302b4efe86267dde915a8cf6",
+            "name": "system_type_src"
+          },
+          {
+            "id": "item_a6ebb1f528674518968e228717774815",
+            "name": "system_type_tgt"
+          },
+          {
+            "id": "item_909e06f47a444c049d74b94bceb6410a",
+            "name": "system_type_ord"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_92ac2f3a95c640b3a28b5fb2e330b667": {
+        "id": "dim_92ac2f3a95c640b3a28b5fb2e330b667",
+        "name": "%TYPFLD",
+        "items": [
+          {
+            "id": "item_6e0d34c836084ec3a5c58aec7076d42c",
+            "name": "NUL"
+          },
+          {
+            "id": "item_da21dbc32287454d9d3143cfd545e41d",
+            "name": "MET"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_91b4acf6d298412b98cdfef876277f13": {
+        "id": "dim_91b4acf6d298412b98cdfef876277f13",
+        "name": "%RECNODADR",
+        "items": [
+          {
+            "id": "item_1fd5a0b7e47545b49c4fdb238b4ddfca",
+            "name": "NUL"
+          },
+          {
+            "id": "item_47973ae849a34d2a93f35f64d41b6208",
+            "name": "nod_bdc11ad5f5e447d09c6efc5c93cbf708"
+          },
+          {
+            "id": "item_414e9219a41a4bb3bd24e3291fe9b95b",
+            "name": "nod_3d39f97427e74e9aa6b99324c2ddbb12"
+          },
+          {
+            "id": "item_c3c421058f904f3b97985b8f022fe146",
+            "name": "nod_aaef0b470b024d7786199d5d802b9f38"
+          },
+          {
+            "id": "item_aaf4f03676cc427783431c36798a8203",
+            "name": "nod_d4c62c5f04b147448566bd23eb30616c"
+          },
+          {
+            "id": "item_ea1543fa462440ccbd7fb8803b00e299",
+            "name": "nod_8794f060342942ba8abb66017d1f12ad"
+          },
+          {
+            "id": "item_fe925a106760494e8d2be239b0162746",
+            "name": "nod_38fdfc89361243169bdb7e3470b5349b"
+          },
+          {
+            "id": "item_cf14449e76f9430198462dcfd65b3568",
+            "name": "nod_7266afd030964ca4873b0ef90e86ac30"
+          },
+          {
+            "id": "item_ff6ae013859344028352c28568e94686",
+            "name": "nod_31dadf8c5ca64725a0387aab6cf12902"
+          },
+          {
+            "id": "item_43ced223149b412e8921066d7baeb32f",
+            "name": "nod_13f7bd7c41ea4c719621c9d5ed1266ad"
+          },
+          {
+            "id": "item_5f471ab94a2041eba8ce424805d65a41",
+            "name": "nod_d7a375de8df54c65a059f2b9099f97e3"
+          },
+          {
+            "id": "item_aebc4dce39ac4f26a6e97d4c806bc2aa",
+            "name": "nod_b8fc28fbf57d4bc1a7d2fd7b81051bf0"
+          },
+          {
+            "id": "item_5a651395b5194cc787ba36197aa6eddf",
+            "name": "nod_a6a9605c2e354886a8a5aea594e5ae1c"
+          },
+          {
+            "id": "item_7b68d79cb02f42859321e23a9b1c273b",
+            "name": "nod_349d6ba09abe476a977a8cff70a6a614"
+          },
+          {
+            "id": "item_9dba2a111e6b4c58aa57dd040e38bcf3",
+            "name": "nod_c07416109e6d40b48e8791fc19dc99ad"
+          },
+          {
+            "id": "item_d2f9acaf0cc24c6787aa396673d43961",
+            "name": "nod_c27aa4dd71864a0c8d280ac636b13693"
+          },
+          {
+            "id": "item_abbd2ab5c5cd481ba93952655b6d8a28",
+            "name": "nod_5a4824723e88482292c0b01d24999318"
+          },
+          {
+            "id": "item_7a7afe8557dc450c9e4d623fb11032b0",
+            "name": "nod_9814a5408b9a4f2d8933a086d9fdec57"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_089aea1cb3e042bb97fab7bcdb84d41e": {
+        "id": "dim_089aea1cb3e042bb97fab7bcdb84d41e",
+        "name": "%RECNODFLD",
+        "items": [
+          {
+            "id": "item_f194269dbdd641e69ff792aa910c69dc",
+            "name": "KND"
+          },
+          {
+            "id": "item_abe069669c3e4e75bb8e573051b37692",
+            "name": "DIM"
+          },
+          {
+            "id": "item_885d16fdf21c4525a618cf710be60446",
+            "name": "REF"
+          },
+          {
+            "id": "item_8188e3234db54f8181a71bd77362e82a",
+            "name": "LBL"
+          },
+          {
+            "id": "item_c4d22c2b54624f57b60de161dc9f554c",
+            "name": "MET"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_203820ac1c9048129e237c8358c66107": {
+        "id": "dim_203820ac1c9048129e237c8358c66107",
+        "name": "%RECEDGADR",
+        "items": [
+          {
+            "id": "item_f6607e5e85bb476ab10647875c1da100",
+            "name": "NUL"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_5d35ae814a3545abbcdd746c334f3d03": {
+        "id": "dim_5d35ae814a3545abbcdd746c334f3d03",
+        "name": "%RECEDGFLD",
+        "items": [
+          {
+            "id": "item_08baa96a46b64394a4ec0c7290d76400",
+            "name": "KND"
+          },
+          {
+            "id": "item_d7011f2b5ccd4428999d9e5f39d800b8",
+            "name": "SRC"
+          },
+          {
+            "id": "item_86f65ee18c9c44419f1705d1b339c161",
+            "name": "TGT"
+          },
+          {
+            "id": "item_436a3977d99b4af0916b43c882ffbf05",
+            "name": "DIM"
+          },
+          {
+            "id": "item_9434aac3652541aaa7c36ee6682ba871",
+            "name": "ORD"
+          },
+          {
+            "id": "item_5643bc9450fd4055a65baaf2609904d3",
+            "name": "MET"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      }
+    },
+    "cubes": {
+      "cube_1e6562e8e182492ca431403d268b52c1": {
+        "id": "cube_1e6562e8e182492ca431403d268b52c1",
+        "name": "Drivers",
+        "dimension_ids": [
+          "@",
+          "dim_51301c1abf42400ebd403a8824b0bfc5",
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "data": {
+          "at_value|item_028175f4f7a64c3a9bb0fcd2604248f1|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.35,
+            "hardcoded": true
+          },
+          "at_value|item_028175f4f7a64c3a9bb0fcd2604248f1|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.35,
+            "hardcoded": true
+          },
+          "at_value|item_028175f4f7a64c3a9bb0fcd2604248f1|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.35,
+            "hardcoded": true
+          },
+          "at_value|item_028175f4f7a64c3a9bb0fcd2604248f1|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.35,
+            "hardcoded": true
+          },
+          "at_value|item_028175f4f7a64c3a9bb0fcd2604248f1|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.35,
+            "hardcoded": true
+          },
+          "at_value|item_1c97ec0d973c4acaa298e265b4d12d04|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 92.0,
+            "hardcoded": true
+          },
+          "at_value|item_1c97ec0d973c4acaa298e265b4d12d04|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 92.0,
+            "hardcoded": true
+          },
+          "at_value|item_1c97ec0d973c4acaa298e265b4d12d04|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 92.0,
+            "hardcoded": true
+          },
+          "at_value|item_1c97ec0d973c4acaa298e265b4d12d04|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 92.0,
+            "hardcoded": true
+          },
+          "at_value|item_1c97ec0d973c4acaa298e265b4d12d04|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 92.0,
+            "hardcoded": true
+          },
+          "at_value|item_1de6254d5ad04bd5a8142c097bbc5c6f|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.055,
+            "hardcoded": true
+          },
+          "at_value|item_1de6254d5ad04bd5a8142c097bbc5c6f|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.055,
+            "hardcoded": true
+          },
+          "at_value|item_1de6254d5ad04bd5a8142c097bbc5c6f|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.055,
+            "hardcoded": true
+          },
+          "at_value|item_1de6254d5ad04bd5a8142c097bbc5c6f|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.055,
+            "hardcoded": true
+          },
+          "at_value|item_1de6254d5ad04bd5a8142c097bbc5c6f|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.055,
+            "hardcoded": true
+          },
+          "at_value|item_21287ef77bf04a39a8dd0079989b8f4b|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.22,
+            "hardcoded": true
+          },
+          "at_value|item_21287ef77bf04a39a8dd0079989b8f4b|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.22,
+            "hardcoded": true
+          },
+          "at_value|item_21287ef77bf04a39a8dd0079989b8f4b|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.22,
+            "hardcoded": true
+          },
+          "at_value|item_21287ef77bf04a39a8dd0079989b8f4b|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.22,
+            "hardcoded": true
+          },
+          "at_value|item_21287ef77bf04a39a8dd0079989b8f4b|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.22,
+            "hardcoded": true
+          },
+          "at_value|item_231758560d26442187c5d13cdb92e023|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_231758560d26442187c5d13cdb92e023|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_231758560d26442187c5d13cdb92e023|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_231758560d26442187c5d13cdb92e023|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_231758560d26442187c5d13cdb92e023|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_367b7edc8b174080b719059ef486253d|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.07,
+            "hardcoded": true
+          },
+          "at_value|item_367b7edc8b174080b719059ef486253d|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.07,
+            "hardcoded": true
+          },
+          "at_value|item_367b7edc8b174080b719059ef486253d|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.07,
+            "hardcoded": true
+          },
+          "at_value|item_367b7edc8b174080b719059ef486253d|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.07,
+            "hardcoded": true
+          },
+          "at_value|item_367b7edc8b174080b719059ef486253d|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.07,
+            "hardcoded": true
+          },
+          "at_value|item_692d2b29c67045aca0d1435e5e9bd374|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_692d2b29c67045aca0d1435e5e9bd374|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_692d2b29c67045aca0d1435e5e9bd374|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_692d2b29c67045aca0d1435e5e9bd374|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_692d2b29c67045aca0d1435e5e9bd374|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_71a7a74dfca2410193b704bce9488c92|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 2800.0,
+            "hardcoded": true
+          },
+          "at_value|item_71a7a74dfca2410193b704bce9488c92|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 2800.0,
+            "hardcoded": true
+          },
+          "at_value|item_71a7a74dfca2410193b704bce9488c92|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 2800.0,
+            "hardcoded": true
+          },
+          "at_value|item_71a7a74dfca2410193b704bce9488c92|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 2800.0,
+            "hardcoded": true
+          },
+          "at_value|item_71a7a74dfca2410193b704bce9488c92|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 2800.0,
+            "hardcoded": true
+          },
+          "at_value|item_7c5e7e98c79348baa302942c669e2ddc|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 14500.0,
+            "hardcoded": true
+          },
+          "at_value|item_7c5e7e98c79348baa302942c669e2ddc|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 14500.0,
+            "hardcoded": true
+          },
+          "at_value|item_7c5e7e98c79348baa302942c669e2ddc|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 14500.0,
+            "hardcoded": true
+          },
+          "at_value|item_7c5e7e98c79348baa302942c669e2ddc|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 14500.0,
+            "hardcoded": true
+          },
+          "at_value|item_7c5e7e98c79348baa302942c669e2ddc|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 14500.0,
+            "hardcoded": true
+          },
+          "at_value|item_8dab5c60efc14cefb864010365f2adfa|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 18000.0,
+            "hardcoded": true
+          },
+          "at_value|item_8dab5c60efc14cefb864010365f2adfa|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 18000.0,
+            "hardcoded": true
+          },
+          "at_value|item_8dab5c60efc14cefb864010365f2adfa|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 18000.0,
+            "hardcoded": true
+          },
+          "at_value|item_8dab5c60efc14cefb864010365f2adfa|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 18000.0,
+            "hardcoded": true
+          },
+          "at_value|item_8dab5c60efc14cefb864010365f2adfa|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 18000.0,
+            "hardcoded": true
+          },
+          "at_value|item_8e5b6db4022246baa4e7292d5a8b8dcd|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.115,
+            "hardcoded": true
+          },
+          "at_value|item_8e5b6db4022246baa4e7292d5a8b8dcd|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.115,
+            "hardcoded": true
+          },
+          "at_value|item_8e5b6db4022246baa4e7292d5a8b8dcd|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.115,
+            "hardcoded": true
+          },
+          "at_value|item_8e5b6db4022246baa4e7292d5a8b8dcd|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.115,
+            "hardcoded": true
+          },
+          "at_value|item_8e5b6db4022246baa4e7292d5a8b8dcd|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.115,
+            "hardcoded": true
+          },
+          "at_value|item_95bc26656d3547948d28bb10b5c8285b|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.045,
+            "hardcoded": true
+          },
+          "at_value|item_95bc26656d3547948d28bb10b5c8285b|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.045,
+            "hardcoded": true
+          },
+          "at_value|item_95bc26656d3547948d28bb10b5c8285b|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.045,
+            "hardcoded": true
+          },
+          "at_value|item_95bc26656d3547948d28bb10b5c8285b|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.045,
+            "hardcoded": true
+          },
+          "at_value|item_95bc26656d3547948d28bb10b5c8285b|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.045,
+            "hardcoded": true
+          },
+          "at_value|item_9e6f50de3a564ee0a8654c88aeb47a86|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 5200.0,
+            "hardcoded": true
+          },
+          "at_value|item_9e6f50de3a564ee0a8654c88aeb47a86|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 5200.0,
+            "hardcoded": true
+          },
+          "at_value|item_9e6f50de3a564ee0a8654c88aeb47a86|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 5200.0,
+            "hardcoded": true
+          },
+          "at_value|item_9e6f50de3a564ee0a8654c88aeb47a86|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 5200.0,
+            "hardcoded": true
+          },
+          "at_value|item_9e6f50de3a564ee0a8654c88aeb47a86|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 5200.0,
+            "hardcoded": true
+          },
+          "at_value|item_a46a8da7498647b08c027d5afacb1816|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 120.0,
+            "hardcoded": true
+          },
+          "at_value|item_a46a8da7498647b08c027d5afacb1816|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 120.0,
+            "hardcoded": true
+          },
+          "at_value|item_a46a8da7498647b08c027d5afacb1816|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 120.0,
+            "hardcoded": true
+          },
+          "at_value|item_a46a8da7498647b08c027d5afacb1816|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 120.0,
+            "hardcoded": true
+          },
+          "at_value|item_a46a8da7498647b08c027d5afacb1816|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 120.0,
+            "hardcoded": true
+          },
+          "at_value|item_a7f1f4dff25746818656774ffbb8a05c|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.05,
+            "hardcoded": true
+          },
+          "at_value|item_a7f1f4dff25746818656774ffbb8a05c|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.05,
+            "hardcoded": true
+          },
+          "at_value|item_a7f1f4dff25746818656774ffbb8a05c|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.05,
+            "hardcoded": true
+          },
+          "at_value|item_a7f1f4dff25746818656774ffbb8a05c|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.05,
+            "hardcoded": true
+          },
+          "at_value|item_a7f1f4dff25746818656774ffbb8a05c|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.05,
+            "hardcoded": true
+          },
+          "at_value|item_a8d18f8bc69549818aca7bd45e751f7f|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_a8d18f8bc69549818aca7bd45e751f7f|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_a8d18f8bc69549818aca7bd45e751f7f|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_a8d18f8bc69549818aca7bd45e751f7f|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_a8d18f8bc69549818aca7bd45e751f7f|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 8000.0,
+            "hardcoded": true
+          },
+          "at_value|item_b0f7f79e27a44cec9fce7c18ea68186e|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_b0f7f79e27a44cec9fce7c18ea68186e|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_b0f7f79e27a44cec9fce7c18ea68186e|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_b0f7f79e27a44cec9fce7c18ea68186e|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_b0f7f79e27a44cec9fce7c18ea68186e|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.035,
+            "hardcoded": true
+          },
+          "at_value|item_b32454db0e3d4895b354713038505700|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 4200.0,
+            "hardcoded": true
+          },
+          "at_value|item_b32454db0e3d4895b354713038505700|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 4200.0,
+            "hardcoded": true
+          },
+          "at_value|item_b32454db0e3d4895b354713038505700|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 4200.0,
+            "hardcoded": true
+          },
+          "at_value|item_b32454db0e3d4895b354713038505700|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 4200.0,
+            "hardcoded": true
+          },
+          "at_value|item_b32454db0e3d4895b354713038505700|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 4200.0,
+            "hardcoded": true
+          },
+          "at_value|item_b64d35981add450b92406f7d27c9e6fe|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.28,
+            "hardcoded": true
+          },
+          "at_value|item_b64d35981add450b92406f7d27c9e6fe|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.28,
+            "hardcoded": true
+          },
+          "at_value|item_b64d35981add450b92406f7d27c9e6fe|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.28,
+            "hardcoded": true
+          },
+          "at_value|item_b64d35981add450b92406f7d27c9e6fe|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.28,
+            "hardcoded": true
+          },
+          "at_value|item_b64d35981add450b92406f7d27c9e6fe|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.28,
+            "hardcoded": true
+          },
+          "at_value|item_c1e2aeacc69846fc83761e9b33330167|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.06,
+            "hardcoded": true
+          },
+          "at_value|item_c1e2aeacc69846fc83761e9b33330167|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.06,
+            "hardcoded": true
+          },
+          "at_value|item_c1e2aeacc69846fc83761e9b33330167|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.06,
+            "hardcoded": true
+          },
+          "at_value|item_c1e2aeacc69846fc83761e9b33330167|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.06,
+            "hardcoded": true
+          },
+          "at_value|item_c1e2aeacc69846fc83761e9b33330167|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.06,
+            "hardcoded": true
+          },
+          "at_value|item_d2735f43b5eb488f8ecabe9e38ce26f6|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 3600.0,
+            "hardcoded": true
+          },
+          "at_value|item_d2735f43b5eb488f8ecabe9e38ce26f6|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 3600.0,
+            "hardcoded": true
+          },
+          "at_value|item_d2735f43b5eb488f8ecabe9e38ce26f6|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 3600.0,
+            "hardcoded": true
+          },
+          "at_value|item_d2735f43b5eb488f8ecabe9e38ce26f6|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 3600.0,
+            "hardcoded": true
+          },
+          "at_value|item_d2735f43b5eb488f8ecabe9e38ce26f6|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 3600.0,
+            "hardcoded": true
+          },
+          "at_value|item_d393615c98c945e898aa2d96d7618226|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.02,
+            "hardcoded": true
+          },
+          "at_value|item_d393615c98c945e898aa2d96d7618226|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.02,
+            "hardcoded": true
+          },
+          "at_value|item_d393615c98c945e898aa2d96d7618226|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.02,
+            "hardcoded": true
+          },
+          "at_value|item_d393615c98c945e898aa2d96d7618226|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.02,
+            "hardcoded": true
+          },
+          "at_value|item_d393615c98c945e898aa2d96d7618226|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.02,
+            "hardcoded": true
+          },
+          "at_value|item_da2b92eae500410ba1782bff08679c07|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.65,
+            "hardcoded": true
+          },
+          "at_value|item_da2b92eae500410ba1782bff08679c07|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.65,
+            "hardcoded": true
+          },
+          "at_value|item_da2b92eae500410ba1782bff08679c07|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.65,
+            "hardcoded": true
+          },
+          "at_value|item_da2b92eae500410ba1782bff08679c07|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.65,
+            "hardcoded": true
+          },
+          "at_value|item_da2b92eae500410ba1782bff08679c07|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.65,
+            "hardcoded": true
+          },
+          "at_value|item_dae8e3fab6054046806c15e4c5dd0525|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 1.15,
+            "hardcoded": true
+          },
+          "at_value|item_dae8e3fab6054046806c15e4c5dd0525|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 1.15,
+            "hardcoded": true
+          },
+          "at_value|item_dae8e3fab6054046806c15e4c5dd0525|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 1.15,
+            "hardcoded": true
+          },
+          "at_value|item_dae8e3fab6054046806c15e4c5dd0525|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 1.15,
+            "hardcoded": true
+          },
+          "at_value|item_dae8e3fab6054046806c15e4c5dd0525|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 1.15,
+            "hardcoded": true
+          },
+          "at_value|item_eaaacf14d987440c84710725b9d0a17b|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 0.54,
+            "hardcoded": true
+          },
+          "at_value|item_eaaacf14d987440c84710725b9d0a17b|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 0.54,
+            "hardcoded": true
+          },
+          "at_value|item_eaaacf14d987440c84710725b9d0a17b|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 0.54,
+            "hardcoded": true
+          },
+          "at_value|item_eaaacf14d987440c84710725b9d0a17b|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 0.54,
+            "hardcoded": true
+          },
+          "at_value|item_eaaacf14d987440c84710725b9d0a17b|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 0.54,
+            "hardcoded": true
+          },
+          "at_value|item_febc540bba8941be915ddbab71c209de|item_111ac7b68b324efd90e5376b9fd01106": {
+            "_type": "number",
+            "value": 6500.0,
+            "hardcoded": true
+          },
+          "at_value|item_febc540bba8941be915ddbab71c209de|item_9c1da82b84dd4ff085014a7ce591c5d9": {
+            "_type": "number",
+            "value": 6500.0,
+            "hardcoded": true
+          },
+          "at_value|item_febc540bba8941be915ddbab71c209de|item_b656e87b67234894a798614c96d27d5b": {
+            "_type": "number",
+            "value": 6500.0,
+            "hardcoded": true
+          },
+          "at_value|item_febc540bba8941be915ddbab71c209de|item_d5b3e6c0fbf148fda614369c9fd07936": {
+            "_type": "number",
+            "value": 6500.0,
+            "hardcoded": true
+          },
+          "at_value|item_febc540bba8941be915ddbab71c209de|item_dcc7a82f67ae4606a4bca2a64ccec981": {
+            "_type": "number",
+            "value": 6500.0,
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1": {
+        "id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "name": "PL",
+        "dimension_ids": [
+          "@",
+          "dim_6ba543154a29446aa39c91f38e14744a",
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "data": {}
+      },
+      "cube_aa0e4e31d111469996162abd856d745e": {
+        "id": "cube_aa0e4e31d111469996162abd856d745e",
+        "name": "Valuation",
+        "dimension_ids": [
+          "@",
+          "dim_3f55dc57581f4575ace5aeb5807cc070",
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "data": {}
+      },
+      "cube_ae542e7df0c44697a10632bd4f2aee73": {
+        "id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "name": "BS",
+        "dimension_ids": [
+          "@",
+          "dim_b34ebf1cb08d489d8b33dc54a9cb6ad4",
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "data": {}
+      },
+      "cube_e41f852469c2420a8d8e96cc37b5db95": {
+        "id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "name": "CF",
+        "dimension_ids": [
+          "@",
+          "dim_1aad24aa8e8c486f9dc7ef0ea1c56a36",
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "data": {}
+      },
+      "cube_c56e4a121fcd4ef4a86e7231beb71f0f": {
+        "id": "cube_c56e4a121fcd4ef4a86e7231beb71f0f",
+        "name": "%CFG",
+        "dimension_ids": [
+          "@",
+          "dim_06288ad6c09140e09cce199c1dd09a97",
+          "dim_72dff0672dc14f79ba3bc365a0e13feb"
+        ],
+        "data": {
+          "at_value|item_8f0beffa8fd248b0a94b39a454da554a|item_d58915fe27f34e24b15dd5324e0084b5": {
+            "_type": "text",
+            "value": "%TYP",
+            "hardcoded": true
+          },
+          "at_value|item_95212ddda083431c99c76c7758c1359a|item_d58915fe27f34e24b15dd5324e0084b5": {
+            "_type": "text",
+            "value": "%SIG",
+            "hardcoded": true
+          },
+          "at_value|item_437bf1e3d30d4052b1ea6ac343ea718c|item_d58915fe27f34e24b15dd5324e0084b5": {
+            "_type": "text",
+            "value": "%RECNOD",
+            "hardcoded": true
+          },
+          "at_value|item_be2deb98e43743f9b8839f5c325ac19e|item_d58915fe27f34e24b15dd5324e0084b5": {
+            "_type": "text",
+            "value": "%RECEDG",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_b627c449c4ce408984c3eb682017cd62": {
+        "id": "cube_b627c449c4ce408984c3eb682017cd62",
+        "name": "%SIG",
+        "dimension_ids": [
+          "@",
+          "dim_1b2de2722c364d2186ea67dc4ab944d1",
+          "dim_2a0df0df38cc4595ac66f56271c19948"
+        ],
+        "data": {
+          "at_value|item_5c12f83bcfb2441db5e00d179bb39a41|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_5c12f83bcfb2441db5e00d179bb39a41|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_53e1ef8983d541fd9b6c1bf2ae408263|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_53e1ef8983d541fd9b6c1bf2ae408263|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_0ab79b562c43419bbde94534cbe5554d|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_0ab79b562c43419bbde94534cbe5554d|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_87d6bad8b2e44271a65dda038db4d866|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_87d6bad8b2e44271a65dda038db4d866|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_5f100e2c7481439eb7ca0f0fcc773006|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_5f100e2c7481439eb7ca0f0fcc773006|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_d2f883033a7a45f78e8bedb13f741580|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_d2f883033a7a45f78e8bedb13f741580|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "FLD",
+            "hardcoded": true
+          },
+          "at_value|item_4f8d2ccc12ed4c6cb370c01e1a64e5be|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_4f8d2ccc12ed4c6cb370c01e1a64e5be|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "SIG",
+            "hardcoded": true
+          },
+          "at_value|item_1a35a83a443a485ebb831278decb9f92|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "OBJ",
+            "hardcoded": true
+          },
+          "at_value|item_1a35a83a443a485ebb831278decb9f92|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "OBJ",
+            "hardcoded": true
+          },
+          "at_value|item_57abe6d715e24efeaf7892f85da94931|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_57abe6d715e24efeaf7892f85da94931|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "REL",
+            "hardcoded": true
+          },
+          "at_value|item_d9f7a281119648eaa6d12a40d2f6e7c3|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "REI",
+            "hardcoded": true
+          },
+          "at_value|item_d9f7a281119648eaa6d12a40d2f6e7c3|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "REI",
+            "hardcoded": true
+          },
+          "at_value|item_dd39cbf850ae4b44969768ab4ee2743f|item_23c4ce7124b943a4ae44c819dce17945": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_dd39cbf850ae4b44969768ab4ee2743f|item_2acd5fc90e7e425fb8b213e4f419de1e": {
+            "_type": "text",
+            "value": "PRD",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_24c16a9b6a364acea7b68685d56d1cc9": {
+        "id": "cube_24c16a9b6a364acea7b68685d56d1cc9",
+        "name": "%TYP",
+        "dimension_ids": [
+          "@",
+          "dim_31dce83c3d1d4dfbafe7d65bc281b922",
+          "dim_92ac2f3a95c640b3a28b5fb2e330b667"
+        ],
+        "data": {
+          "at_value|item_87a5679bd9b14b41915dec7301bef8c6|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_87a5679bd9b14b41915dec7301bef8c6|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "bootstrap type",
+            "hardcoded": true
+          },
+          "at_value|item_32041cd4bb39488880b951eeeb6adbfe|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "KND",
+            "hardcoded": true
+          },
+          "at_value|item_32041cd4bb39488880b951eeeb6adbfe|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "kind / relation type",
+            "hardcoded": true
+          },
+          "at_value|item_92febba198da4356aa3871e67513e62c|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "DIM",
+            "hardcoded": true
+          },
+          "at_value|item_92febba198da4356aa3871e67513e62c|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "dimension / context",
+            "hardcoded": true
+          },
+          "at_value|item_64823a0cf2124d8c944b60b9e1ff69fe|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "REF",
+            "hardcoded": true
+          },
+          "at_value|item_64823a0cf2124d8c944b60b9e1ff69fe|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "reference to existing object",
+            "hardcoded": true
+          },
+          "at_value|item_444d74d715eb4e24ac1f0615d9fd67f1|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "LBL",
+            "hardcoded": true
+          },
+          "at_value|item_444d74d715eb4e24ac1f0615d9fd67f1|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "display label",
+            "hardcoded": true
+          },
+          "at_value|item_39f9288a5d31429dbdbe183d7e8f9225|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "ACT",
+            "hardcoded": true
+          },
+          "at_value|item_39f9288a5d31429dbdbe183d7e8f9225|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "active flag",
+            "hardcoded": true
+          },
+          "at_value|item_75eaa543c61d4f1a8285c186102c4dfd|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "MET",
+            "hardcoded": true
+          },
+          "at_value|item_75eaa543c61d4f1a8285c186102c4dfd|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "metadata",
+            "hardcoded": true
+          },
+          "at_value|item_3ff14e37302b4efe86267dde915a8cf6|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "SRC",
+            "hardcoded": true
+          },
+          "at_value|item_3ff14e37302b4efe86267dde915a8cf6|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "source node",
+            "hardcoded": true
+          },
+          "at_value|item_a6ebb1f528674518968e228717774815|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "TGT",
+            "hardcoded": true
+          },
+          "at_value|item_a6ebb1f528674518968e228717774815|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "target node",
+            "hardcoded": true
+          },
+          "at_value|item_909e06f47a444c049d74b94bceb6410a|item_6e0d34c836084ec3a5c58aec7076d42c": {
+            "_type": "text",
+            "value": "ORD",
+            "hardcoded": true
+          },
+          "at_value|item_909e06f47a444c049d74b94bceb6410a|item_da21dbc32287454d9d3143cfd545e41d": {
+            "_type": "text",
+            "value": "order among siblings",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_5be91857b90a47eaa291f4308b1be776": {
+        "id": "cube_5be91857b90a47eaa291f4308b1be776",
+        "name": "%RECNOD",
+        "dimension_ids": [
+          "@",
+          "dim_91b4acf6d298412b98cdfef876277f13",
+          "dim_089aea1cb3e042bb97fab7bcdb84d41e"
+        ],
+        "data": {
+          "at_value|item_47973ae849a34d2a93f35f64d41b6208|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_47973ae849a34d2a93f35f64d41b6208|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_47973ae849a34d2a93f35f64d41b6208|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_441520d585714ce8867c6af24c354f4c",
+            "hardcoded": true
+          },
+          "at_value|item_47973ae849a34d2a93f35f64d41b6208|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "RevenueGadgets",
+            "hardcoded": true
+          },
+          "at_value|item_414e9219a41a4bb3bd24e3291fe9b95b|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_414e9219a41a4bb3bd24e3291fe9b95b|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_414e9219a41a4bb3bd24e3291fe9b95b|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_e5f1c6e3d26b4e44b05d6d3ad652bfdd",
+            "hardcoded": true
+          },
+          "at_value|item_414e9219a41a4bb3bd24e3291fe9b95b|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "RevenueWidgets",
+            "hardcoded": true
+          },
+          "at_value|item_c3c421058f904f3b97985b8f022fe146|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_c3c421058f904f3b97985b8f022fe146|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_c3c421058f904f3b97985b8f022fe146|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_e415280564e34f5aa7166feb4979f3bd",
+            "hardcoded": true
+          },
+          "at_value|item_c3c421058f904f3b97985b8f022fe146|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "TotalRevenue",
+            "hardcoded": true
+          },
+          "at_value|item_aaf4f03676cc427783431c36798a8203|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_aaf4f03676cc427783431c36798a8203|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_aaf4f03676cc427783431c36798a8203|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_be88dafd99ac421e832727ca6339bc0f",
+            "hardcoded": true
+          },
+          "at_value|item_aaf4f03676cc427783431c36798a8203|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "COGS",
+            "hardcoded": true
+          },
+          "at_value|item_ea1543fa462440ccbd7fb8803b00e299|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_ea1543fa462440ccbd7fb8803b00e299|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_ea1543fa462440ccbd7fb8803b00e299|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_15df8269a39d45e884f671eade949eef",
+            "hardcoded": true
+          },
+          "at_value|item_ea1543fa462440ccbd7fb8803b00e299|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "GrossProfit",
+            "hardcoded": true
+          },
+          "at_value|item_fe925a106760494e8d2be239b0162746|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_fe925a106760494e8d2be239b0162746|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_fe925a106760494e8d2be239b0162746|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_8dd0800c8da14df587a9a045d7ea0227",
+            "hardcoded": true
+          },
+          "at_value|item_fe925a106760494e8d2be239b0162746|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "Opex",
+            "hardcoded": true
+          },
+          "at_value|item_cf14449e76f9430198462dcfd65b3568|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_cf14449e76f9430198462dcfd65b3568|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_cf14449e76f9430198462dcfd65b3568|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_1eed9cccdb5643949229c6f04f00f800",
+            "hardcoded": true
+          },
+          "at_value|item_cf14449e76f9430198462dcfd65b3568|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "EBITDA",
+            "hardcoded": true
+          },
+          "at_value|item_ff6ae013859344028352c28568e94686|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_ff6ae013859344028352c28568e94686|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_ff6ae013859344028352c28568e94686|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_d779ddc5c7d342a8b9cac50e761a3e58",
+            "hardcoded": true
+          },
+          "at_value|item_ff6ae013859344028352c28568e94686|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "DA",
+            "hardcoded": true
+          },
+          "at_value|item_43ced223149b412e8921066d7baeb32f|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_43ced223149b412e8921066d7baeb32f|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_43ced223149b412e8921066d7baeb32f|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_f8fb4fef06b540c6aa8ee3c8a49afb9a",
+            "hardcoded": true
+          },
+          "at_value|item_43ced223149b412e8921066d7baeb32f|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "EBIT",
+            "hardcoded": true
+          },
+          "at_value|item_5f471ab94a2041eba8ce424805d65a41|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_5f471ab94a2041eba8ce424805d65a41|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_5f471ab94a2041eba8ce424805d65a41|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_5d26801e50fd4deebad390efdc15a473",
+            "hardcoded": true
+          },
+          "at_value|item_5f471ab94a2041eba8ce424805d65a41|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "Interest",
+            "hardcoded": true
+          },
+          "at_value|item_aebc4dce39ac4f26a6e97d4c806bc2aa|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_aebc4dce39ac4f26a6e97d4c806bc2aa|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_aebc4dce39ac4f26a6e97d4c806bc2aa|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_c0f86fe5440c43829106cb6caa093777",
+            "hardcoded": true
+          },
+          "at_value|item_aebc4dce39ac4f26a6e97d4c806bc2aa|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "Taxes",
+            "hardcoded": true
+          },
+          "at_value|item_5a651395b5194cc787ba36197aa6eddf|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_5a651395b5194cc787ba36197aa6eddf|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_6ba543154a29446aa39c91f38e14744a",
+            "hardcoded": true
+          },
+          "at_value|item_5a651395b5194cc787ba36197aa6eddf|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_59dff7d1e38a4608b8d650b9bc4631f8",
+            "hardcoded": true
+          },
+          "at_value|item_5a651395b5194cc787ba36197aa6eddf|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "NetIncome",
+            "hardcoded": true
+          },
+          "at_value|item_7b68d79cb02f42859321e23a9b1c273b|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_7b68d79cb02f42859321e23a9b1c273b|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9",
+            "hardcoded": true
+          },
+          "at_value|item_7b68d79cb02f42859321e23a9b1c273b|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_dcc7a82f67ae4606a4bca2a64ccec981",
+            "hardcoded": true
+          },
+          "at_value|item_7b68d79cb02f42859321e23a9b1c273b|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "2028",
+            "hardcoded": true
+          },
+          "at_value|item_9dba2a111e6b4c58aa57dd040e38bcf3|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_9dba2a111e6b4c58aa57dd040e38bcf3|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9",
+            "hardcoded": true
+          },
+          "at_value|item_9dba2a111e6b4c58aa57dd040e38bcf3|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_d5b3e6c0fbf148fda614369c9fd07936",
+            "hardcoded": true
+          },
+          "at_value|item_9dba2a111e6b4c58aa57dd040e38bcf3|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "2029",
+            "hardcoded": true
+          },
+          "at_value|item_d2f9acaf0cc24c6787aa396673d43961|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_d2f9acaf0cc24c6787aa396673d43961|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9",
+            "hardcoded": true
+          },
+          "at_value|item_d2f9acaf0cc24c6787aa396673d43961|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_111ac7b68b324efd90e5376b9fd01106",
+            "hardcoded": true
+          },
+          "at_value|item_d2f9acaf0cc24c6787aa396673d43961|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "2030",
+            "hardcoded": true
+          },
+          "at_value|item_abbd2ab5c5cd481ba93952655b6d8a28|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_abbd2ab5c5cd481ba93952655b6d8a28|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9",
+            "hardcoded": true
+          },
+          "at_value|item_abbd2ab5c5cd481ba93952655b6d8a28|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_9c1da82b84dd4ff085014a7ce591c5d9",
+            "hardcoded": true
+          },
+          "at_value|item_abbd2ab5c5cd481ba93952655b6d8a28|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "2031",
+            "hardcoded": true
+          },
+          "at_value|item_7a7afe8557dc450c9e4d623fb11032b0|item_f194269dbdd641e69ff792aa910c69dc": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_7a7afe8557dc450c9e4d623fb11032b0|item_abe069669c3e4e75bb8e573051b37692": {
+            "_type": "text",
+            "value": "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9",
+            "hardcoded": true
+          },
+          "at_value|item_7a7afe8557dc450c9e4d623fb11032b0|item_885d16fdf21c4525a618cf710be60446": {
+            "_type": "text",
+            "value": "item_b656e87b67234894a798614c96d27d5b",
+            "hardcoded": true
+          },
+          "at_value|item_7a7afe8557dc450c9e4d623fb11032b0|item_8188e3234db54f8181a71bd77362e82a": {
+            "_type": "text",
+            "value": "2032",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_b67f31049891450eaff7f7460fe3e512": {
+        "id": "cube_b67f31049891450eaff7f7460fe3e512",
+        "name": "%RECEDG",
+        "dimension_ids": [
+          "@",
+          "dim_203820ac1c9048129e237c8358c66107",
+          "dim_5d35ae814a3545abbcdd746c334f3d03"
+        ],
+        "data": {}
+      }
+    },
+    "rules": {
+      "r_08ef29d847fb4098a046264b14317e6d": {
+        "id": "r_08ef29d847fb4098a046264b14317e6d",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "expression": "PL::[PL.NetIncome, Year[THIS]] + PL::[PL.DA, Year[THIS]] - [CF.DeltaWC]",
+        "addr_mask": [
+          "item_533bb36e64f3451e95bcd56bd9e9a3b2",
+          null
+        ],
+        "targets": [
+          [
+            "CF",
+            "CFO"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_0d949ebc814a4c1c9cc4a5e2f0650b78": {
+        "id": "r_0d949ebc814a4c1c9cc4a5e2f0650b78",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "Drivers::[Driver.WorkingCapitalPercent, Year[THIS]] * PL::[PL.TotalRevenue, Year[THIS]]",
+        "addr_mask": [
+          "item_e64bf22981e347439645800c3e7bfb30",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "WorkingCapital"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_1fee58cf529045f78c94cd36e67015c2": {
+        "id": "r_1fee58cf529045f78c94cd36e67015c2",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "(PL.EBIT - PL.Interest) * Drivers::Driver.TaxRate",
+        "addr_mask": [
+          null,
+          "item_c0f86fe5440c43829106cb6caa093777",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "Taxes"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_253b0b6b21d741fea95a136e60e254cc": {
+        "id": "r_253b0b6b21d741fea95a136e60e254cc",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "PL.TotalRevenue * Drivers::Driver.DandAPercent",
+        "addr_mask": [
+          null,
+          "item_d779ddc5c7d342a8b9cac50e761a3e58",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "DA"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_2a7b5ea6e2bf41b280df9acf41982fe2": {
+        "id": "r_2a7b5ea6e2bf41b280df9acf41982fe2",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "Drivers::Driver.VolumeGadgets * Drivers::Driver.PriceGadgets",
+        "addr_mask": [
+          null,
+          "item_441520d585714ce8867c6af24c354f4c",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "RevenueGadgets"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_2fb8fd6b6bae465f94675e18ed95b6ed": {
+        "id": "r_2fb8fd6b6bae465f94675e18ed95b6ed",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "[Valuation.EnterpriseValue, Year.2032] - BS::[BS.NetDebt, Year.2032]",
+        "addr_mask": [
+          "item_8a3afe06d30a4f7c83487fec8fd41164",
+          "item_b656e87b67234894a798614c96d27d5b"
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "EquityValue"
+          ],
+          [
+            "Year",
+            "2032"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_32f2be4bcbcc492484f12df8457d1cc8": {
+        "id": "r_32f2be4bcbcc492484f12df8457d1cc8",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "[BS.Debt] + [BS.Equity]",
+        "addr_mask": [
+          "item_4a23473874f643b692d7395473a11967",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "TotalLiabEquity"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_3c38d454c0a54573b8e27fe7c4a8ee8b": {
+        "id": "r_3c38d454c0a54573b8e27fe7c4a8ee8b",
+        "cube_id": "cube_1e6562e8e182492ca431403d268b52c1",
+        "expression": "([Driver.DebtRatio] * [Driver.DebtRate] * (1 - [Driver.TaxRate])) + ([Driver.EquityRatio] * ([Driver.RiskFree] + [Driver.Beta] * [Driver.EquityRiskPremium]))",
+        "addr_mask": [
+          "item_4ae75f4a41a24faf86bd6c26a883ee6c",
+          null
+        ],
+        "targets": [
+          [
+            "Driver",
+            "WACC"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_3cf54dd76dde4dc784d259e4c918dcab": {
+        "id": "r_3cf54dd76dde4dc784d259e4c918dcab",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "IF(POS(Year)=1, Drivers::[Driver.OpeningRetainedEarnings, Year[THIS]], [BS.RetainedEarnings, Year[PREV]] + PL::[PL.NetIncome, Year[THIS]])",
+        "addr_mask": [
+          "item_d7839160306d4143acd27ba22caa914b",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "RetainedEarnings"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_4b00ebe4261842dcb206758df8192ef8": {
+        "id": "r_4b00ebe4261842dcb206758df8192ef8",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "expression": "0",
+        "addr_mask": [
+          "item_6ec157c0a4644ca7953444c168c75243",
+          null
+        ],
+        "targets": [
+          [
+            "CF",
+            "CFF"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_5451a173b1114e0c8ca953a0e8f77ebc": {
+        "id": "r_5451a173b1114e0c8ca953a0e8f77ebc",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "PL.TotalRevenue * Drivers::Driver.COGSPercent",
+        "addr_mask": [
+          null,
+          "item_be88dafd99ac421e832727ca6339bc0f",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "COGS"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_5910ffd5840b4a6fbbe36df3923c9c10": {
+        "id": "r_5910ffd5840b4a6fbbe36df3923c9c10",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "pl.revenuegadgets + pl.revenuewidgets",
+        "addr_mask": [
+          null,
+          "item_e415280564e34f5aa7166feb4979f3bd",
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "totalrevenue"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_5f3aee16ec5a431e9c4c5a3bdfea7046": {
+        "id": "r_5f3aee16ec5a431e9c4c5a3bdfea7046",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "Drivers::[Driver.DebtLevel, Year[THIS]]",
+        "addr_mask": [
+          "item_963094b94e114ae1a475b80f4bb07d74",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "Debt"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_685162cf1ed04a5b9bac18c39330e710": {
+        "id": "r_685162cf1ed04a5b9bac18c39330e710",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "IF(POS(Year)=1, Drivers::[Driver.OpeningCash, Year[THIS]], [BS.Cash, Year[PREV]] + CF::[CF.FreeCashFlow, Year[THIS]])",
+        "addr_mask": [
+          "item_2ba6b475c0444159aed4f350a1330211",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "Cash"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_68dd2339f7884f1faef397c4492e3526": {
+        "id": "r_68dd2339f7884f1faef397c4492e3526",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "[PL.GrossProfit] - [PL.Opex]",
+        "addr_mask": [
+          "item_1eed9cccdb5643949229c6f04f00f800",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "EBITDA"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_6e646d6903274891b883817123d4e5d5": {
+        "id": "r_6e646d6903274891b883817123d4e5d5",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "[BS.Debt] - [BS.Cash]",
+        "addr_mask": [
+          "item_a2c6b3f655474be0a25cc396a302e3ff",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "NetDebt"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_7218a3f8a5ab47a09520d917d3f2fcb3": {
+        "id": "r_7218a3f8a5ab47a09520d917d3f2fcb3",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "1 / ((1 + Drivers::[Driver.WACC, Year[THIS]]) ** POS(Year))",
+        "addr_mask": [
+          "item_ad75c04ec65341e68b8d1aa7a4d569f8",
+          null
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "DiscountFactor"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_759a7ab451dd4b2c967b0a04d1ae3379": {
+        "id": "r_759a7ab451dd4b2c967b0a04d1ae3379",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "CF::[CF.FreeCashFlow, Year[THIS]] * Valuation::[Valuation.DiscountFactor, Year[THIS]]",
+        "addr_mask": [
+          "item_29589f0192be4699859d4175d5e1e2e8",
+          null
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "PV_FCF"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_84b163c95ed7471aaaa78e6853db74b2": {
+        "id": "r_84b163c95ed7471aaaa78e6853db74b2",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "expression": "[CF.CFO] + [CF.CFI] + [CF.CFF]",
+        "addr_mask": [
+          "item_c1ef65afb42e479b92ae00b6967c8ea9",
+          null
+        ],
+        "targets": [
+          [
+            "CF",
+            "FreeCashFlow"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_8a49fa62d03e4c639436938455184493": {
+        "id": "r_8a49fa62d03e4c639436938455184493",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "[PL.EBITDA] - [PL.DA]",
+        "addr_mask": [
+          "item_f8fb4fef06b540c6aa8ee3c8a49afb9a",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "EBIT"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_8e938c7dfd734e9798740e175a348f18": {
+        "id": "r_8e938c7dfd734e9798740e175a348f18",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "Drivers::[Driver.DebtLevel, Year[THIS]] * Drivers::[Driver.DebtRate, Year[THIS]]",
+        "addr_mask": [
+          "item_5d26801e50fd4deebad390efdc15a473",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "Interest"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_95c15bc1a7f94c278016a05d58d9c6e9": {
+        "id": "r_95c15bc1a7f94c278016a05d58d9c6e9",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "IF(POS(Year)=1, Drivers::[Driver.OpeningPPandE, Year[THIS]], [BS.PPandE, Year[PREV]] + CF::[CF.CFI, Year[THIS]])",
+        "addr_mask": [
+          "item_4ce20cac29384437a2b3df97f01a8b0c",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "PPandE"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a068daa6573543d798f24b73213a5df2": {
+        "id": "r_a068daa6573543d798f24b73213a5df2",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "Drivers::[Driver.OpeningEquity, Year[THIS]] + [BS.RetainedEarnings]",
+        "addr_mask": [
+          "item_54e2aa59c6e6427fa09ee8e95706c594",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "Equity"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a3479aeebe5d49db89e2358894cb64a3": {
+        "id": "r_a3479aeebe5d49db89e2358894cb64a3",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "[PL.EBIT] - [PL.Interest] - [PL.Taxes]",
+        "addr_mask": [
+          "item_59dff7d1e38a4608b8d650b9bc4631f8",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "NetIncome"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a3b8156c72494d36a9dd8029ff0ed2af": {
+        "id": "r_a3b8156c72494d36a9dd8029ff0ed2af",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "expression": "BS::[BS.WorkingCapital, Year[THIS]] - IF(POS(Year)=1, Drivers::[Driver.OpeningWorkingCapital, Year[THIS]], BS::[BS.WorkingCapital, Year[PREV]])",
+        "addr_mask": [
+          "item_68cb6b667260434abd77d3b19cac0990",
+          null
+        ],
+        "targets": [
+          [
+            "CF",
+            "DeltaWC"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a79ff47cc26e44989520b12ac0440d0c": {
+        "id": "r_a79ff47cc26e44989520b12ac0440d0c",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "expression": "-(PL::[PL.TotalRevenue, Year[THIS]] * Drivers::[Driver.CapexPercent, Year[THIS]])",
+        "addr_mask": [
+          "item_fbd03d1ff499412592f8b6e0976cf50e",
+          null
+        ],
+        "targets": [
+          [
+            "CF",
+            "CFI"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_b293e573dcd047a188a3eb53a2f0433c": {
+        "id": "r_b293e573dcd047a188a3eb53a2f0433c",
+        "cube_id": "cube_1e6562e8e182492ca431403d268b52c1",
+        "expression": "IF(POS(Year)=1, Drivers::[Driver.VolumeGadgetsBase, Year[THIS]], Drivers::[Driver.VolumeGadgets, Year[PREV]] * (1 + Drivers::[Driver.VolumeGrowthGadgets, Year[THIS]]))",
+        "addr_mask": [
+          "item_7338c11b3ab54e9faae740d925a28969",
+          null
+        ],
+        "targets": [
+          [
+            "Driver",
+            "VolumeGadgets"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_ca9196ccda014e5f899e7f91eeed56e0": {
+        "id": "r_ca9196ccda014e5f899e7f91eeed56e0",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "[BS.Cash] + [BS.WorkingCapital] + [BS.PPandE]",
+        "addr_mask": [
+          "item_1c02e4224a6043659787f1d2e71fb316",
+          null
+        ],
+        "targets": [
+          [
+            "BS",
+            "TotalAssets"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_d72033f750484c72a97c6df5337ca7b6": {
+        "id": "r_d72033f750484c72a97c6df5337ca7b6",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "[PL.TotalRevenue] - [PL.COGS]",
+        "addr_mask": [
+          "item_15df8269a39d45e884f671eade949eef",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "GrossProfit"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_dd6d14446d894b9db24d834ea1749fe9": {
+        "id": "r_dd6d14446d894b9db24d834ea1749fe9",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "SUM(Valuation::[Valuation.PV_FCF, Year.2026..2032]) + Valuation::[Valuation.PV_Terminal, Year.2032]",
+        "addr_mask": [
+          "item_e4ebf3afe9d04aa39089813ffbcda8ba",
+          "item_b656e87b67234894a798614c96d27d5b"
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "EnterpriseValue"
+          ],
+          [
+            "Year",
+            "2032"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_e2350787e0374e918187e222742a7253": {
+        "id": "r_e2350787e0374e918187e222742a7253",
+        "cube_id": "cube_1e6562e8e182492ca431403d268b52c1",
+        "expression": "IF(POS(Year)=1, Drivers::[Driver.VolumeWidgetsBase, Year[THIS]], Drivers::[Driver.VolumeWidgets, Year[PREV]] * (1 + Drivers::[Driver.VolumeGrowthWidgets, Year[THIS]]))",
+        "addr_mask": [
+          "item_103651dd237a44ad88fe4e66fd911093",
+          null
+        ],
+        "targets": [
+          [
+            "Driver",
+            "VolumeWidgets"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_ed1a72f7c4b84bd8a4ddd039f419a96a": {
+        "id": "r_ed1a72f7c4b84bd8a4ddd039f419a96a",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "Valuation::[Valuation.TerminalValue, Year.2032] * Valuation::[Valuation.DiscountFactor, Year.2032]",
+        "addr_mask": [
+          "item_00274b54fb5d4f98bb409221dd73c0ba",
+          "item_b656e87b67234894a798614c96d27d5b"
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "PV_Terminal"
+          ],
+          [
+            "Year",
+            "2032"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_f357e60e7b824b81a72d0078b5d0c970": {
+        "id": "r_f357e60e7b824b81a72d0078b5d0c970",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "Drivers::[Driver.VolumeWidgets, Year[THIS]] * Drivers::[Driver.PriceWidgets, Year[THIS]]",
+        "addr_mask": [
+          "item_e5f1c6e3d26b4e44b05d6d3ad652bfdd",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "RevenueWidgets"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_f4674787cf9e4ba2a7d393fa0caea0e1": {
+        "id": "r_f4674787cf9e4ba2a7d393fa0caea0e1",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "[PL.TotalRevenue] * Drivers::[Driver.OpexPercent, Year[THIS]]",
+        "addr_mask": [
+          "item_8dd0800c8da14df587a9a045d7ea0227",
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "Opex"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_f5e8149a5a464105b6eb0aeb0e1f0bc2": {
+        "id": "r_f5e8149a5a464105b6eb0aeb0e1f0bc2",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "CF::[CF.FreeCashFlow, Year.2032] * (1 + Drivers::[Driver.TerminalGrowth, Year.2032]) / (Drivers::[Driver.WACC, Year.2032] - Drivers::[Driver.TerminalGrowth, Year.2032])",
+        "addr_mask": [
+          "item_86938588ded6469e9954a928eb63251f",
+          "item_b656e87b67234894a798614c96d27d5b"
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "TerminalValue"
+          ],
+          [
+            "Year",
+            "2032"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_f0af91501d9944068fb4734345827bb1": {
+        "id": "r_f0af91501d9944068fb4734345827bb1",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "1 / ((1 + Drivers::[Driver.WACC, Year[THIS]]) ** POS(Year))",
+        "addr_mask": [
+          "at_value",
+          "item_ad75c04ec65341e68b8d1aa7a4d569f8",
+          "item_4afc39dd34c043b2a557c6c727d9a769"
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "DiscountFactor"
+          ],
+          [
+            "Year",
+            "2026"
+          ]
+        ],
+        "is_anchored": true
+      },
+      "r_a2e366d5243444ffb18275d72d632061": {
+        "id": "r_a2e366d5243444ffb18275d72d632061",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "'preset:number(decimals=0; group=true; negative=parentheses; zero=dash)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a2a77e372875404fbf5ae31ae9591c0d": {
+        "id": "r_a2a77e372875404fbf5ae31ae9591c0d",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "expression": "'preset:number(decimals=0; group=true; negative=parentheses; zero=dash)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_00932be8f8424c36a0f7e889934335ec": {
+        "id": "r_00932be8f8424c36a0f7e889934335ec",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "'preset:number(decimals=3)'",
+        "addr_mask": [
+          "at_format_number",
+          "item_ad75c04ec65341e68b8d1aa7a4d569f8",
+          null
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "DiscountFactor"
+          ],
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_39103c92fbaa4802ae90cf208f13d650": {
+        "id": "r_39103c92fbaa4802ae90cf208f13d650",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "expression": "'preset:number(decimals=0; group=true; negative=parentheses; zero=dash)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_0d64408fd6e84349ba7ef22d0c545713": {
+        "id": "r_0d64408fd6e84349ba7ef22d0c545713",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "expression": "'preset:number(decimals=0; group=true; negative=parentheses; zero=dash)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_1ca27b5db4ee4dbf81dc8fae169fc189": {
+        "id": "r_1ca27b5db4ee4dbf81dc8fae169fc189",
+        "cube_id": "cube_1e6562e8e182492ca431403d268b52c1",
+        "expression": "'preset:number(decimals=2; group=true)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a24db56fbe7d49a482d9d1acf40b9d5d": {
+        "id": "r_a24db56fbe7d49a482d9d1acf40b9d5d",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "expression": "SUM(Valuation::[Valuation.PV_FCF, Year.2028..2032]) + Valuation::[Valuation.PV_Terminal, Year.2032]",
+        "addr_mask": [
+          "at_value",
+          "item_e4ebf3afe9d04aa39089813ffbcda8ba",
+          "item_b656e87b67234894a798614c96d27d5b"
+        ],
+        "targets": [
+          [
+            "Valuation",
+            "EnterpriseValue"
+          ],
+          [
+            "Year",
+            "2032"
+          ]
+        ],
+        "is_anchored": true
+      }
+    },
+    "rule_order": [
+      "r_2fb8fd6b6bae465f94675e18ed95b6ed",
+      "r_7218a3f8a5ab47a09520d917d3f2fcb3",
+      "r_759a7ab451dd4b2c967b0a04d1ae3379",
+      "r_dd6d14446d894b9db24d834ea1749fe9",
+      "r_ed1a72f7c4b84bd8a4ddd039f419a96a",
+      "r_f5e8149a5a464105b6eb0aeb0e1f0bc2",
+      "r_f0af91501d9944068fb4734345827bb1",
+      "r_a2e366d5243444ffb18275d72d632061",
+      "r_00932be8f8424c36a0f7e889934335ec",
+      "r_08ef29d847fb4098a046264b14317e6d",
+      "r_0d949ebc814a4c1c9cc4a5e2f0650b78",
+      "r_1fee58cf529045f78c94cd36e67015c2",
+      "r_253b0b6b21d741fea95a136e60e254cc",
+      "r_2a7b5ea6e2bf41b280df9acf41982fe2",
+      "r_32f2be4bcbcc492484f12df8457d1cc8",
+      "r_3c38d454c0a54573b8e27fe7c4a8ee8b",
+      "r_3cf54dd76dde4dc784d259e4c918dcab",
+      "r_4b00ebe4261842dcb206758df8192ef8",
+      "r_5451a173b1114e0c8ca953a0e8f77ebc",
+      "r_5910ffd5840b4a6fbbe36df3923c9c10",
+      "r_5f3aee16ec5a431e9c4c5a3bdfea7046",
+      "r_685162cf1ed04a5b9bac18c39330e710",
+      "r_68dd2339f7884f1faef397c4492e3526",
+      "r_6e646d6903274891b883817123d4e5d5",
+      "r_84b163c95ed7471aaaa78e6853db74b2",
+      "r_8a49fa62d03e4c639436938455184493",
+      "r_8e938c7dfd734e9798740e175a348f18",
+      "r_95c15bc1a7f94c278016a05d58d9c6e9",
+      "r_a068daa6573543d798f24b73213a5df2",
+      "r_a3479aeebe5d49db89e2358894cb64a3",
+      "r_a3b8156c72494d36a9dd8029ff0ed2af",
+      "r_a79ff47cc26e44989520b12ac0440d0c",
+      "r_b293e573dcd047a188a3eb53a2f0433c",
+      "r_ca9196ccda014e5f899e7f91eeed56e0",
+      "r_d72033f750484c72a97c6df5337ca7b6",
+      "r_e2350787e0374e918187e222742a7253",
+      "r_f357e60e7b824b81a72d0078b5d0c970",
+      "r_f4674787cf9e4ba2a7d393fa0caea0e1",
+      "r_a2a77e372875404fbf5ae31ae9591c0d",
+      "r_39103c92fbaa4802ae90cf208f13d650",
+      "r_0d64408fd6e84349ba7ef22d0c545713",
+      "r_1ca27b5db4ee4dbf81dc8fae169fc189",
+      "r_a24db56fbe7d49a482d9d1acf40b9d5d"
+    ],
+    "views": {
+      "view_20849a9a7c0549f9afa9672537d9a97b": {
+        "id": "view_20849a9a7c0549f9afa9672537d9a97b",
+        "name": "Valuation",
+        "cube_id": "cube_aa0e4e31d111469996162abd856d745e",
+        "row_dim_ids": [
+          "dim_3f55dc57581f4575ace5aeb5807cc070"
+        ],
+        "col_dim_ids": [
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {
+          "4": 79
+        },
+        "row_header_widths": {
+          "0": 134
+        }
+      },
+      "view_21b276f483b64dff9e6abe84dee728f5": {
+        "id": "view_21b276f483b64dff9e6abe84dee728f5",
+        "name": "PnL",
+        "cube_id": "cube_8e50a3ecfd9b45b8b41b736cb93bf6e1",
+        "row_dim_ids": [
+          "dim_6ba543154a29446aa39c91f38e14744a"
+        ],
+        "col_dim_ids": [
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {
+          "0": 127,
+          "1": 144
+        },
+        "page_selections": {
+          "dim_6ba543154a29446aa39c91f38e14744a": "item_441520d585714ce8867c6af24c354f4c"
+        }
+      },
+      "view_4f946a42c18f4ca08d5207481b2a39c4": {
+        "id": "view_4f946a42c18f4ca08d5207481b2a39c4",
+        "name": "Balance Sheet",
+        "cube_id": "cube_ae542e7df0c44697a10632bd4f2aee73",
+        "row_dim_ids": [
+          "dim_b34ebf1cb08d489d8b33dc54a9cb6ad4"
+        ],
+        "col_dim_ids": [
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {
+          "0": 138
+        },
+        "page_selections": {
+          "dim_b34ebf1cb08d489d8b33dc54a9cb6ad4": "item_2ba6b475c0444159aed4f350a1330211"
+        }
+      },
+      "view_71ecb76047204787a96f004574e333a7": {
+        "id": "view_71ecb76047204787a96f004574e333a7",
+        "name": "Cash Flow",
+        "cube_id": "cube_e41f852469c2420a8d8e96cc37b5db95",
+        "row_dim_ids": [
+          "dim_1aad24aa8e8c486f9dc7ef0ea1c56a36"
+        ],
+        "col_dim_ids": [
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {
+          "0": 129
+        },
+        "page_selections": {
+          "dim_1aad24aa8e8c486f9dc7ef0ea1c56a36": "item_533bb36e64f3451e95bcd56bd9e9a3b2"
+        }
+      },
+      "view_fdfff806d29044faa72ced25cd50ab88": {
+        "id": "view_fdfff806d29044faa72ced25cd50ab88",
+        "name": "Drivers",
+        "cube_id": "cube_1e6562e8e182492ca431403d268b52c1",
+        "row_dim_ids": [
+          "dim_51301c1abf42400ebd403a8824b0bfc5"
+        ],
+        "col_dim_ids": [
+          "dim_8fe9b7b7ef624f19ab5f45ebf18f04c9"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {
+          "0": 190
+        },
+        "page_selections": {
+          "dim_51301c1abf42400ebd403a8824b0bfc5": "item_a46a8da7498647b08c027d5afacb1816"
+        }
+      },
+      "view_445ec746765746acb93de45d1b774016": {
+        "id": "view_445ec746765746acb93de45d1b774016",
+        "name": "%CFG",
+        "cube_id": "cube_c56e4a121fcd4ef4a86e7231beb71f0f",
+        "row_dim_ids": [
+          "dim_06288ad6c09140e09cce199c1dd09a97"
+        ],
+        "col_dim_ids": [
+          "dim_72dff0672dc14f79ba3bc365a0e13feb"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_d0260ba02fd148dfabf2a2624d5960cc": {
+        "id": "view_d0260ba02fd148dfabf2a2624d5960cc",
+        "name": "%SIG",
+        "cube_id": "cube_b627c449c4ce408984c3eb682017cd62",
+        "row_dim_ids": [
+          "dim_1b2de2722c364d2186ea67dc4ab944d1"
+        ],
+        "col_dim_ids": [
+          "dim_2a0df0df38cc4595ac66f56271c19948"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_53e7ece05ffc4cae9c7287e04fe1a54d": {
+        "id": "view_53e7ece05ffc4cae9c7287e04fe1a54d",
+        "name": "%TYP",
+        "cube_id": "cube_24c16a9b6a364acea7b68685d56d1cc9",
+        "row_dim_ids": [
+          "dim_31dce83c3d1d4dfbafe7d65bc281b922"
+        ],
+        "col_dim_ids": [
+          "dim_92ac2f3a95c640b3a28b5fb2e330b667"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_5edb73bcba2d4393a15977d3345ea569": {
+        "id": "view_5edb73bcba2d4393a15977d3345ea569",
+        "name": "%RECNOD",
+        "cube_id": "cube_5be91857b90a47eaa291f4308b1be776",
+        "row_dim_ids": [
+          "dim_91b4acf6d298412b98cdfef876277f13"
+        ],
+        "col_dim_ids": [
+          "dim_089aea1cb3e042bb97fab7bcdb84d41e"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_6484d14091a14d639ed34dac0cde39ea": {
+        "id": "view_6484d14091a14d639ed34dac0cde39ea",
+        "name": "%RECEDG",
+        "cube_id": "cube_b67f31049891450eaff7f7460fe3e512",
+        "row_dim_ids": [
+          "dim_203820ac1c9048129e237c8358c66107"
+        ],
+        "col_dim_ids": [
+          "dim_5d35ae814a3545abbcdd746c334f3d03"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      }
+    },
+    "views_order": [
+      "view_fdfff806d29044faa72ced25cd50ab88",
+      "view_21b276f483b64dff9e6abe84dee728f5",
+      "view_4f946a42c18f4ca08d5207481b2a39c4",
+      "view_71ecb76047204787a96f004574e333a7",
+      "view_20849a9a7c0549f9afa9672537d9a97b",
+      "view_445ec746765746acb93de45d1b774016",
+      "view_d0260ba02fd148dfabf2a2624d5960cc",
+      "view_53e7ece05ffc4cae9c7287e04fe1a54d",
+      "view_5edb73bcba2d4393a15977d3345ea569",
+      "view_6484d14091a14d639ed34dac0cde39ea"
+    ],
+    "udfs": [],
+    "active_view_id": "view_20849a9a7c0549f9afa9672537d9a97b"
+  }
+}

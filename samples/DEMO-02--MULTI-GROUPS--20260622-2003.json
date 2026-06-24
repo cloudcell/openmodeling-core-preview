@@ -1,0 +1,3852 @@
+{
+  "schema_version": 16,
+  "workspace": {
+    "id": "ws_edb2114834274e848bee26f4051597c6",
+    "name": "Demo",
+    "dimensions": {
+      "@": {
+        "id": "@",
+        "name": "@",
+        "items": [
+          {
+            "id": "at_value",
+            "name": "value"
+          },
+          {
+            "id": "at_style",
+            "name": "style"
+          },
+          {
+            "id": "at_format_number",
+            "name": "format_number"
+          },
+          {
+            "id": "at_format_text",
+            "name": "format_text"
+          },
+          {
+            "id": "at_format_null",
+            "name": "format_null"
+          },
+          {
+            "id": "at_format_error",
+            "name": "format_error"
+          },
+          {
+            "id": "at_fill",
+            "name": "fill"
+          },
+          {
+            "id": "at_font_family",
+            "name": "font_family"
+          },
+          {
+            "id": "at_font_size",
+            "name": "font_size"
+          },
+          {
+            "id": "at_font_weight",
+            "name": "font_weight"
+          },
+          {
+            "id": "at_font_italic",
+            "name": "font_italic"
+          },
+          {
+            "id": "at_font_color",
+            "name": "font_color"
+          },
+          {
+            "id": "at_text_h_align",
+            "name": "text_h_align"
+          },
+          {
+            "id": "at_text_v_align",
+            "name": "text_v_align"
+          },
+          {
+            "id": "at_text_indent",
+            "name": "text_indent"
+          },
+          {
+            "id": "at_text_wrap",
+            "name": "text_wrap"
+          },
+          {
+            "id": "at_text_rotation",
+            "name": "text_rotation"
+          },
+          {
+            "id": "at_border_top",
+            "name": "border_top"
+          },
+          {
+            "id": "at_border_bottom",
+            "name": "border_bottom"
+          },
+          {
+            "id": "at_border_left",
+            "name": "border_left"
+          },
+          {
+            "id": "at_border_right",
+            "name": "border_right"
+          },
+          {
+            "id": "at_border_diag_up",
+            "name": "border_diag_up"
+          },
+          {
+            "id": "at_border_diag_down",
+            "name": "border_diag_down"
+          },
+          {
+            "id": "at_validation_type",
+            "name": "validation_type"
+          },
+          {
+            "id": "at_validation_rule",
+            "name": "validation_rule"
+          },
+          {
+            "id": "at_validation_message",
+            "name": "validation_message"
+          },
+          {
+            "id": "at_validation_allow_empty",
+            "name": "validation_allow_empty"
+          },
+          {
+            "id": "at_comment",
+            "name": "comment"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": true
+      },
+      "dim_45cc244851c242858969a5879038b721": {
+        "id": "dim_45cc244851c242858969a5879038b721",
+        "name": "%CFGITM",
+        "items": [
+          {
+            "id": "item_bc27c0942f2d4fa78c7592b2dc54fe50",
+            "name": "system_table_typ"
+          },
+          {
+            "id": "item_ed5d37d5a979435f82620bfd4bc6e557",
+            "name": "system_table_sig"
+          },
+          {
+            "id": "item_ad0c75e6e41647229fb74a18e9ab0980",
+            "name": "system_table_recnod"
+          },
+          {
+            "id": "item_899db706cffe4103bf0f8d631bb7fc9f",
+            "name": "system_table_recedg"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_47c439cdde4546f582b5808f2bc37866": {
+        "id": "dim_47c439cdde4546f582b5808f2bc37866",
+        "name": "%CFGMET",
+        "items": [
+          {
+            "id": "item_eedc0859a20f4079afcb012dd07d1855",
+            "name": "NUL"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_87ca98dfa64449b2b5161a55d821d700": {
+        "id": "dim_87ca98dfa64449b2b5161a55d821d700",
+        "name": "%ADR",
+        "items": [
+          {
+            "id": "item_dea02dde4aa44503b54d2deb9b4aad1f",
+            "name": "ADR"
+          },
+          {
+            "id": "item_d60dc3fffa38477a8d6b66c9a75d295d",
+            "name": "ARG"
+          },
+          {
+            "id": "item_8545c38c63cb4d859566f5d6025c0d63",
+            "name": "SRC"
+          },
+          {
+            "id": "item_f03d923734b546de97aed5307218b5a5",
+            "name": "TGT"
+          },
+          {
+            "id": "item_16e28b89e57c4fb2af47787a90ded060",
+            "name": "FLD"
+          },
+          {
+            "id": "item_677f11d37d984e4caef636cdb71cd4bf",
+            "name": "SIG"
+          },
+          {
+            "id": "item_a76721f301984df58f6be0f2525ea777",
+            "name": "OBJ"
+          },
+          {
+            "id": "item_33f8a4a8d39f44e4853d948b5322d418",
+            "name": "REL"
+          },
+          {
+            "id": "item_8138b17267964c17a5c36b9aca776b5e",
+            "name": "REI"
+          },
+          {
+            "id": "item_4d2dfd50e6194b60b5b56bee07e1339b",
+            "name": "PRD"
+          },
+          {
+            "id": "item_e348fd049eb247609c1f72b1eee046f1",
+            "name": "GRD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_bb427f2f43064e899add9a0f6740ee1e": {
+        "id": "dim_bb427f2f43064e899add9a0f6740ee1e",
+        "name": "%FLD",
+        "items": [
+          {
+            "id": "item_cc2fecefda8b468f8bc65c1f5fbe78e9",
+            "name": "SRC"
+          },
+          {
+            "id": "item_0ed56c64fadf4f438a06c8aefca59f6b",
+            "name": "TGT"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_5df238e6130f4a8b8ada396aadf23368": {
+        "id": "dim_5df238e6130f4a8b8ada396aadf23368",
+        "name": "%TYPADR",
+        "items": [
+          {
+            "id": "item_95ba6bfb342442f28e50bfcc3d5b2467",
+            "name": "system_type_nul"
+          },
+          {
+            "id": "item_9382de6f12884ed3baee04fe874e8684",
+            "name": "system_type_knd"
+          },
+          {
+            "id": "item_76eb266e325a4733a4b622d783ed21e4",
+            "name": "system_type_dim"
+          },
+          {
+            "id": "item_2edf272d97aa4f07ab31e9c6541576a8",
+            "name": "system_type_ref"
+          },
+          {
+            "id": "item_217372432f1d418d80c568946ed45f95",
+            "name": "system_type_lbl"
+          },
+          {
+            "id": "item_680204b28339436c8908c39342da8b4b",
+            "name": "system_type_src"
+          },
+          {
+            "id": "item_1a8286e7e54a4a11b6c2696c74d41fbf",
+            "name": "system_type_tgt"
+          },
+          {
+            "id": "item_2796105befef40b098e57b898e2df04a",
+            "name": "system_type_ord"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_a4a362962ced451e864962bd140e564e": {
+        "id": "dim_a4a362962ced451e864962bd140e564e",
+        "name": "%TYPFLD",
+        "items": [
+          {
+            "id": "item_099af762226b4cc187de11da32539727",
+            "name": "NUL"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_89357f6bd8f642cfa50c0a3292540eaa": {
+        "id": "dim_89357f6bd8f642cfa50c0a3292540eaa",
+        "name": "%RECNODADR",
+        "items": [
+          {
+            "id": "item_dc483320687a4863ac1980eafced3889",
+            "name": "NUL"
+          },
+          {
+            "id": "item_734f642eb19a48eabf5982ec69fed75a",
+            "name": "nod_559fab4753ec400ca7aec243fddb1d37"
+          },
+          {
+            "id": "item_b74ebadfde61412a9fd6aad8606ee050",
+            "name": "nod_19452c0ff0c24abfb7ce7ea838975b7f"
+          },
+          {
+            "id": "item_c69dd22b69c246c2957ada63783ac68e",
+            "name": "nod_6eb0f61392724ba7b21875ac540ebf11"
+          },
+          {
+            "id": "item_7e8e72ce0856475887a52fe99ef5acbc",
+            "name": "nod_6d72663a54834e0aadb07f6ea898dd8d"
+          },
+          {
+            "id": "item_edbfcdc5ff534c62b93c28fcdd165d8b",
+            "name": "nod_7ace6c1af4254c89815f378f699e4fb1"
+          },
+          {
+            "id": "item_db23e57dc4c34d1c968c7094ac79b8d4",
+            "name": "nod_dd6209c8d34c4f3ebd1b148a7a5f7182"
+          },
+          {
+            "id": "item_52d705399c8a4486b39cd338696fdced",
+            "name": "nod_6fafe036de4d404684a693dc2a1eda58"
+          },
+          {
+            "id": "item_1fb2a42912454207b012ef9b248b19e9",
+            "name": "nod_cc56b9447935410294cefd162ccb1cee"
+          },
+          {
+            "id": "item_57e5a902502f40538c42e7633a315383",
+            "name": "nod_1fcbd12f73384ffaaba5d2394838c050"
+          },
+          {
+            "id": "item_69a883274ca44a98b48d9ea4738b208d",
+            "name": "nod_8c6f90fcb0a2416f9548f75c26212dd7"
+          },
+          {
+            "id": "item_5e78a22af46a485f80ea3543e1740957",
+            "name": "nod_5d702e6521994081b105899fb8f94508"
+          },
+          {
+            "id": "item_2c40caa87e9247fca468f4c2b4e2d4c1",
+            "name": "nod_712eb2958d1c459ba47608403893befb"
+          },
+          {
+            "id": "item_127a78b3f281402198b249b8f573ca69",
+            "name": "nod_d10d858ab88b47bb9cde4112059e7247"
+          },
+          {
+            "id": "item_cc15c12bb46a40eabfcf3100b22028d2",
+            "name": "nod_ad219704938f4ed7aa302a7de3557933"
+          },
+          {
+            "id": "item_273f71067f094d4fae85c0dae2b0f6bb",
+            "name": "nod_cb74e54eaa874d799b96ff0cb42623f3"
+          },
+          {
+            "id": "item_3f568898f2774b9ca58630e87f3a2e14",
+            "name": "nod_ddc08a64d11b45699434afabcd031db7"
+          },
+          {
+            "id": "item_2584c03d24b94560bccbfff88d6e28db",
+            "name": "nod_d1b87091997e40468e81f57090ead6f4"
+          },
+          {
+            "id": "item_fc122e38c1dd444d974c08dd0160a7a3",
+            "name": "nod_4daf715bc7f844a0b67935c490382364"
+          },
+          {
+            "id": "item_002778a9a3544ec1b5b6493e4fdb0c52",
+            "name": "nod_ab4e36b60b55421a88350b019b37b347"
+          },
+          {
+            "id": "item_27a461df1b964bbabbcb5187e1353d26",
+            "name": "nod_c6ec26c29bb647a18c8c84a6c68fe701"
+          },
+          {
+            "id": "item_aa49bf2f1afd4402942dab0f567a8c2a",
+            "name": "nod_a42a88312dc5494d94460a41230b6f7c"
+          },
+          {
+            "id": "item_3d6e0fb2aef04c5f9825b9b9b5c1d273",
+            "name": "nod_eb590ac5e5dc46f8ba0a7ce9e89dcf4e"
+          },
+          {
+            "id": "item_211f1212218c406683c3e2d1e8a4ac6e",
+            "name": "nod_dcefc803a8ee4ef6ba2ca2ee4abae2df"
+          },
+          {
+            "id": "item_a9e8f3f6d50846fc8c7e704fd0c6e173",
+            "name": "nod_7ea5c7f4c41e47fcbece97e0d125a4b3"
+          },
+          {
+            "id": "item_12b7117aa8254550a0d75c62424fa4f5",
+            "name": "nod_58729b76d8d44ffeba3ea8c841f372d4"
+          },
+          {
+            "id": "item_484a12d77c8b4c6cab801dc621e6facc",
+            "name": "nod_fd54f4c375bc407c892447128be4c06c"
+          },
+          {
+            "id": "item_18c7becce8864406b53501d86c0f9d06",
+            "name": "nod_7da0ab6bfa904de489d4743a483c6a18"
+          },
+          {
+            "id": "item_6390ba0e6ae7411cb147eb68fe50c063",
+            "name": "nod_9aadb1d6902243ebaf04c41c00bd9b70"
+          },
+          {
+            "id": "item_082d4a44298d4bdbb23d35195881aa8e",
+            "name": "nod_406392bbb1be49649b6e903aa0300ee9"
+          },
+          {
+            "id": "item_bd068fa9aed6423198229efc01efa301",
+            "name": "nod_562d7554862041cea6ca8bae1b193e83"
+          },
+          {
+            "id": "item_36a15f6329584f81a417dce88e6568ba",
+            "name": "nod_0c05a624e90d4e398ba90ebfd533ec50"
+          },
+          {
+            "id": "item_16405b6192204744a5524821bec3663b",
+            "name": "nod_fe4b383b4b6344219dbfa454f5f0d7a6"
+          },
+          {
+            "id": "item_618c8c9519a948b0ae40601c37b50a16",
+            "name": "nod_81020933a8e64ea2982b52373771becf"
+          },
+          {
+            "id": "item_807b66cba9d74491bd70f72c17f6182d",
+            "name": "nod_f53bca600d194490aa2c87617e236015"
+          },
+          {
+            "id": "item_3a8d6bfd1c934808936d94720de4c077",
+            "name": "nod_a8d49f42f3ad4e90b8a2e1b8df2ad828"
+          },
+          {
+            "id": "item_213cccd15201459dbfa97be2b30ff4a5",
+            "name": "nod_2738c56523614247bc5e283e63edaf0e"
+          },
+          {
+            "id": "item_f413975edd884257a292eb0310094386",
+            "name": "nod_24fcefdaf0df4bb2999694cf3a9d86d7"
+          },
+          {
+            "id": "item_b2519112711244ee8297a4d71e9e84ed",
+            "name": "nod_8eb27125b2a14aeebaacaafdb6fb4120"
+          },
+          {
+            "id": "item_b3aca353d2db47bc85cc32e85aa9f0c1",
+            "name": "nod_475b1ccd793041cab6e1aec1add7d899"
+          },
+          {
+            "id": "item_bb50157f29c144b292d3e11348fe811c",
+            "name": "nod_1093718dfaf54d578eaca71628dc1d81"
+          },
+          {
+            "id": "item_acb869cf56dd41b397f6544f758228ba",
+            "name": "nod_6dd2dfeb564e4031ac327bce6ac7d477"
+          },
+          {
+            "id": "item_b7d1fd0a89a9422eaffb9e21902be3d1",
+            "name": "nod_7872775dbfe543bbb2355e53de4bf3c0"
+          },
+          {
+            "id": "item_ba92627faaf84b62b5af1faa917a1dc7",
+            "name": "nod_ec81edc8da524d78baa7c3a1baea3441"
+          },
+          {
+            "id": "item_f6124b7b6be24f31b76cae39b3c3020d",
+            "name": "nod_3f9a3d5765624b87aea1d0075cd172a5"
+          },
+          {
+            "id": "item_b4cf499083194d8eb7bda414a4307e3a",
+            "name": "nod_5530443a56b04b4a8180230cceef751b"
+          },
+          {
+            "id": "item_5e9208e1e1584056ab180d19c2762169",
+            "name": "nod_979fb66aafb64b4f9098c54061ba15f5"
+          },
+          {
+            "id": "item_7cf52f57d93f4c72a01ef942cc507ba1",
+            "name": "nod_304ca6f5e2d1484f8a0dba74a0e82421"
+          },
+          {
+            "id": "item_fa93e9546744466684a1b3749b374b6f",
+            "name": "nod_b5c601fa0518470a8ee3e44f053b1aec"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_b478fd43ab204840b222688580e37b3d": {
+        "id": "dim_b478fd43ab204840b222688580e37b3d",
+        "name": "%RECNODFLD",
+        "items": [
+          {
+            "id": "item_3c811479b9964d81a13ff4501f55b2b7",
+            "name": "KND"
+          },
+          {
+            "id": "item_41121549143042c38c8fc93c59e2b9c4",
+            "name": "DIM"
+          },
+          {
+            "id": "item_e067d02e19c143debe351e9507f8f0c6",
+            "name": "REF"
+          },
+          {
+            "id": "item_9758b5d93f4642a4aeb3abb62fa61e26",
+            "name": "LBL"
+          },
+          {
+            "id": "item_8756726990bd4a4bbf3f57eb9bfc69fb",
+            "name": "ORD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_4eab485a087f4e01ab2e30e77898f9a4": {
+        "id": "dim_4eab485a087f4e01ab2e30e77898f9a4",
+        "name": "%RECEDGADR",
+        "items": [
+          {
+            "id": "item_2b443c4955ce466cb7260ff17100189b",
+            "name": "NUL"
+          },
+          {
+            "id": "item_4739843a1f604ee987cc16eb302f6858",
+            "name": "edg_24b66635bf4843f78ea9e2a5b69a5553"
+          },
+          {
+            "id": "item_a7fa20212aa94826b12e679aaa4f13d4",
+            "name": "edg_8927f4c3d27245f4a91590af866cbc8e"
+          },
+          {
+            "id": "item_4488815b19bb4c51bda5f416699f0b11",
+            "name": "edg_3bd87bdf564c4ecda8449e347c502c5e"
+          },
+          {
+            "id": "item_6a6364ca7d264afa85129f69754dcb17",
+            "name": "edg_54726f03ff1f4de6a48e0a03ecc9fac3"
+          },
+          {
+            "id": "item_6be5d9be9ad14475bd49dc05f403e608",
+            "name": "edg_810dbbcc48b54e19b6f6132a1583e7b3"
+          },
+          {
+            "id": "item_d022ad34a03d4ca0b0a22d589ee298a2",
+            "name": "edg_7155e8d7b1004d7b95ea5f2e0c1c6514"
+          },
+          {
+            "id": "item_341af4fbc18046f1af66ecedec742a04",
+            "name": "edg_c639c90ba9c44398bb923a94ede9bfdc"
+          },
+          {
+            "id": "item_9da2c0d28c9b4004bd46a12c7ed8f0d1",
+            "name": "edg_7a4c20ea8b0443c39e67e667af500532"
+          },
+          {
+            "id": "item_a9e6701aca8f407287e8c5831058cbd4",
+            "name": "edg_9ab515cbd1bc4b4b9abce1ad35304601"
+          },
+          {
+            "id": "item_729a2526a37e4c0b9ed3d9f1799ee2f1",
+            "name": "edg_bf090b9e67b94d7790af36f1257b477d"
+          },
+          {
+            "id": "item_223af2f266f34836814c3a58a327cb97",
+            "name": "edg_8d887218eafd467c88ff1faa8251dccd"
+          },
+          {
+            "id": "item_eff0afa9563d431a9999d8026da8a31f",
+            "name": "edg_27d90d51d8b04430887946c2388045d9"
+          },
+          {
+            "id": "item_747285e3ead84cd7b5453af2c2fb2b3c",
+            "name": "edg_c5f7598bba564b9c926a363258c5acc4"
+          },
+          {
+            "id": "item_38d4a8a81aa0439f8b12bf98234e7e0e",
+            "name": "edg_6dd40109e4d44e6db47a2e2e1254cb00"
+          },
+          {
+            "id": "item_f682967bf8d04cf791a5744366e1a3e3",
+            "name": "edg_956caae686214e9aaca4c820992ecc57"
+          },
+          {
+            "id": "item_d5973d56d4d4425f95fc56ed19577da4",
+            "name": "edg_ad7bd5397bb6400eb2e2fdee9edf6139"
+          },
+          {
+            "id": "item_766547316bf64ca3a9cb381a49de2202",
+            "name": "edg_ef08fa20b8834d2a9d9c2313f108fe69"
+          },
+          {
+            "id": "item_360be71ceb694d479cc735399dcd15ba",
+            "name": "edg_a50e497f6a74465995a4b925f97cde81"
+          },
+          {
+            "id": "item_76393aaf91a5423a95ec9be70097cb85",
+            "name": "edg_ffd6d4a881a3414487df908a1d22dafe"
+          },
+          {
+            "id": "item_063dc87b7d0a4f39a5ac365084dfa0f4",
+            "name": "edg_2e159cd7202e4e48819a5bd82a425ef9"
+          },
+          {
+            "id": "item_5b414ee835c34c33bef46dc1365d5825",
+            "name": "edg_5bc1f87e5dea45c2b60e97e8e27533c3"
+          },
+          {
+            "id": "item_eb00a292946345de8bd9673d52e5d8b7",
+            "name": "edg_4444659d349543a8931dcf21dcc51f59"
+          },
+          {
+            "id": "item_c6328fb9e6344035bdc2d0638029a6e7",
+            "name": "edg_3fbb9270985d43fc8d5dbff62099a6c0"
+          },
+          {
+            "id": "item_9f0235fb9b274de3b8fccd724d66d76e",
+            "name": "edg_36f67d4d8d304bf78b63fabfe37ef0d6"
+          },
+          {
+            "id": "item_1bfa77fe19164167bff27aaf9b6786f3",
+            "name": "edg_798ed7661915460d9cfdd84ad14e573c"
+          },
+          {
+            "id": "item_63898b10a78c4c8ba845286925691f72",
+            "name": "edg_bab8e5957f3340a496ced71f5c00a58d"
+          },
+          {
+            "id": "item_d8cf96a0184648208794d4787ff33c49",
+            "name": "edg_cd53b2f275514e11a2d91eb8ae6a9966"
+          },
+          {
+            "id": "item_f9947b51bf0a488fbbf8e62f430f63b2",
+            "name": "edg_50954c82832d455f833847735e86f76b"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_037eaa20a2dd4e30aea22438c76aa175": {
+        "id": "dim_037eaa20a2dd4e30aea22438c76aa175",
+        "name": "%RECEDGFLD",
+        "items": [
+          {
+            "id": "item_f59aecd3bd3044369f67265855339df4",
+            "name": "KND"
+          },
+          {
+            "id": "item_94bb3f9a68e34aabb8abeacb68264884",
+            "name": "SRC"
+          },
+          {
+            "id": "item_d70791c171f545819640117307b5d227",
+            "name": "TGT"
+          },
+          {
+            "id": "item_3ba4c3f597734fb6b55e8970971b22bc",
+            "name": "DIM"
+          },
+          {
+            "id": "item_417a11bb3f4b462f973850f456210dd9",
+            "name": "ORD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a": {
+        "id": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+        "name": "A",
+        "items": [
+          {
+            "id": "item_06ba6b14cfc343cea32561567c39aeaa",
+            "name": "tri9i"
+          },
+          {
+            "id": "item_6f0878142bda48798489049c252958e8",
+            "name": "eab9l"
+          },
+          {
+            "id": "item_93c05319f9734b94b1f67d254f5f1550",
+            "name": "wnf6j"
+          },
+          {
+            "id": "item_859c4503536c4be1b10b1958b7029e2c",
+            "name": "uaov4"
+          },
+          {
+            "id": "item_21b46fe91dd64eebbc1eb2169bc15db8",
+            "name": "TotalGA"
+          },
+          {
+            "id": "item_c3d2afec51ee44b3896fcda626292dd9",
+            "name": "u7dhw"
+          },
+          {
+            "id": "item_d1c6417a506f4e4cb461ff482486408b",
+            "name": "TotalGB"
+          },
+          {
+            "id": "item_233e5b72f8ec499bb35a9fb824a25fc7",
+            "name": "vn00r"
+          },
+          {
+            "id": "item_91f9e655c1ea478091f10faed3b3af99",
+            "name": "upwky"
+          },
+          {
+            "id": "item_5130fc16360c4673915da638c0742e11",
+            "name": "wbl9q"
+          },
+          {
+            "id": "item_d5979b247cd34f32a36e1279a3604b13",
+            "name": "tk2ww"
+          },
+          {
+            "id": "item_f3ae35ded7b1421b89a9bf39e0cf251b",
+            "name": "nn5yw"
+          },
+          {
+            "id": "item_0f2ebbeac5ca4bd2806995a06a7e5127",
+            "name": "cretg"
+          },
+          {
+            "id": "item_c4c8a1b3bf0e4c26b518ea983069395a",
+            "name": "w4icc"
+          },
+          {
+            "id": "item_8d595694f0614e7abdd7bc3a5aa9f1d3",
+            "name": "i2fpp"
+          },
+          {
+            "id": "item_6e9a686eb2ca4879ada7ffcd48cec28b",
+            "name": "hj41z"
+          },
+          {
+            "id": "item_53aaebfbcf1e4976bb40c83d774b29f4",
+            "name": "mtkyr"
+          },
+          {
+            "id": "item_2a0a43004f9843b7930cc3a1c252d164",
+            "name": "dmht2"
+          },
+          {
+            "id": "item_3a5f956749e14096aa66f61e7febdbc7",
+            "name": "phb3w"
+          },
+          {
+            "id": "item_8fd3af1086b74e93b99fde76f6df6171",
+            "name": "dz4tm"
+          },
+          {
+            "id": "item_df06e3c3b8b441aaa1c48bad563499ba",
+            "name": "w2chj"
+          },
+          {
+            "id": "item_ca8194faa6524e18900f5a6c4ab9202a",
+            "name": "zjj1a"
+          },
+          {
+            "id": "item_1e6286b7b16444c19134b8581e52ea26",
+            "name": "rxwtv"
+          },
+          {
+            "id": "item_e2d94cb79c3f442a9abcb6451aa76582",
+            "name": "d16jd"
+          },
+          {
+            "id": "item_a4fe6292afa04bc98a3d46452b0062ed",
+            "name": "movpt"
+          },
+          {
+            "id": "item_79fb00a163d04499b9a770abc65edaff",
+            "name": "TotalGG"
+          },
+          {
+            "id": "item_3b4dd7d51431435198de35adf498b748",
+            "name": "TotalS"
+          },
+          {
+            "id": "item_6004123a743a4c639c60bb43c967e597",
+            "name": "TotalCA"
+          },
+          {
+            "id": "item_a5a4abcd041b4fd4813d9224b010a868",
+            "name": "TotalSA"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false,
+        "root_order_override": {
+          "item_233e5b72f8ec499bb35a9fb824a25fc7": 7,
+          "item_91f9e655c1ea478091f10faed3b3af99": 8,
+          "item_0f2ebbeac5ca4bd2806995a06a7e5127": 12,
+          "item_c4c8a1b3bf0e4c26b518ea983069395a": 13,
+          "item_6e9a686eb2ca4879ada7ffcd48cec28b": 15,
+          "item_53aaebfbcf1e4976bb40c83d774b29f4": 16,
+          "item_2a0a43004f9843b7930cc3a1c252d164": 17,
+          "item_3a5f956749e14096aa66f61e7febdbc7": 18,
+          "item_8fd3af1086b74e93b99fde76f6df6171": 19,
+          "item_df06e3c3b8b441aaa1c48bad563499ba": 20,
+          "item_ca8194faa6524e18900f5a6c4ab9202a": 21,
+          "item_1e6286b7b16444c19134b8581e52ea26": 22,
+          "item_e2d94cb79c3f442a9abcb6451aa76582": 23,
+          "item_a4fe6292afa04bc98a3d46452b0062ed": 24
+        }
+      },
+      "dim_1a28305d43654ebcbdf1bb16c116dd17": {
+        "id": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+        "name": "B",
+        "items": [
+          {
+            "id": "item_d93a069ff2ee4a319ebd2f3548adacf5",
+            "name": "a"
+          },
+          {
+            "id": "item_b48548292b244235a60fb08c99aeb8d4",
+            "name": "b"
+          },
+          {
+            "id": "item_cf1579205db74944ababa908cf9d0e92",
+            "name": "c"
+          },
+          {
+            "id": "item_5b50120d86574d66b8aef46f2e939a24",
+            "name": "d"
+          },
+          {
+            "id": "item_74bd7b1f365840119c8fe47d23303b87",
+            "name": "e"
+          },
+          {
+            "id": "item_4da47ea589f44acdb36554bc29c60c5f",
+            "name": "f"
+          },
+          {
+            "id": "item_1445de34b43844c5b479973843c8a1b4",
+            "name": "g"
+          },
+          {
+            "id": "item_2f2855575e094a129667cb93a4cdb903",
+            "name": "dnxoe"
+          },
+          {
+            "id": "item_e37c1571b32746cfad38d71817a85955",
+            "name": "m0k4d"
+          },
+          {
+            "id": "item_4acb282007d245509bdfd06cb9779b31",
+            "name": "bvivo"
+          },
+          {
+            "id": "item_8909cd046f4140819b9c714804e7abd7",
+            "name": "Total"
+          },
+          {
+            "id": "item_607b64994cf84f518266808c23921fc7",
+            "name": "Total2"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false,
+        "root_order_override": {
+          "item_cf1579205db74944ababa908cf9d0e92": 2,
+          "item_1445de34b43844c5b479973843c8a1b4": 6,
+          "item_2f2855575e094a129667cb93a4cdb903": 7,
+          "item_e37c1571b32746cfad38d71817a85955": 8,
+          "item_4acb282007d245509bdfd06cb9779b31": 9
+        }
+      }
+    },
+    "cubes": {
+      "cube_59fe2f7f6b06470caecaac2f555deef3": {
+        "id": "cube_59fe2f7f6b06470caecaac2f555deef3",
+        "name": "%CFG",
+        "dimension_ids": [
+          "@",
+          "dim_45cc244851c242858969a5879038b721",
+          "dim_47c439cdde4546f582b5808f2bc37866"
+        ],
+        "data": {
+          "at_value|item_bc27c0942f2d4fa78c7592b2dc54fe50|item_eedc0859a20f4079afcb012dd07d1855": {
+            "_type": "text",
+            "value": "%TYP",
+            "hardcoded": true
+          },
+          "at_value|item_ed5d37d5a979435f82620bfd4bc6e557|item_eedc0859a20f4079afcb012dd07d1855": {
+            "_type": "text",
+            "value": "%SIG",
+            "hardcoded": true
+          },
+          "at_value|item_ad0c75e6e41647229fb74a18e9ab0980|item_eedc0859a20f4079afcb012dd07d1855": {
+            "_type": "text",
+            "value": "%RECNOD",
+            "hardcoded": true
+          },
+          "at_value|item_899db706cffe4103bf0f8d631bb7fc9f|item_eedc0859a20f4079afcb012dd07d1855": {
+            "_type": "text",
+            "value": "%RECEDG",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_ea1966fa616b4e378b7473b1adb3f384": {
+        "id": "cube_ea1966fa616b4e378b7473b1adb3f384",
+        "name": "%SIG",
+        "dimension_ids": [
+          "@",
+          "dim_87ca98dfa64449b2b5161a55d821d700",
+          "dim_bb427f2f43064e899add9a0f6740ee1e"
+        ],
+        "data": {
+          "at_value|item_dea02dde4aa44503b54d2deb9b4aad1f|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_dea02dde4aa44503b54d2deb9b4aad1f|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_d60dc3fffa38477a8d6b66c9a75d295d|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_d60dc3fffa38477a8d6b66c9a75d295d|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_8545c38c63cb4d859566f5d6025c0d63|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_8545c38c63cb4d859566f5d6025c0d63|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_f03d923734b546de97aed5307218b5a5|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_f03d923734b546de97aed5307218b5a5|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_16e28b89e57c4fb2af47787a90ded060|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_16e28b89e57c4fb2af47787a90ded060|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_677f11d37d984e4caef636cdb71cd4bf|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_677f11d37d984e4caef636cdb71cd4bf|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "FLD",
+            "hardcoded": true
+          },
+          "at_value|item_a76721f301984df58f6be0f2525ea777|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_a76721f301984df58f6be0f2525ea777|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "SIG",
+            "hardcoded": true
+          },
+          "at_value|item_33f8a4a8d39f44e4853d948b5322d418|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "OBJ",
+            "hardcoded": true
+          },
+          "at_value|item_33f8a4a8d39f44e4853d948b5322d418|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "OBJ",
+            "hardcoded": true
+          },
+          "at_value|item_8138b17267964c17a5c36b9aca776b5e|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_8138b17267964c17a5c36b9aca776b5e|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "REL",
+            "hardcoded": true
+          },
+          "at_value|item_4d2dfd50e6194b60b5b56bee07e1339b|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "REI",
+            "hardcoded": true
+          },
+          "at_value|item_4d2dfd50e6194b60b5b56bee07e1339b|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "REI",
+            "hardcoded": true
+          },
+          "at_value|item_e348fd049eb247609c1f72b1eee046f1|item_cc2fecefda8b468f8bc65c1f5fbe78e9": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_e348fd049eb247609c1f72b1eee046f1|item_0ed56c64fadf4f438a06c8aefca59f6b": {
+            "_type": "text",
+            "value": "PRD",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_c08c0a8e2b3c45f19e10260fec0cd883": {
+        "id": "cube_c08c0a8e2b3c45f19e10260fec0cd883",
+        "name": "%TYP",
+        "dimension_ids": [
+          "@",
+          "dim_5df238e6130f4a8b8ada396aadf23368",
+          "dim_a4a362962ced451e864962bd140e564e"
+        ],
+        "data": {
+          "at_value|item_95ba6bfb342442f28e50bfcc3d5b2467|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_9382de6f12884ed3baee04fe874e8684|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "KND",
+            "hardcoded": true
+          },
+          "at_value|item_76eb266e325a4733a4b622d783ed21e4|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "DIM",
+            "hardcoded": true
+          },
+          "at_value|item_2edf272d97aa4f07ab31e9c6541576a8|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "REF",
+            "hardcoded": true
+          },
+          "at_value|item_217372432f1d418d80c568946ed45f95|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "LBL",
+            "hardcoded": true
+          },
+          "at_value|item_680204b28339436c8908c39342da8b4b|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "SRC",
+            "hardcoded": true
+          },
+          "at_value|item_1a8286e7e54a4a11b6c2696c74d41fbf|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "TGT",
+            "hardcoded": true
+          },
+          "at_value|item_2796105befef40b098e57b898e2df04a|item_099af762226b4cc187de11da32539727": {
+            "_type": "text",
+            "value": "ORD",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_e82823bde294475cb933ea33bb07ffc9": {
+        "id": "cube_e82823bde294475cb933ea33bb07ffc9",
+        "name": "%RECNOD",
+        "dimension_ids": [
+          "@",
+          "dim_89357f6bd8f642cfa50c0a3292540eaa",
+          "dim_b478fd43ab204840b222688580e37b3d"
+        ],
+        "data": {
+          "at_value|item_734f642eb19a48eabf5982ec69fed75a|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_734f642eb19a48eabf5982ec69fed75a|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_734f642eb19a48eabf5982ec69fed75a|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "GroupB",
+            "hardcoded": true
+          },
+          "at_value|item_b74ebadfde61412a9fd6aad8606ee050|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_b74ebadfde61412a9fd6aad8606ee050|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_b74ebadfde61412a9fd6aad8606ee050|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_06ba6b14cfc343cea32561567c39aeaa",
+            "hardcoded": true
+          },
+          "at_value|item_b74ebadfde61412a9fd6aad8606ee050|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "tri9i",
+            "hardcoded": true
+          },
+          "at_value|item_c69dd22b69c246c2957ada63783ac68e|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_c69dd22b69c246c2957ada63783ac68e|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_c69dd22b69c246c2957ada63783ac68e|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_6f0878142bda48798489049c252958e8",
+            "hardcoded": true
+          },
+          "at_value|item_c69dd22b69c246c2957ada63783ac68e|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "eab9l",
+            "hardcoded": true
+          },
+          "at_value|item_7e8e72ce0856475887a52fe99ef5acbc|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_7e8e72ce0856475887a52fe99ef5acbc|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_7e8e72ce0856475887a52fe99ef5acbc|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_859c4503536c4be1b10b1958b7029e2c",
+            "hardcoded": true
+          },
+          "at_value|item_7e8e72ce0856475887a52fe99ef5acbc|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "uaov4",
+            "hardcoded": true
+          },
+          "at_value|item_edbfcdc5ff534c62b93c28fcdd165d8b|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_edbfcdc5ff534c62b93c28fcdd165d8b|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_edbfcdc5ff534c62b93c28fcdd165d8b|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "GroupA",
+            "hardcoded": true
+          },
+          "at_value|item_db23e57dc4c34d1c968c7094ac79b8d4|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_db23e57dc4c34d1c968c7094ac79b8d4|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_db23e57dc4c34d1c968c7094ac79b8d4|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_21b46fe91dd64eebbc1eb2169bc15db8",
+            "hardcoded": true
+          },
+          "at_value|item_db23e57dc4c34d1c968c7094ac79b8d4|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "TotalGA",
+            "hardcoded": true
+          },
+          "at_value|item_52d705399c8a4486b39cd338696fdced|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_52d705399c8a4486b39cd338696fdced|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_52d705399c8a4486b39cd338696fdced|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_d1c6417a506f4e4cb461ff482486408b",
+            "hardcoded": true
+          },
+          "at_value|item_52d705399c8a4486b39cd338696fdced|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "TotalGB",
+            "hardcoded": true
+          },
+          "at_value|item_1fb2a42912454207b012ef9b248b19e9|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_1fb2a42912454207b012ef9b248b19e9|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_1fb2a42912454207b012ef9b248b19e9|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_93c05319f9734b94b1f67d254f5f1550",
+            "hardcoded": true
+          },
+          "at_value|item_1fb2a42912454207b012ef9b248b19e9|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "wnf6j",
+            "hardcoded": true
+          },
+          "at_value|item_57e5a902502f40538c42e7633a315383|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_57e5a902502f40538c42e7633a315383|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_57e5a902502f40538c42e7633a315383|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_233e5b72f8ec499bb35a9fb824a25fc7",
+            "hardcoded": true
+          },
+          "at_value|item_57e5a902502f40538c42e7633a315383|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "vn00r",
+            "hardcoded": true
+          },
+          "at_value|item_69a883274ca44a98b48d9ea4738b208d|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_69a883274ca44a98b48d9ea4738b208d|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_69a883274ca44a98b48d9ea4738b208d|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_91f9e655c1ea478091f10faed3b3af99",
+            "hardcoded": true
+          },
+          "at_value|item_69a883274ca44a98b48d9ea4738b208d|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "upwky",
+            "hardcoded": true
+          },
+          "at_value|item_5e78a22af46a485f80ea3543e1740957|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_5e78a22af46a485f80ea3543e1740957|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_5e78a22af46a485f80ea3543e1740957|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_f3ae35ded7b1421b89a9bf39e0cf251b",
+            "hardcoded": true
+          },
+          "at_value|item_5e78a22af46a485f80ea3543e1740957|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "nn5yw",
+            "hardcoded": true
+          },
+          "at_value|item_2c40caa87e9247fca468f4c2b4e2d4c1|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_2c40caa87e9247fca468f4c2b4e2d4c1|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_2c40caa87e9247fca468f4c2b4e2d4c1|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_1e6286b7b16444c19134b8581e52ea26",
+            "hardcoded": true
+          },
+          "at_value|item_2c40caa87e9247fca468f4c2b4e2d4c1|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "rxwtv",
+            "hardcoded": true
+          },
+          "at_value|item_127a78b3f281402198b249b8f573ca69|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_127a78b3f281402198b249b8f573ca69|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_127a78b3f281402198b249b8f573ca69|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_e2d94cb79c3f442a9abcb6451aa76582",
+            "hardcoded": true
+          },
+          "at_value|item_127a78b3f281402198b249b8f573ca69|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "d16jd",
+            "hardcoded": true
+          },
+          "at_value|item_cc15c12bb46a40eabfcf3100b22028d2|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_cc15c12bb46a40eabfcf3100b22028d2|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_cc15c12bb46a40eabfcf3100b22028d2|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_a4fe6292afa04bc98a3d46452b0062ed",
+            "hardcoded": true
+          },
+          "at_value|item_cc15c12bb46a40eabfcf3100b22028d2|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "movpt",
+            "hardcoded": true
+          },
+          "at_value|item_57e5a902502f40538c42e7633a315383|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_69a883274ca44a98b48d9ea4738b208d|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_127a78b3f281402198b249b8f573ca69|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_cc15c12bb46a40eabfcf3100b22028d2|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_273f71067f094d4fae85c0dae2b0f6bb|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_273f71067f094d4fae85c0dae2b0f6bb|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_273f71067f094d4fae85c0dae2b0f6bb|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_c3d2afec51ee44b3896fcda626292dd9",
+            "hardcoded": true
+          },
+          "at_value|item_273f71067f094d4fae85c0dae2b0f6bb|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "u7dhw",
+            "hardcoded": true
+          },
+          "at_value|item_3f568898f2774b9ca58630e87f3a2e14|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_3f568898f2774b9ca58630e87f3a2e14|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_3f568898f2774b9ca58630e87f3a2e14|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_d5979b247cd34f32a36e1279a3604b13",
+            "hardcoded": true
+          },
+          "at_value|item_3f568898f2774b9ca58630e87f3a2e14|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "tk2ww",
+            "hardcoded": true
+          },
+          "at_value|item_2584c03d24b94560bccbfff88d6e28db|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_2584c03d24b94560bccbfff88d6e28db|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_2584c03d24b94560bccbfff88d6e28db|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_5130fc16360c4673915da638c0742e11",
+            "hardcoded": true
+          },
+          "at_value|item_2584c03d24b94560bccbfff88d6e28db|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "wbl9q",
+            "hardcoded": true
+          },
+          "at_value|item_fc122e38c1dd444d974c08dd0160a7a3|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_fc122e38c1dd444d974c08dd0160a7a3|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_fc122e38c1dd444d974c08dd0160a7a3|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_6e9a686eb2ca4879ada7ffcd48cec28b",
+            "hardcoded": true
+          },
+          "at_value|item_fc122e38c1dd444d974c08dd0160a7a3|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "hj41z",
+            "hardcoded": true
+          },
+          "at_value|item_002778a9a3544ec1b5b6493e4fdb0c52|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_002778a9a3544ec1b5b6493e4fdb0c52|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_002778a9a3544ec1b5b6493e4fdb0c52|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_0f2ebbeac5ca4bd2806995a06a7e5127",
+            "hardcoded": true
+          },
+          "at_value|item_002778a9a3544ec1b5b6493e4fdb0c52|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "cretg",
+            "hardcoded": true
+          },
+          "at_value|item_27a461df1b964bbabbcb5187e1353d26|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_27a461df1b964bbabbcb5187e1353d26|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_27a461df1b964bbabbcb5187e1353d26|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_c4c8a1b3bf0e4c26b518ea983069395a",
+            "hardcoded": true
+          },
+          "at_value|item_27a461df1b964bbabbcb5187e1353d26|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "w4icc",
+            "hardcoded": true
+          },
+          "at_value|item_aa49bf2f1afd4402942dab0f567a8c2a|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_aa49bf2f1afd4402942dab0f567a8c2a|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_aa49bf2f1afd4402942dab0f567a8c2a|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_8d595694f0614e7abdd7bc3a5aa9f1d3",
+            "hardcoded": true
+          },
+          "at_value|item_aa49bf2f1afd4402942dab0f567a8c2a|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "i2fpp",
+            "hardcoded": true
+          },
+          "at_value|item_27a461df1b964bbabbcb5187e1353d26|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 8,
+            "hardcoded": true
+          },
+          "at_value|item_3d6e0fb2aef04c5f9825b9b9b5c1d273|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_3d6e0fb2aef04c5f9825b9b9b5c1d273|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_3d6e0fb2aef04c5f9825b9b9b5c1d273|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "GroupG",
+            "hardcoded": true
+          },
+          "at_value|item_edbfcdc5ff534c62b93c28fcdd165d8b|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_734f642eb19a48eabf5982ec69fed75a|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_211f1212218c406683c3e2d1e8a4ac6e|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_211f1212218c406683c3e2d1e8a4ac6e|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_211f1212218c406683c3e2d1e8a4ac6e|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_79fb00a163d04499b9a770abc65edaff",
+            "hardcoded": true
+          },
+          "at_value|item_211f1212218c406683c3e2d1e8a4ac6e|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "TotalGG",
+            "hardcoded": true
+          },
+          "at_value|item_a9e8f3f6d50846fc8c7e704fd0c6e173|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_a9e8f3f6d50846fc8c7e704fd0c6e173|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_a9e8f3f6d50846fc8c7e704fd0c6e173|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_53aaebfbcf1e4976bb40c83d774b29f4",
+            "hardcoded": true
+          },
+          "at_value|item_a9e8f3f6d50846fc8c7e704fd0c6e173|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "mtkyr",
+            "hardcoded": true
+          },
+          "at_value|item_12b7117aa8254550a0d75c62424fa4f5|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_12b7117aa8254550a0d75c62424fa4f5|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_12b7117aa8254550a0d75c62424fa4f5|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_ca8194faa6524e18900f5a6c4ab9202a",
+            "hardcoded": true
+          },
+          "at_value|item_12b7117aa8254550a0d75c62424fa4f5|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "zjj1a",
+            "hardcoded": true
+          },
+          "at_value|item_484a12d77c8b4c6cab801dc621e6facc|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_484a12d77c8b4c6cab801dc621e6facc|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_484a12d77c8b4c6cab801dc621e6facc|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_d93a069ff2ee4a319ebd2f3548adacf5",
+            "hardcoded": true
+          },
+          "at_value|item_484a12d77c8b4c6cab801dc621e6facc|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "a",
+            "hardcoded": true
+          },
+          "at_value|item_18c7becce8864406b53501d86c0f9d06|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_18c7becce8864406b53501d86c0f9d06|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_18c7becce8864406b53501d86c0f9d06|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_b48548292b244235a60fb08c99aeb8d4",
+            "hardcoded": true
+          },
+          "at_value|item_18c7becce8864406b53501d86c0f9d06|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "b",
+            "hardcoded": true
+          },
+          "at_value|item_6390ba0e6ae7411cb147eb68fe50c063|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_6390ba0e6ae7411cb147eb68fe50c063|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_6390ba0e6ae7411cb147eb68fe50c063|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_cf1579205db74944ababa908cf9d0e92",
+            "hardcoded": true
+          },
+          "at_value|item_6390ba0e6ae7411cb147eb68fe50c063|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "c",
+            "hardcoded": true
+          },
+          "at_value|item_082d4a44298d4bdbb23d35195881aa8e|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_082d4a44298d4bdbb23d35195881aa8e|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_082d4a44298d4bdbb23d35195881aa8e|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_5b50120d86574d66b8aef46f2e939a24",
+            "hardcoded": true
+          },
+          "at_value|item_082d4a44298d4bdbb23d35195881aa8e|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "d",
+            "hardcoded": true
+          },
+          "at_value|item_bd068fa9aed6423198229efc01efa301|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_bd068fa9aed6423198229efc01efa301|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_bd068fa9aed6423198229efc01efa301|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_74bd7b1f365840119c8fe47d23303b87",
+            "hardcoded": true
+          },
+          "at_value|item_bd068fa9aed6423198229efc01efa301|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "e",
+            "hardcoded": true
+          },
+          "at_value|item_36a15f6329584f81a417dce88e6568ba|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_36a15f6329584f81a417dce88e6568ba|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_36a15f6329584f81a417dce88e6568ba|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_4da47ea589f44acdb36554bc29c60c5f",
+            "hardcoded": true
+          },
+          "at_value|item_36a15f6329584f81a417dce88e6568ba|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "f",
+            "hardcoded": true
+          },
+          "at_value|item_16405b6192204744a5524821bec3663b|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_16405b6192204744a5524821bec3663b|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_16405b6192204744a5524821bec3663b|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_1445de34b43844c5b479973843c8a1b4",
+            "hardcoded": true
+          },
+          "at_value|item_16405b6192204744a5524821bec3663b|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "g",
+            "hardcoded": true
+          },
+          "at_value|item_618c8c9519a948b0ae40601c37b50a16|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_618c8c9519a948b0ae40601c37b50a16|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_618c8c9519a948b0ae40601c37b50a16|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "G2",
+            "hardcoded": true
+          },
+          "at_value|item_6390ba0e6ae7411cb147eb68fe50c063|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_618c8c9519a948b0ae40601c37b50a16|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_16405b6192204744a5524821bec3663b|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_807b66cba9d74491bd70f72c17f6182d|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_807b66cba9d74491bd70f72c17f6182d|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_807b66cba9d74491bd70f72c17f6182d|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "G1",
+            "hardcoded": true
+          },
+          "at_value|item_807b66cba9d74491bd70f72c17f6182d|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_3a8d6bfd1c934808936d94720de4c077|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_3a8d6bfd1c934808936d94720de4c077|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_3a8d6bfd1c934808936d94720de4c077|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_8909cd046f4140819b9c714804e7abd7",
+            "hardcoded": true
+          },
+          "at_value|item_3a8d6bfd1c934808936d94720de4c077|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "Total",
+            "hardcoded": true
+          },
+          "at_value|item_213cccd15201459dbfa97be2b30ff4a5|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_213cccd15201459dbfa97be2b30ff4a5|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_213cccd15201459dbfa97be2b30ff4a5|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_607b64994cf84f518266808c23921fc7",
+            "hardcoded": true
+          },
+          "at_value|item_213cccd15201459dbfa97be2b30ff4a5|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "Total2",
+            "hardcoded": true
+          },
+          "at_value|item_f413975edd884257a292eb0310094386|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_f413975edd884257a292eb0310094386|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_f413975edd884257a292eb0310094386|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_2f2855575e094a129667cb93a4cdb903",
+            "hardcoded": true
+          },
+          "at_value|item_f413975edd884257a292eb0310094386|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "dnxoe",
+            "hardcoded": true
+          },
+          "at_value|item_b2519112711244ee8297a4d71e9e84ed|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_b2519112711244ee8297a4d71e9e84ed|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_b2519112711244ee8297a4d71e9e84ed|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_e37c1571b32746cfad38d71817a85955",
+            "hardcoded": true
+          },
+          "at_value|item_b2519112711244ee8297a4d71e9e84ed|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "m0k4d",
+            "hardcoded": true
+          },
+          "at_value|item_b3aca353d2db47bc85cc32e85aa9f0c1|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_b3aca353d2db47bc85cc32e85aa9f0c1|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_b3aca353d2db47bc85cc32e85aa9f0c1|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_4acb282007d245509bdfd06cb9779b31",
+            "hardcoded": true
+          },
+          "at_value|item_b3aca353d2db47bc85cc32e85aa9f0c1|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "bvivo",
+            "hardcoded": true
+          },
+          "at_value|item_b3aca353d2db47bc85cc32e85aa9f0c1|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_bb50157f29c144b292d3e11348fe811c|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_bb50157f29c144b292d3e11348fe811c|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_bb50157f29c144b292d3e11348fe811c|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "G3",
+            "hardcoded": true
+          },
+          "at_value|item_bb50157f29c144b292d3e11348fe811c|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_acb869cf56dd41b397f6544f758228ba|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_acb869cf56dd41b397f6544f758228ba|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_acb869cf56dd41b397f6544f758228ba|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_2a0a43004f9843b7930cc3a1c252d164",
+            "hardcoded": true
+          },
+          "at_value|item_acb869cf56dd41b397f6544f758228ba|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "dmht2",
+            "hardcoded": true
+          },
+          "at_value|item_b7d1fd0a89a9422eaffb9e21902be3d1|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_b7d1fd0a89a9422eaffb9e21902be3d1|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_b7d1fd0a89a9422eaffb9e21902be3d1|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_3a5f956749e14096aa66f61e7febdbc7",
+            "hardcoded": true
+          },
+          "at_value|item_b7d1fd0a89a9422eaffb9e21902be3d1|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "phb3w",
+            "hardcoded": true
+          },
+          "at_value|item_ba92627faaf84b62b5af1faa917a1dc7|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_ba92627faaf84b62b5af1faa917a1dc7|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_ba92627faaf84b62b5af1faa917a1dc7|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_8fd3af1086b74e93b99fde76f6df6171",
+            "hardcoded": true
+          },
+          "at_value|item_ba92627faaf84b62b5af1faa917a1dc7|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "dz4tm",
+            "hardcoded": true
+          },
+          "at_value|item_f6124b7b6be24f31b76cae39b3c3020d|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_f6124b7b6be24f31b76cae39b3c3020d|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_f6124b7b6be24f31b76cae39b3c3020d|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_df06e3c3b8b441aaa1c48bad563499ba",
+            "hardcoded": true
+          },
+          "at_value|item_f6124b7b6be24f31b76cae39b3c3020d|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "w2chj",
+            "hardcoded": true
+          },
+          "at_value|item_b7d1fd0a89a9422eaffb9e21902be3d1|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 11,
+            "hardcoded": true
+          },
+          "at_value|item_f6124b7b6be24f31b76cae39b3c3020d|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 12,
+            "hardcoded": true
+          },
+          "at_value|item_acb869cf56dd41b397f6544f758228ba|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 13,
+            "hardcoded": true
+          },
+          "at_value|item_b4cf499083194d8eb7bda414a4307e3a|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_b4cf499083194d8eb7bda414a4307e3a|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_b4cf499083194d8eb7bda414a4307e3a|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "SuperGroup",
+            "hardcoded": true
+          },
+          "at_value|item_b4cf499083194d8eb7bda414a4307e3a|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_5e9208e1e1584056ab180d19c2762169|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_5e9208e1e1584056ab180d19c2762169|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_5e9208e1e1584056ab180d19c2762169|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_3b4dd7d51431435198de35adf498b748",
+            "hardcoded": true
+          },
+          "at_value|item_5e9208e1e1584056ab180d19c2762169|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "TotalS",
+            "hardcoded": true
+          },
+          "at_value|item_7cf52f57d93f4c72a01ef942cc507ba1|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_7cf52f57d93f4c72a01ef942cc507ba1|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_7cf52f57d93f4c72a01ef942cc507ba1|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_6004123a743a4c639c60bb43c967e597",
+            "hardcoded": true
+          },
+          "at_value|item_7cf52f57d93f4c72a01ef942cc507ba1|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "TotalCA",
+            "hardcoded": true
+          },
+          "at_value|item_fa93e9546744466684a1b3749b374b6f|item_3c811479b9964d81a13ff4501f55b2b7": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_fa93e9546744466684a1b3749b374b6f|item_41121549143042c38c8fc93c59e2b9c4": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_fa93e9546744466684a1b3749b374b6f|item_e067d02e19c143debe351e9507f8f0c6": {
+            "_type": "text",
+            "value": "item_a5a4abcd041b4fd4813d9224b010a868",
+            "hardcoded": true
+          },
+          "at_value|item_fa93e9546744466684a1b3749b374b6f|item_9758b5d93f4642a4aeb3abb62fa61e26": {
+            "_type": "text",
+            "value": "TotalSA",
+            "hardcoded": true
+          },
+          "at_value|item_3d6e0fb2aef04c5f9825b9b9b5c1d273|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 7,
+            "hardcoded": true
+          },
+          "at_value|item_2c40caa87e9247fca468f4c2b4e2d4c1|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          },
+          "at_value|item_ba92627faaf84b62b5af1faa917a1dc7|item_8756726990bd4a4bbf3f57eb9bfc69fb": {
+            "_type": "number",
+            "value": 9,
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_dbaf398c80d2429181d244120dfed343": {
+        "id": "cube_dbaf398c80d2429181d244120dfed343",
+        "name": "%RECEDG",
+        "dimension_ids": [
+          "@",
+          "dim_4eab485a087f4e01ab2e30e77898f9a4",
+          "dim_037eaa20a2dd4e30aea22438c76aa175"
+        ],
+        "data": {
+          "at_value|item_4739843a1f604ee987cc16eb302f6858|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_4739843a1f604ee987cc16eb302f6858|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_dd6209c8d34c4f3ebd1b148a7a5f7182",
+            "hardcoded": true
+          },
+          "at_value|item_4739843a1f604ee987cc16eb302f6858|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_7ace6c1af4254c89815f378f699e4fb1",
+            "hardcoded": true
+          },
+          "at_value|item_4739843a1f604ee987cc16eb302f6858|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_4739843a1f604ee987cc16eb302f6858|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_a7fa20212aa94826b12e679aaa4f13d4|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_a7fa20212aa94826b12e679aaa4f13d4|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_6fafe036de4d404684a693dc2a1eda58",
+            "hardcoded": true
+          },
+          "at_value|item_a7fa20212aa94826b12e679aaa4f13d4|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_559fab4753ec400ca7aec243fddb1d37",
+            "hardcoded": true
+          },
+          "at_value|item_a7fa20212aa94826b12e679aaa4f13d4|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_a7fa20212aa94826b12e679aaa4f13d4|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_4488815b19bb4c51bda5f416699f0b11|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_4488815b19bb4c51bda5f416699f0b11|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_19452c0ff0c24abfb7ce7ea838975b7f",
+            "hardcoded": true
+          },
+          "at_value|item_4488815b19bb4c51bda5f416699f0b11|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_7ace6c1af4254c89815f378f699e4fb1",
+            "hardcoded": true
+          },
+          "at_value|item_4488815b19bb4c51bda5f416699f0b11|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_4488815b19bb4c51bda5f416699f0b11|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_6a6364ca7d264afa85129f69754dcb17|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_6a6364ca7d264afa85129f69754dcb17|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_6eb0f61392724ba7b21875ac540ebf11",
+            "hardcoded": true
+          },
+          "at_value|item_6a6364ca7d264afa85129f69754dcb17|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_7ace6c1af4254c89815f378f699e4fb1",
+            "hardcoded": true
+          },
+          "at_value|item_6a6364ca7d264afa85129f69754dcb17|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_6a6364ca7d264afa85129f69754dcb17|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_6be5d9be9ad14475bd49dc05f403e608|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_6be5d9be9ad14475bd49dc05f403e608|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_cc56b9447935410294cefd162ccb1cee",
+            "hardcoded": true
+          },
+          "at_value|item_6be5d9be9ad14475bd49dc05f403e608|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_7ace6c1af4254c89815f378f699e4fb1",
+            "hardcoded": true
+          },
+          "at_value|item_6be5d9be9ad14475bd49dc05f403e608|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_6be5d9be9ad14475bd49dc05f403e608|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_d022ad34a03d4ca0b0a22d589ee298a2|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_d022ad34a03d4ca0b0a22d589ee298a2|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_a42a88312dc5494d94460a41230b6f7c",
+            "hardcoded": true
+          },
+          "at_value|item_d022ad34a03d4ca0b0a22d589ee298a2|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_eb590ac5e5dc46f8ba0a7ce9e89dcf4e",
+            "hardcoded": true
+          },
+          "at_value|item_d022ad34a03d4ca0b0a22d589ee298a2|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_d022ad34a03d4ca0b0a22d589ee298a2|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_341af4fbc18046f1af66ecedec742a04|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_341af4fbc18046f1af66ecedec742a04|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_ddc08a64d11b45699434afabcd031db7",
+            "hardcoded": true
+          },
+          "at_value|item_341af4fbc18046f1af66ecedec742a04|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_eb590ac5e5dc46f8ba0a7ce9e89dcf4e",
+            "hardcoded": true
+          },
+          "at_value|item_341af4fbc18046f1af66ecedec742a04|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_341af4fbc18046f1af66ecedec742a04|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_9da2c0d28c9b4004bd46a12c7ed8f0d1|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_9da2c0d28c9b4004bd46a12c7ed8f0d1|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_d1b87091997e40468e81f57090ead6f4",
+            "hardcoded": true
+          },
+          "at_value|item_9da2c0d28c9b4004bd46a12c7ed8f0d1|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_eb590ac5e5dc46f8ba0a7ce9e89dcf4e",
+            "hardcoded": true
+          },
+          "at_value|item_9da2c0d28c9b4004bd46a12c7ed8f0d1|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_9da2c0d28c9b4004bd46a12c7ed8f0d1|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_a9e6701aca8f407287e8c5831058cbd4|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_a9e6701aca8f407287e8c5831058cbd4|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_5d702e6521994081b105899fb8f94508",
+            "hardcoded": true
+          },
+          "at_value|item_a9e6701aca8f407287e8c5831058cbd4|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_eb590ac5e5dc46f8ba0a7ce9e89dcf4e",
+            "hardcoded": true
+          },
+          "at_value|item_a9e6701aca8f407287e8c5831058cbd4|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_a9e6701aca8f407287e8c5831058cbd4|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_729a2526a37e4c0b9ed3d9f1799ee2f1|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_729a2526a37e4c0b9ed3d9f1799ee2f1|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_dcefc803a8ee4ef6ba2ca2ee4abae2df",
+            "hardcoded": true
+          },
+          "at_value|item_729a2526a37e4c0b9ed3d9f1799ee2f1|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_eb590ac5e5dc46f8ba0a7ce9e89dcf4e",
+            "hardcoded": true
+          },
+          "at_value|item_729a2526a37e4c0b9ed3d9f1799ee2f1|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_729a2526a37e4c0b9ed3d9f1799ee2f1|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_223af2f266f34836814c3a58a327cb97|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_223af2f266f34836814c3a58a327cb97|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_6d72663a54834e0aadb07f6ea898dd8d",
+            "hardcoded": true
+          },
+          "at_value|item_223af2f266f34836814c3a58a327cb97|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_559fab4753ec400ca7aec243fddb1d37",
+            "hardcoded": true
+          },
+          "at_value|item_223af2f266f34836814c3a58a327cb97|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_223af2f266f34836814c3a58a327cb97|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_eff0afa9563d431a9999d8026da8a31f|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_eff0afa9563d431a9999d8026da8a31f|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_cb74e54eaa874d799b96ff0cb42623f3",
+            "hardcoded": true
+          },
+          "at_value|item_eff0afa9563d431a9999d8026da8a31f|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_559fab4753ec400ca7aec243fddb1d37",
+            "hardcoded": true
+          },
+          "at_value|item_eff0afa9563d431a9999d8026da8a31f|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_eff0afa9563d431a9999d8026da8a31f|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_747285e3ead84cd7b5453af2c2fb2b3c|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_747285e3ead84cd7b5453af2c2fb2b3c|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_562d7554862041cea6ca8bae1b193e83",
+            "hardcoded": true
+          },
+          "at_value|item_747285e3ead84cd7b5453af2c2fb2b3c|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_81020933a8e64ea2982b52373771becf",
+            "hardcoded": true
+          },
+          "at_value|item_747285e3ead84cd7b5453af2c2fb2b3c|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_747285e3ead84cd7b5453af2c2fb2b3c|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_38d4a8a81aa0439f8b12bf98234e7e0e|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_38d4a8a81aa0439f8b12bf98234e7e0e|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_0c05a624e90d4e398ba90ebfd533ec50",
+            "hardcoded": true
+          },
+          "at_value|item_38d4a8a81aa0439f8b12bf98234e7e0e|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_81020933a8e64ea2982b52373771becf",
+            "hardcoded": true
+          },
+          "at_value|item_38d4a8a81aa0439f8b12bf98234e7e0e|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_38d4a8a81aa0439f8b12bf98234e7e0e|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_f682967bf8d04cf791a5744366e1a3e3|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_f682967bf8d04cf791a5744366e1a3e3|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_406392bbb1be49649b6e903aa0300ee9",
+            "hardcoded": true
+          },
+          "at_value|item_f682967bf8d04cf791a5744366e1a3e3|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_81020933a8e64ea2982b52373771becf",
+            "hardcoded": true
+          },
+          "at_value|item_f682967bf8d04cf791a5744366e1a3e3|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_f682967bf8d04cf791a5744366e1a3e3|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_d5973d56d4d4425f95fc56ed19577da4|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_d5973d56d4d4425f95fc56ed19577da4|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_fd54f4c375bc407c892447128be4c06c",
+            "hardcoded": true
+          },
+          "at_value|item_d5973d56d4d4425f95fc56ed19577da4|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_f53bca600d194490aa2c87617e236015",
+            "hardcoded": true
+          },
+          "at_value|item_d5973d56d4d4425f95fc56ed19577da4|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_d5973d56d4d4425f95fc56ed19577da4|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_766547316bf64ca3a9cb381a49de2202|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_766547316bf64ca3a9cb381a49de2202|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_7da0ab6bfa904de489d4743a483c6a18",
+            "hardcoded": true
+          },
+          "at_value|item_766547316bf64ca3a9cb381a49de2202|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_f53bca600d194490aa2c87617e236015",
+            "hardcoded": true
+          },
+          "at_value|item_766547316bf64ca3a9cb381a49de2202|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_766547316bf64ca3a9cb381a49de2202|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_360be71ceb694d479cc735399dcd15ba|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_360be71ceb694d479cc735399dcd15ba|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_a8d49f42f3ad4e90b8a2e1b8df2ad828",
+            "hardcoded": true
+          },
+          "at_value|item_360be71ceb694d479cc735399dcd15ba|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_f53bca600d194490aa2c87617e236015",
+            "hardcoded": true
+          },
+          "at_value|item_360be71ceb694d479cc735399dcd15ba|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_360be71ceb694d479cc735399dcd15ba|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_76393aaf91a5423a95ec9be70097cb85|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_76393aaf91a5423a95ec9be70097cb85|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_2738c56523614247bc5e283e63edaf0e",
+            "hardcoded": true
+          },
+          "at_value|item_76393aaf91a5423a95ec9be70097cb85|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_81020933a8e64ea2982b52373771becf",
+            "hardcoded": true
+          },
+          "at_value|item_76393aaf91a5423a95ec9be70097cb85|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_76393aaf91a5423a95ec9be70097cb85|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_063dc87b7d0a4f39a5ac365084dfa0f4|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_063dc87b7d0a4f39a5ac365084dfa0f4|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_24fcefdaf0df4bb2999694cf3a9d86d7",
+            "hardcoded": true
+          },
+          "at_value|item_063dc87b7d0a4f39a5ac365084dfa0f4|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_1093718dfaf54d578eaca71628dc1d81",
+            "hardcoded": true
+          },
+          "at_value|item_063dc87b7d0a4f39a5ac365084dfa0f4|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_063dc87b7d0a4f39a5ac365084dfa0f4|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_5b414ee835c34c33bef46dc1365d5825|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_5b414ee835c34c33bef46dc1365d5825|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_8eb27125b2a14aeebaacaafdb6fb4120",
+            "hardcoded": true
+          },
+          "at_value|item_5b414ee835c34c33bef46dc1365d5825|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_1093718dfaf54d578eaca71628dc1d81",
+            "hardcoded": true
+          },
+          "at_value|item_5b414ee835c34c33bef46dc1365d5825|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_1a28305d43654ebcbdf1bb16c116dd17",
+            "hardcoded": true
+          },
+          "at_value|item_5b414ee835c34c33bef46dc1365d5825|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_eb00a292946345de8bd9673d52e5d8b7|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_eb00a292946345de8bd9673d52e5d8b7|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_7ea5c7f4c41e47fcbece97e0d125a4b3",
+            "hardcoded": true
+          },
+          "at_value|item_eb00a292946345de8bd9673d52e5d8b7|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_eb00a292946345de8bd9673d52e5d8b7|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_eb00a292946345de8bd9673d52e5d8b7|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_c6328fb9e6344035bdc2d0638029a6e7|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_c6328fb9e6344035bdc2d0638029a6e7|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_4daf715bc7f844a0b67935c490382364",
+            "hardcoded": true
+          },
+          "at_value|item_c6328fb9e6344035bdc2d0638029a6e7|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_c6328fb9e6344035bdc2d0638029a6e7|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_c6328fb9e6344035bdc2d0638029a6e7|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_9f0235fb9b274de3b8fccd724d66d76e|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_9f0235fb9b274de3b8fccd724d66d76e|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_58729b76d8d44ffeba3ea8c841f372d4",
+            "hardcoded": true
+          },
+          "at_value|item_9f0235fb9b274de3b8fccd724d66d76e|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_9f0235fb9b274de3b8fccd724d66d76e|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_9f0235fb9b274de3b8fccd724d66d76e|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_1bfa77fe19164167bff27aaf9b6786f3|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_1bfa77fe19164167bff27aaf9b6786f3|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_ab4e36b60b55421a88350b019b37b347",
+            "hardcoded": true
+          },
+          "at_value|item_1bfa77fe19164167bff27aaf9b6786f3|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_1bfa77fe19164167bff27aaf9b6786f3|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_1bfa77fe19164167bff27aaf9b6786f3|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_63898b10a78c4c8ba845286925691f72|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_63898b10a78c4c8ba845286925691f72|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_979fb66aafb64b4f9098c54061ba15f5",
+            "hardcoded": true
+          },
+          "at_value|item_63898b10a78c4c8ba845286925691f72|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_63898b10a78c4c8ba845286925691f72|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_63898b10a78c4c8ba845286925691f72|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_d8cf96a0184648208794d4787ff33c49|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_d8cf96a0184648208794d4787ff33c49|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_304ca6f5e2d1484f8a0dba74a0e82421",
+            "hardcoded": true
+          },
+          "at_value|item_d8cf96a0184648208794d4787ff33c49|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_d8cf96a0184648208794d4787ff33c49|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_d8cf96a0184648208794d4787ff33c49|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_f9947b51bf0a488fbbf8e62f430f63b2|item_f59aecd3bd3044369f67265855339df4": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_f9947b51bf0a488fbbf8e62f430f63b2|item_94bb3f9a68e34aabb8abeacb68264884": {
+            "_type": "text",
+            "value": "nod_b5c601fa0518470a8ee3e44f053b1aec",
+            "hardcoded": true
+          },
+          "at_value|item_f9947b51bf0a488fbbf8e62f430f63b2|item_d70791c171f545819640117307b5d227": {
+            "_type": "text",
+            "value": "nod_5530443a56b04b4a8180230cceef751b",
+            "hardcoded": true
+          },
+          "at_value|item_f9947b51bf0a488fbbf8e62f430f63b2|item_3ba4c3f597734fb6b55e8970971b22bc": {
+            "_type": "text",
+            "value": "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+            "hardcoded": true
+          },
+          "at_value|item_f9947b51bf0a488fbbf8e62f430f63b2|item_417a11bb3f4b462f973850f456210dd9": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_f1b35b6bfaf442b19c19a61fd8187057": {
+        "id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "name": "C",
+        "dimension_ids": [
+          "@",
+          "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a",
+          "dim_1a28305d43654ebcbdf1bb16c116dd17"
+        ],
+        "data": {
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 0.7,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 7,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 8,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 9,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 11,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 67,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 89,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 0.3,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 0.3,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 0.7,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 0.7,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 0.7,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 0.7,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 8,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 9,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 11,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 12,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 13,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 14,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 15,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 7,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 8,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_d93a069ff2ee4a319ebd2f3548adacf5": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 7,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_b48548292b244235a60fb08c99aeb8d4": {
+            "_type": "number",
+            "value": 8,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 9,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 11,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_cf1579205db74944ababa908cf9d0e92": {
+            "_type": "number",
+            "value": 12,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_74bd7b1f365840119c8fe47d23303b87": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 7,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_5b50120d86574d66b8aef46f2e939a24": {
+            "_type": "number",
+            "value": 8,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 9,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_4da47ea589f44acdb36554bc29c60c5f": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_1445de34b43844c5b479973843c8a1b4": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_53aaebfbcf1e4976bb40c83d774b29f4|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_6e9a686eb2ca4879ada7ffcd48cec28b|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_ca8194faa6524e18900f5a6c4ab9202a|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 5,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_0f2ebbeac5ca4bd2806995a06a7e5127|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 0.7,
+            "hardcoded": true
+          },
+          "at_value|item_859c4503536c4be1b10b1958b7029e2c|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 6,
+            "hardcoded": true
+          },
+          "at_value|item_c3d2afec51ee44b3896fcda626292dd9|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 7,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_5130fc16360c4673915da638c0742e11|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_f3ae35ded7b1421b89a9bf39e0cf251b|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_8d595694f0614e7abdd7bc3a5aa9f1d3|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          },
+          "at_value|item_d5979b247cd34f32a36e1279a3604b13|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 0.5,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 9,
+            "hardcoded": true
+          },
+          "at_value|item_06ba6b14cfc343cea32561567c39aeaa|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 10,
+            "hardcoded": true
+          },
+          "at_value|item_6f0878142bda48798489049c252958e8|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_2f2855575e094a129667cb93a4cdb903": {
+            "_type": "number",
+            "value": 11,
+            "hardcoded": true
+          },
+          "at_value|item_93c05319f9734b94b1f67d254f5f1550|item_e37c1571b32746cfad38d71817a85955": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          }
+        }
+      }
+    },
+    "rules": {
+      "r_8c4be2c346af491bbd637ed33e2596fe": {
+        "id": "r_8c4be2c346af491bbd637ed33e2596fe",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "sum(a.groupg)",
+        "addr_mask": [
+          null,
+          "item_79fb00a163d04499b9a770abc65edaff",
+          null
+        ],
+        "targets": [
+          [
+            "a",
+            "totalgg"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_a594831504c845c8a6457fa5d85fbb70": {
+        "id": "r_a594831504c845c8a6457fa5d85fbb70",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "\"#b2ebf2\"",
+        "addr_mask": [
+          "at_fill",
+          "item_79fb00a163d04499b9a770abc65edaff",
+          null
+        ],
+        "targets": [
+          [
+            "A",
+            "TotalG"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_c2b14232a3334249bb2edeba5aaa9ba0": {
+        "id": "r_c2b14232a3334249bb2edeba5aaa9ba0",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "\"#ffd966\"",
+        "addr_mask": [
+          "at_fill",
+          "item_21b46fe91dd64eebbc1eb2169bc15db8",
+          null
+        ],
+        "targets": [
+          [
+            "A",
+            "innerTotal"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_8796482d33c144d4a3844059692b08c8": {
+        "id": "r_8796482d33c144d4a3844059692b08c8",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "\"#81c784\"",
+        "addr_mask": [
+          "at_fill",
+          "item_d1c6417a506f4e4cb461ff482486408b",
+          null
+        ],
+        "targets": [
+          [
+            "A",
+            "overTotal"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_3fc50ea74bc449b1a50c8dea81a002ab": {
+        "id": "r_3fc50ea74bc449b1a50c8dea81a002ab",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "sum(a.groupa)",
+        "addr_mask": [
+          null,
+          "item_21b46fe91dd64eebbc1eb2169bc15db8",
+          null
+        ],
+        "targets": [
+          [
+            "a",
+            "totalga"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_8296ef7123854976a521b0e4cd47e8de": {
+        "id": "r_8296ef7123854976a521b0e4cd47e8de",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "sum(a.groupb)",
+        "addr_mask": [
+          null,
+          "item_d1c6417a506f4e4cb461ff482486408b",
+          null
+        ],
+        "targets": [
+          [
+            "a",
+            "totalgb"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_1fa7104bdc78403dbf1f9db300a7c9fa": {
+        "id": "r_1fa7104bdc78403dbf1f9db300a7c9fa",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "sum(b.g1)",
+        "addr_mask": [
+          null,
+          null,
+          "item_8909cd046f4140819b9c714804e7abd7"
+        ],
+        "targets": [
+          [
+            "b",
+            "total"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_3aa6b096d98a4e8ea522d62b3d817dd6": {
+        "id": "r_3aa6b096d98a4e8ea522d62b3d817dd6",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "average(a.supergroup)",
+        "addr_mask": [
+          null,
+          "item_a5a4abcd041b4fd4813d9224b010a868",
+          null
+        ],
+        "targets": [
+          [
+            "a",
+            "totala"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_e9146f854d8e479aadad9d47e6b36588": {
+        "id": "r_e9146f854d8e479aadad9d47e6b36588",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "sum(a.supergroup)",
+        "addr_mask": [
+          null,
+          "item_3b4dd7d51431435198de35adf498b748",
+          null
+        ],
+        "targets": [
+          [
+            "a",
+            "totals"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_5952094198c94116bcab46f23a0bf1f8": {
+        "id": "r_5952094198c94116bcab46f23a0bf1f8",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "counta(a.supergroup)",
+        "addr_mask": [
+          null,
+          "item_6004123a743a4c639c60bb43c967e597",
+          null
+        ],
+        "targets": [
+          [
+            "a",
+            "totalc"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_3ed4fe06edc34dbd91ad3140d7aeff45": {
+        "id": "r_3ed4fe06edc34dbd91ad3140d7aeff45",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "\"#b8860b\"",
+        "addr_mask": [
+          "at_fill",
+          "item_a5a4abcd041b4fd4813d9224b010a868",
+          null
+        ],
+        "targets": [
+          [
+            "A",
+            "TotalA"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_72edee6902ae4642967cb2c219e829dc": {
+        "id": "r_72edee6902ae4642967cb2c219e829dc",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "\"#1a4480\"",
+        "addr_mask": [
+          "at_fill",
+          "item_6004123a743a4c639c60bb43c967e597",
+          null
+        ],
+        "targets": [
+          [
+            "A",
+            "TotalC"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_88fac17651564d4e8714880c1f8a8e4c": {
+        "id": "r_88fac17651564d4e8714880c1f8a8e4c",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "\"#b33767\"",
+        "addr_mask": [
+          "at_fill",
+          "item_3b4dd7d51431435198de35adf498b748",
+          null
+        ],
+        "targets": [
+          [
+            "A",
+            "TotalS"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_5a26c27a3b59418bb3ae25fabe32e486": {
+        "id": "r_5a26c27a3b59418bb3ae25fabe32e486",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "sum(b.g2)",
+        "addr_mask": [
+          null,
+          null,
+          "item_607b64994cf84f518266808c23921fc7"
+        ],
+        "targets": [
+          [
+            "b",
+            "total2"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_e819d77c848a4998adf8218c64757e3a": {
+        "id": "r_e819d77c848a4998adf8218c64757e3a",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "expression": "'preset:number(decimals=0; group=true; negative=parentheses; zero=dash)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      }
+    },
+    "rule_order": [
+      "r_e819d77c848a4998adf8218c64757e3a",
+      "r_8c4be2c346af491bbd637ed33e2596fe",
+      "r_a594831504c845c8a6457fa5d85fbb70",
+      "r_c2b14232a3334249bb2edeba5aaa9ba0",
+      "r_8796482d33c144d4a3844059692b08c8",
+      "r_3fc50ea74bc449b1a50c8dea81a002ab",
+      "r_8296ef7123854976a521b0e4cd47e8de",
+      "r_1fa7104bdc78403dbf1f9db300a7c9fa",
+      "r_3aa6b096d98a4e8ea522d62b3d817dd6",
+      "r_e9146f854d8e479aadad9d47e6b36588",
+      "r_5952094198c94116bcab46f23a0bf1f8",
+      "r_3ed4fe06edc34dbd91ad3140d7aeff45",
+      "r_72edee6902ae4642967cb2c219e829dc",
+      "r_88fac17651564d4e8714880c1f8a8e4c",
+      "r_5a26c27a3b59418bb3ae25fabe32e486"
+    ],
+    "views": {
+      "view_d643b46fd5ac40e19d5b0ffc0cf0150f": {
+        "id": "view_d643b46fd5ac40e19d5b0ffc0cf0150f",
+        "name": "%CFG",
+        "cube_id": "cube_59fe2f7f6b06470caecaac2f555deef3",
+        "row_dim_ids": [
+          "dim_45cc244851c242858969a5879038b721"
+        ],
+        "col_dim_ids": [
+          "dim_47c439cdde4546f582b5808f2bc37866"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_f64a8b3683144344b1d5cc4ed5ac389a": {
+        "id": "view_f64a8b3683144344b1d5cc4ed5ac389a",
+        "name": "%SIG",
+        "cube_id": "cube_ea1966fa616b4e378b7473b1adb3f384",
+        "row_dim_ids": [
+          "dim_87ca98dfa64449b2b5161a55d821d700"
+        ],
+        "col_dim_ids": [
+          "dim_bb427f2f43064e899add9a0f6740ee1e"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_259f5813d5d14240a234edb0f0955d5a": {
+        "id": "view_259f5813d5d14240a234edb0f0955d5a",
+        "name": "%TYP",
+        "cube_id": "cube_c08c0a8e2b3c45f19e10260fec0cd883",
+        "row_dim_ids": [
+          "dim_5df238e6130f4a8b8ada396aadf23368"
+        ],
+        "col_dim_ids": [
+          "dim_a4a362962ced451e864962bd140e564e"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_eabaf21823914639966725bdbc31a49f": {
+        "id": "view_eabaf21823914639966725bdbc31a49f",
+        "name": "%RECNOD",
+        "cube_id": "cube_e82823bde294475cb933ea33bb07ffc9",
+        "row_dim_ids": [
+          "dim_89357f6bd8f642cfa50c0a3292540eaa"
+        ],
+        "col_dim_ids": [
+          "dim_b478fd43ab204840b222688580e37b3d"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_7f65702b78984666a9955df978e564f4": {
+        "id": "view_7f65702b78984666a9955df978e564f4",
+        "name": "%RECEDG",
+        "cube_id": "cube_dbaf398c80d2429181d244120dfed343",
+        "row_dim_ids": [
+          "dim_4eab485a087f4e01ab2e30e77898f9a4"
+        ],
+        "col_dim_ids": [
+          "dim_037eaa20a2dd4e30aea22438c76aa175"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_15c50b8f5e4d447981f8c9a49cf6c26b": {
+        "id": "view_15c50b8f5e4d447981f8c9a49cf6c26b",
+        "name": "C",
+        "cube_id": "cube_f1b35b6bfaf442b19c19a61fd8187057",
+        "row_dim_ids": [
+          "dim_7d8dbaaf1d4844a39ae6ea2a267fa09a"
+        ],
+        "col_dim_ids": [
+          "dim_1a28305d43654ebcbdf1bb16c116dd17"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {
+          "9": 90
+        },
+        "row_header_widths": {}
+      }
+    },
+    "views_order": [
+      "view_d643b46fd5ac40e19d5b0ffc0cf0150f",
+      "view_f64a8b3683144344b1d5cc4ed5ac389a",
+      "view_259f5813d5d14240a234edb0f0955d5a",
+      "view_eabaf21823914639966725bdbc31a49f",
+      "view_7f65702b78984666a9955df978e564f4",
+      "view_15c50b8f5e4d447981f8c9a49cf6c26b"
+    ],
+    "udfs": [],
+    "active_view_id": "view_15c50b8f5e4d447981f8c9a49cf6c26b"
+  }
+}

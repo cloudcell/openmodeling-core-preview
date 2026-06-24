@@ -1,0 +1,1635 @@
+{
+  "schema_version": 16,
+  "workspace": {
+    "id": "ws_f52c266fdc3f4286a70e38b162fb5699",
+    "name": "Demo",
+    "dimensions": {
+      "@": {
+        "id": "@",
+        "name": "@",
+        "items": [
+          {
+            "id": "at_value",
+            "name": "value"
+          },
+          {
+            "id": "at_style",
+            "name": "style"
+          },
+          {
+            "id": "at_format_number",
+            "name": "format_number"
+          },
+          {
+            "id": "at_format_text",
+            "name": "format_text"
+          },
+          {
+            "id": "at_format_null",
+            "name": "format_null"
+          },
+          {
+            "id": "at_format_error",
+            "name": "format_error"
+          },
+          {
+            "id": "at_fill",
+            "name": "fill"
+          },
+          {
+            "id": "at_font_family",
+            "name": "font_family"
+          },
+          {
+            "id": "at_font_size",
+            "name": "font_size"
+          },
+          {
+            "id": "at_font_weight",
+            "name": "font_weight"
+          },
+          {
+            "id": "at_font_italic",
+            "name": "font_italic"
+          },
+          {
+            "id": "at_font_color",
+            "name": "font_color"
+          },
+          {
+            "id": "at_text_h_align",
+            "name": "text_h_align"
+          },
+          {
+            "id": "at_text_v_align",
+            "name": "text_v_align"
+          },
+          {
+            "id": "at_text_indent",
+            "name": "text_indent"
+          },
+          {
+            "id": "at_text_wrap",
+            "name": "text_wrap"
+          },
+          {
+            "id": "at_text_rotation",
+            "name": "text_rotation"
+          },
+          {
+            "id": "at_border_top",
+            "name": "border_top"
+          },
+          {
+            "id": "at_border_bottom",
+            "name": "border_bottom"
+          },
+          {
+            "id": "at_border_left",
+            "name": "border_left"
+          },
+          {
+            "id": "at_border_right",
+            "name": "border_right"
+          },
+          {
+            "id": "at_border_diag_up",
+            "name": "border_diag_up"
+          },
+          {
+            "id": "at_border_diag_down",
+            "name": "border_diag_down"
+          },
+          {
+            "id": "at_validation_type",
+            "name": "validation_type"
+          },
+          {
+            "id": "at_validation_rule",
+            "name": "validation_rule"
+          },
+          {
+            "id": "at_validation_message",
+            "name": "validation_message"
+          },
+          {
+            "id": "at_validation_allow_empty",
+            "name": "validation_allow_empty"
+          },
+          {
+            "id": "at_comment",
+            "name": "comment"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": true
+      },
+      "dim_984a7a466a4b4c5fbd688dcb3e64be74": {
+        "id": "dim_984a7a466a4b4c5fbd688dcb3e64be74",
+        "name": "%CFGITM",
+        "items": [
+          {
+            "id": "item_fb8a672603c34df9886364ef4e8777e5",
+            "name": "system_table_typ"
+          },
+          {
+            "id": "item_797dfa696d7b4cb4bcde7723f393ca87",
+            "name": "system_table_sig"
+          },
+          {
+            "id": "item_4aac22efcddd44fbb01b205f3f83c8fd",
+            "name": "system_table_recnod"
+          },
+          {
+            "id": "item_f20737078f9c46389047009a16448b51",
+            "name": "system_table_recedg"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_df70f391fb7b4648a4f68b1e01fb9775": {
+        "id": "dim_df70f391fb7b4648a4f68b1e01fb9775",
+        "name": "%CFGMET",
+        "items": [
+          {
+            "id": "item_667d76af4c92485a9489c0bcbb388f6c",
+            "name": "NUL"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_ec8ed113713c43e49110fcf375496c76": {
+        "id": "dim_ec8ed113713c43e49110fcf375496c76",
+        "name": "%ADR",
+        "items": [
+          {
+            "id": "item_fd3f2312c3f74cca84e2ad2b9cd8b675",
+            "name": "ADR"
+          },
+          {
+            "id": "item_b994e76041ff4cba9cc93b06b9d7284e",
+            "name": "ARG"
+          },
+          {
+            "id": "item_356a57527db349aa80e41aed39d7122b",
+            "name": "SRC"
+          },
+          {
+            "id": "item_a3efef3013c34b2ea5aa82d14e725a9e",
+            "name": "TGT"
+          },
+          {
+            "id": "item_ee13c96c0235461785f8555e2d00d0c7",
+            "name": "FLD"
+          },
+          {
+            "id": "item_d555e108eba442f782547bf35c4fc330",
+            "name": "SIG"
+          },
+          {
+            "id": "item_62d4c6292a0c432a9c4c5b39c3289269",
+            "name": "OBJ"
+          },
+          {
+            "id": "item_9ce844c403ee421aac0f7e8cb511bf54",
+            "name": "REL"
+          },
+          {
+            "id": "item_2b680970f8ab437dab06a2460a40c770",
+            "name": "REI"
+          },
+          {
+            "id": "item_cdee956ae4544b17b1c3b1888bb74bb8",
+            "name": "PRD"
+          },
+          {
+            "id": "item_b8f20e81873645198d06a57f0ce3cd77",
+            "name": "GRD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_86b70bcaf8474bb3b76b4f936f78b4af": {
+        "id": "dim_86b70bcaf8474bb3b76b4f936f78b4af",
+        "name": "%FLD",
+        "items": [
+          {
+            "id": "item_fce829f4c2f24b1abc46a154cf3da71d",
+            "name": "SRC"
+          },
+          {
+            "id": "item_abef62c8ad9d4718a90ff5b4976ed7c1",
+            "name": "TGT"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_ca58f9dc773f4e6bb57e2a0919c758de": {
+        "id": "dim_ca58f9dc773f4e6bb57e2a0919c758de",
+        "name": "%TYPADR",
+        "items": [
+          {
+            "id": "item_0a7ea12791824a6f9cc34a30f3a0797a",
+            "name": "system_type_nul"
+          },
+          {
+            "id": "item_f3e3157f88c04bbe968bc8d56edb08c4",
+            "name": "system_type_knd"
+          },
+          {
+            "id": "item_3c4e4ce6662e4e03a1278512888dd7d6",
+            "name": "system_type_dim"
+          },
+          {
+            "id": "item_2a887a3c17264715a0d043be4c93ecac",
+            "name": "system_type_ref"
+          },
+          {
+            "id": "item_980d8b6cf98040f8b3730db5eeaba694",
+            "name": "system_type_lbl"
+          },
+          {
+            "id": "item_39cfe950e9214d8f8ef1da2bd9f28d4d",
+            "name": "system_type_src"
+          },
+          {
+            "id": "item_3f4458feee3241179e648f8f7f6606fb",
+            "name": "system_type_tgt"
+          },
+          {
+            "id": "item_926e50670d3c4598b073f35fb1f09dcc",
+            "name": "system_type_ord"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_0244ee63f36942e2b8366a3c67509022": {
+        "id": "dim_0244ee63f36942e2b8366a3c67509022",
+        "name": "%TYPFLD",
+        "items": [
+          {
+            "id": "item_9bec90ee0329426ba24a3a6b2a79a219",
+            "name": "NUL"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_2a479624aa2f4b2584cfa1efd0ac20e9": {
+        "id": "dim_2a479624aa2f4b2584cfa1efd0ac20e9",
+        "name": "%RECNODADR",
+        "items": [
+          {
+            "id": "item_a9da0df5979f4a3bbee74ea64448f183",
+            "name": "NUL"
+          },
+          {
+            "id": "item_d27ce45625d4438890ffbe346b38752b",
+            "name": "nod_26a9f1f820cc4c389cc10ba991492664"
+          },
+          {
+            "id": "item_89bed190226045e1a9bc1f302cff5951",
+            "name": "nod_b69e7f193d074699b1b5770d82db71b0"
+          },
+          {
+            "id": "item_119dfcbb53a84823ab5481d143845c62",
+            "name": "nod_2d8c79dbd1804b9798a8c9e64c710955"
+          },
+          {
+            "id": "item_ecd9243fd0f64c4a8a8b58747564f45e",
+            "name": "nod_d257aab6124e4d5b846e18d7fb5b5e03"
+          },
+          {
+            "id": "item_6fc4980cfb204caea09112279bf6508c",
+            "name": "nod_516b810db18944b59df23835a46fe62c"
+          },
+          {
+            "id": "item_a9125e89bd744e648048bb2cb581ac46",
+            "name": "nod_625666f2d67b44d7a951b7debdbed439"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_d671781843d843679de639f123bda6e8": {
+        "id": "dim_d671781843d843679de639f123bda6e8",
+        "name": "%RECNODFLD",
+        "items": [
+          {
+            "id": "item_10bf914f7b53433887cefd5b31bfc9f0",
+            "name": "KND"
+          },
+          {
+            "id": "item_9b9847f219bb4303aafc0f43f7de7a3e",
+            "name": "DIM"
+          },
+          {
+            "id": "item_dac0de3eca894590badad9d0fc4982de",
+            "name": "REF"
+          },
+          {
+            "id": "item_f28661894fd6471a94bef42a08fbe7bb",
+            "name": "LBL"
+          },
+          {
+            "id": "item_9087a7ef08ab4196bb743f38ada5b15f",
+            "name": "ORD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_6f40d835c5024b62832be1625f859062": {
+        "id": "dim_6f40d835c5024b62832be1625f859062",
+        "name": "%RECEDGADR",
+        "items": [
+          {
+            "id": "item_582de6f77f15495a841dfd79a7c02836",
+            "name": "NUL"
+          },
+          {
+            "id": "item_79e411be7192403581981ad71003df3d",
+            "name": "edg_59742c7395ad46ad9827603b373882f2"
+          },
+          {
+            "id": "item_ff88655dd07c4f469bcee2f3fbe4c59a",
+            "name": "edg_643a3f9e8cb14dbd90f8298edf274d5e"
+          },
+          {
+            "id": "item_1da0a7cb05a6473896287a483675717d",
+            "name": "edg_cf47be0eed9e4c1bb540dda2aab3762d"
+          },
+          {
+            "id": "item_f3620a4a8cdd4a3ab5324cadd7f64e07",
+            "name": "edg_65006f57f2974479809a54bf7d57a491"
+          },
+          {
+            "id": "item_f73da247fafe49c5879688ae760c7cba",
+            "name": "edg_6246c9cd458b4f20828c9f5ef8f72cd0"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_d5332cb392f74301a4bea9f55334a642": {
+        "id": "dim_d5332cb392f74301a4bea9f55334a642",
+        "name": "%RECEDGFLD",
+        "items": [
+          {
+            "id": "item_a8259de013f04ccc89da2b01c4c1b481",
+            "name": "KND"
+          },
+          {
+            "id": "item_003d942b26774648af48a8992c99c800",
+            "name": "SRC"
+          },
+          {
+            "id": "item_65ac5ed8ff5d484b834c805d74fa3c79",
+            "name": "TGT"
+          },
+          {
+            "id": "item_fc63f01653104e44b9b8707e90c12fe1",
+            "name": "DIM"
+          },
+          {
+            "id": "item_f7bfa97dcecb4561845e76030d0d4a42",
+            "name": "ORD"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_76c7b2b48a394ac08408ccab57068efe": {
+        "id": "dim_76c7b2b48a394ac08408ccab57068efe",
+        "name": "PL",
+        "items": [
+          {
+            "id": "item_805dba8c8a5244898edc4d8d5af37845",
+            "name": "Revenue"
+          },
+          {
+            "id": "item_d86067904ca64358adb5a006944e8897",
+            "name": "COS"
+          },
+          {
+            "id": "item_fd7a8840b0c240b1b43a808e48053eb6",
+            "name": "GP"
+          },
+          {
+            "id": "item_a9b74378189b4db2bd95d844499e70ef",
+            "name": "SGA"
+          },
+          {
+            "id": "item_e481f04339064389b7a20939b3262228",
+            "name": "Marketing"
+          },
+          {
+            "id": "item_dd74171670ed4e09b8621bbea66947a3",
+            "name": "EBITDA"
+          },
+          {
+            "id": "item_fbc63fa6fe2d4938a2bf6b4330ae93e3",
+            "name": "Tax"
+          },
+          {
+            "id": "item_8b9b8ca914194b50a6df16a8ca7e396d",
+            "name": "NI"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_39e5e2faccb340cd93e02331068e31e1": {
+        "id": "dim_39e5e2faccb340cd93e02331068e31e1",
+        "name": "Quarter",
+        "items": [
+          {
+            "id": "item_a2fdd0e250624dc9bc5cd9b0eb725558",
+            "name": "Q1"
+          },
+          {
+            "id": "item_c0402efaeb2b4da798033e22bbe62fa7",
+            "name": "Q2"
+          },
+          {
+            "id": "item_3a152c1aa6e6467a8c76014ec3194bf3",
+            "name": "Q3"
+          },
+          {
+            "id": "item_0f787147466d47dc9fa82f4294465446",
+            "name": "Q4"
+          },
+          {
+            "id": "item_2b6f588045ca40dcb6082ebefbc32961",
+            "name": "Total"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_059d89580d3442bb874c927f32839b21": {
+        "id": "dim_059d89580d3442bb874c927f32839b21",
+        "name": "Geo",
+        "items": [
+          {
+            "id": "item_45e4db640c9f4e6eacbe7b51583d6b32",
+            "name": "NZ"
+          },
+          {
+            "id": "item_ad982efe16b24446bf27cbc6c9f33b38",
+            "name": "UK"
+          },
+          {
+            "id": "item_48673b5929464ccd9db82c69393b505e",
+            "name": "US"
+          },
+          {
+            "id": "item_c808b2582823438289d22662072fd0d3",
+            "name": "Global"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      },
+      "dim_16b27f50d2534f93975c27e123e844f5": {
+        "id": "dim_16b27f50d2534f93975c27e123e844f5",
+        "name": "SalesReps",
+        "items": [
+          {
+            "id": "item_5fdda24701a6496685e07b9cd1a9183d",
+            "name": "Alice"
+          },
+          {
+            "id": "item_c3b06c3dd8ac4a71900f21c3bf0be9fd",
+            "name": "Bob"
+          },
+          {
+            "id": "item_e2fa0a66186549269b77eeb98a804aa7",
+            "name": "Charlie"
+          },
+          {
+            "id": "item_4d40dc33b7cf48be93a5ca8c0eb82bf4",
+            "name": "Total"
+          }
+        ],
+        "dim_type": "set",
+        "is_technical": false
+      }
+    },
+    "cubes": {
+      "cube_d051abcc035942d4a7afd09e04b1374b": {
+        "id": "cube_d051abcc035942d4a7afd09e04b1374b",
+        "name": "%CFG",
+        "dimension_ids": [
+          "@",
+          "dim_984a7a466a4b4c5fbd688dcb3e64be74",
+          "dim_df70f391fb7b4648a4f68b1e01fb9775"
+        ],
+        "data": {
+          "at_value|item_fb8a672603c34df9886364ef4e8777e5|item_667d76af4c92485a9489c0bcbb388f6c": {
+            "_type": "text",
+            "value": "%TYP",
+            "hardcoded": true
+          },
+          "at_value|item_797dfa696d7b4cb4bcde7723f393ca87|item_667d76af4c92485a9489c0bcbb388f6c": {
+            "_type": "text",
+            "value": "%SIG",
+            "hardcoded": true
+          },
+          "at_value|item_4aac22efcddd44fbb01b205f3f83c8fd|item_667d76af4c92485a9489c0bcbb388f6c": {
+            "_type": "text",
+            "value": "%RECNOD",
+            "hardcoded": true
+          },
+          "at_value|item_f20737078f9c46389047009a16448b51|item_667d76af4c92485a9489c0bcbb388f6c": {
+            "_type": "text",
+            "value": "%RECEDG",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_4704fd59af3d4ff1a3a98ae56e6ddb8a": {
+        "id": "cube_4704fd59af3d4ff1a3a98ae56e6ddb8a",
+        "name": "%SIG",
+        "dimension_ids": [
+          "@",
+          "dim_ec8ed113713c43e49110fcf375496c76",
+          "dim_86b70bcaf8474bb3b76b4f936f78b4af"
+        ],
+        "data": {
+          "at_value|item_fd3f2312c3f74cca84e2ad2b9cd8b675|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_fd3f2312c3f74cca84e2ad2b9cd8b675|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_b994e76041ff4cba9cc93b06b9d7284e|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_b994e76041ff4cba9cc93b06b9d7284e|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_356a57527db349aa80e41aed39d7122b|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_356a57527db349aa80e41aed39d7122b|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_a3efef3013c34b2ea5aa82d14e725a9e|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_a3efef3013c34b2ea5aa82d14e725a9e|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_ee13c96c0235461785f8555e2d00d0c7|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_ee13c96c0235461785f8555e2d00d0c7|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "ARG",
+            "hardcoded": true
+          },
+          "at_value|item_d555e108eba442f782547bf35c4fc330|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_d555e108eba442f782547bf35c4fc330|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "FLD",
+            "hardcoded": true
+          },
+          "at_value|item_62d4c6292a0c432a9c4c5b39c3289269|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_62d4c6292a0c432a9c4c5b39c3289269|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "SIG",
+            "hardcoded": true
+          },
+          "at_value|item_9ce844c403ee421aac0f7e8cb511bf54|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "OBJ",
+            "hardcoded": true
+          },
+          "at_value|item_9ce844c403ee421aac0f7e8cb511bf54|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "OBJ",
+            "hardcoded": true
+          },
+          "at_value|item_2b680970f8ab437dab06a2460a40c770|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_2b680970f8ab437dab06a2460a40c770|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "REL",
+            "hardcoded": true
+          },
+          "at_value|item_cdee956ae4544b17b1c3b1888bb74bb8|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "REI",
+            "hardcoded": true
+          },
+          "at_value|item_cdee956ae4544b17b1c3b1888bb74bb8|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "REI",
+            "hardcoded": true
+          },
+          "at_value|item_b8f20e81873645198d06a57f0ce3cd77|item_fce829f4c2f24b1abc46a154cf3da71d": {
+            "_type": "text",
+            "value": "ADR",
+            "hardcoded": true
+          },
+          "at_value|item_b8f20e81873645198d06a57f0ce3cd77|item_abef62c8ad9d4718a90ff5b4976ed7c1": {
+            "_type": "text",
+            "value": "PRD",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_ff16e27fd0ff4864be640a01042a2307": {
+        "id": "cube_ff16e27fd0ff4864be640a01042a2307",
+        "name": "%TYP",
+        "dimension_ids": [
+          "@",
+          "dim_ca58f9dc773f4e6bb57e2a0919c758de",
+          "dim_0244ee63f36942e2b8366a3c67509022"
+        ],
+        "data": {
+          "at_value|item_0a7ea12791824a6f9cc34a30f3a0797a|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "NUL",
+            "hardcoded": true
+          },
+          "at_value|item_f3e3157f88c04bbe968bc8d56edb08c4|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "KND",
+            "hardcoded": true
+          },
+          "at_value|item_3c4e4ce6662e4e03a1278512888dd7d6|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "DIM",
+            "hardcoded": true
+          },
+          "at_value|item_2a887a3c17264715a0d043be4c93ecac|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "REF",
+            "hardcoded": true
+          },
+          "at_value|item_980d8b6cf98040f8b3730db5eeaba694|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "LBL",
+            "hardcoded": true
+          },
+          "at_value|item_39cfe950e9214d8f8ef1da2bd9f28d4d|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "SRC",
+            "hardcoded": true
+          },
+          "at_value|item_3f4458feee3241179e648f8f7f6606fb|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "TGT",
+            "hardcoded": true
+          },
+          "at_value|item_926e50670d3c4598b073f35fb1f09dcc|item_9bec90ee0329426ba24a3a6b2a79a219": {
+            "_type": "text",
+            "value": "ORD",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_e96fac47b108447eb9c8d99d98d72825": {
+        "id": "cube_e96fac47b108447eb9c8d99d98d72825",
+        "name": "%RECNOD",
+        "dimension_ids": [
+          "@",
+          "dim_2a479624aa2f4b2584cfa1efd0ac20e9",
+          "dim_d671781843d843679de639f123bda6e8"
+        ],
+        "data": {
+          "at_value|item_d27ce45625d4438890ffbe346b38752b|item_10bf914f7b53433887cefd5b31bfc9f0": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_d27ce45625d4438890ffbe346b38752b|item_9b9847f219bb4303aafc0f43f7de7a3e": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_d27ce45625d4438890ffbe346b38752b|item_dac0de3eca894590badad9d0fc4982de": {
+            "_type": "text",
+            "value": "item_a2fdd0e250624dc9bc5cd9b0eb725558",
+            "hardcoded": true
+          },
+          "at_value|item_d27ce45625d4438890ffbe346b38752b|item_f28661894fd6471a94bef42a08fbe7bb": {
+            "_type": "text",
+            "value": "Q1",
+            "hardcoded": true
+          },
+          "at_value|item_89bed190226045e1a9bc1f302cff5951|item_10bf914f7b53433887cefd5b31bfc9f0": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_89bed190226045e1a9bc1f302cff5951|item_9b9847f219bb4303aafc0f43f7de7a3e": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_89bed190226045e1a9bc1f302cff5951|item_dac0de3eca894590badad9d0fc4982de": {
+            "_type": "text",
+            "value": "item_c0402efaeb2b4da798033e22bbe62fa7",
+            "hardcoded": true
+          },
+          "at_value|item_89bed190226045e1a9bc1f302cff5951|item_f28661894fd6471a94bef42a08fbe7bb": {
+            "_type": "text",
+            "value": "Q2",
+            "hardcoded": true
+          },
+          "at_value|item_119dfcbb53a84823ab5481d143845c62|item_10bf914f7b53433887cefd5b31bfc9f0": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_119dfcbb53a84823ab5481d143845c62|item_9b9847f219bb4303aafc0f43f7de7a3e": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_119dfcbb53a84823ab5481d143845c62|item_dac0de3eca894590badad9d0fc4982de": {
+            "_type": "text",
+            "value": "item_3a152c1aa6e6467a8c76014ec3194bf3",
+            "hardcoded": true
+          },
+          "at_value|item_119dfcbb53a84823ab5481d143845c62|item_f28661894fd6471a94bef42a08fbe7bb": {
+            "_type": "text",
+            "value": "Q3",
+            "hardcoded": true
+          },
+          "at_value|item_ecd9243fd0f64c4a8a8b58747564f45e|item_10bf914f7b53433887cefd5b31bfc9f0": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_ecd9243fd0f64c4a8a8b58747564f45e|item_9b9847f219bb4303aafc0f43f7de7a3e": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_ecd9243fd0f64c4a8a8b58747564f45e|item_dac0de3eca894590badad9d0fc4982de": {
+            "_type": "text",
+            "value": "item_0f787147466d47dc9fa82f4294465446",
+            "hardcoded": true
+          },
+          "at_value|item_ecd9243fd0f64c4a8a8b58747564f45e|item_f28661894fd6471a94bef42a08fbe7bb": {
+            "_type": "text",
+            "value": "Q4",
+            "hardcoded": true
+          },
+          "at_value|item_6fc4980cfb204caea09112279bf6508c|item_10bf914f7b53433887cefd5b31bfc9f0": {
+            "_type": "text",
+            "value": "GROUP",
+            "hardcoded": true
+          },
+          "at_value|item_6fc4980cfb204caea09112279bf6508c|item_9b9847f219bb4303aafc0f43f7de7a3e": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_6fc4980cfb204caea09112279bf6508c|item_f28661894fd6471a94bef42a08fbe7bb": {
+            "_type": "text",
+            "value": "Year",
+            "hardcoded": true
+          },
+          "at_value|item_6fc4980cfb204caea09112279bf6508c|item_9087a7ef08ab4196bb743f38ada5b15f": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_a9125e89bd744e648048bb2cb581ac46|item_10bf914f7b53433887cefd5b31bfc9f0": {
+            "_type": "text",
+            "value": "ITEM_REF",
+            "hardcoded": true
+          },
+          "at_value|item_a9125e89bd744e648048bb2cb581ac46|item_9b9847f219bb4303aafc0f43f7de7a3e": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_a9125e89bd744e648048bb2cb581ac46|item_dac0de3eca894590badad9d0fc4982de": {
+            "_type": "text",
+            "value": "item_2b6f588045ca40dcb6082ebefbc32961",
+            "hardcoded": true
+          },
+          "at_value|item_a9125e89bd744e648048bb2cb581ac46|item_f28661894fd6471a94bef42a08fbe7bb": {
+            "_type": "text",
+            "value": "Total",
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_a8cd768b56a24f67987d7c3fff931aa1": {
+        "id": "cube_a8cd768b56a24f67987d7c3fff931aa1",
+        "name": "%RECEDG",
+        "dimension_ids": [
+          "@",
+          "dim_6f40d835c5024b62832be1625f859062",
+          "dim_d5332cb392f74301a4bea9f55334a642"
+        ],
+        "data": {
+          "at_value|item_79e411be7192403581981ad71003df3d|item_a8259de013f04ccc89da2b01c4c1b481": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_79e411be7192403581981ad71003df3d|item_003d942b26774648af48a8992c99c800": {
+            "_type": "text",
+            "value": "nod_26a9f1f820cc4c389cc10ba991492664",
+            "hardcoded": true
+          },
+          "at_value|item_79e411be7192403581981ad71003df3d|item_65ac5ed8ff5d484b834c805d74fa3c79": {
+            "_type": "text",
+            "value": "nod_516b810db18944b59df23835a46fe62c",
+            "hardcoded": true
+          },
+          "at_value|item_79e411be7192403581981ad71003df3d|item_fc63f01653104e44b9b8707e90c12fe1": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_79e411be7192403581981ad71003df3d|item_f7bfa97dcecb4561845e76030d0d4a42": {
+            "_type": "number",
+            "value": 0,
+            "hardcoded": true
+          },
+          "at_value|item_ff88655dd07c4f469bcee2f3fbe4c59a|item_a8259de013f04ccc89da2b01c4c1b481": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_ff88655dd07c4f469bcee2f3fbe4c59a|item_003d942b26774648af48a8992c99c800": {
+            "_type": "text",
+            "value": "nod_d257aab6124e4d5b846e18d7fb5b5e03",
+            "hardcoded": true
+          },
+          "at_value|item_ff88655dd07c4f469bcee2f3fbe4c59a|item_65ac5ed8ff5d484b834c805d74fa3c79": {
+            "_type": "text",
+            "value": "nod_516b810db18944b59df23835a46fe62c",
+            "hardcoded": true
+          },
+          "at_value|item_ff88655dd07c4f469bcee2f3fbe4c59a|item_fc63f01653104e44b9b8707e90c12fe1": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_ff88655dd07c4f469bcee2f3fbe4c59a|item_f7bfa97dcecb4561845e76030d0d4a42": {
+            "_type": "number",
+            "value": 1,
+            "hardcoded": true
+          },
+          "at_value|item_1da0a7cb05a6473896287a483675717d|item_a8259de013f04ccc89da2b01c4c1b481": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_1da0a7cb05a6473896287a483675717d|item_003d942b26774648af48a8992c99c800": {
+            "_type": "text",
+            "value": "nod_b69e7f193d074699b1b5770d82db71b0",
+            "hardcoded": true
+          },
+          "at_value|item_1da0a7cb05a6473896287a483675717d|item_65ac5ed8ff5d484b834c805d74fa3c79": {
+            "_type": "text",
+            "value": "nod_516b810db18944b59df23835a46fe62c",
+            "hardcoded": true
+          },
+          "at_value|item_1da0a7cb05a6473896287a483675717d|item_fc63f01653104e44b9b8707e90c12fe1": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_1da0a7cb05a6473896287a483675717d|item_f7bfa97dcecb4561845e76030d0d4a42": {
+            "_type": "number",
+            "value": 2,
+            "hardcoded": true
+          },
+          "at_value|item_f3620a4a8cdd4a3ab5324cadd7f64e07|item_a8259de013f04ccc89da2b01c4c1b481": {
+            "_type": "text",
+            "value": "MEMBER_OF",
+            "hardcoded": true
+          },
+          "at_value|item_f3620a4a8cdd4a3ab5324cadd7f64e07|item_003d942b26774648af48a8992c99c800": {
+            "_type": "text",
+            "value": "nod_2d8c79dbd1804b9798a8c9e64c710955",
+            "hardcoded": true
+          },
+          "at_value|item_f3620a4a8cdd4a3ab5324cadd7f64e07|item_65ac5ed8ff5d484b834c805d74fa3c79": {
+            "_type": "text",
+            "value": "nod_516b810db18944b59df23835a46fe62c",
+            "hardcoded": true
+          },
+          "at_value|item_f3620a4a8cdd4a3ab5324cadd7f64e07|item_fc63f01653104e44b9b8707e90c12fe1": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_f3620a4a8cdd4a3ab5324cadd7f64e07|item_f7bfa97dcecb4561845e76030d0d4a42": {
+            "_type": "number",
+            "value": 3,
+            "hardcoded": true
+          },
+          "at_value|item_f73da247fafe49c5879688ae760c7cba|item_a8259de013f04ccc89da2b01c4c1b481": {
+            "_type": "text",
+            "value": "AGGREG_OF",
+            "hardcoded": true
+          },
+          "at_value|item_f73da247fafe49c5879688ae760c7cba|item_003d942b26774648af48a8992c99c800": {
+            "_type": "text",
+            "value": "nod_625666f2d67b44d7a951b7debdbed439",
+            "hardcoded": true
+          },
+          "at_value|item_f73da247fafe49c5879688ae760c7cba|item_65ac5ed8ff5d484b834c805d74fa3c79": {
+            "_type": "text",
+            "value": "nod_516b810db18944b59df23835a46fe62c",
+            "hardcoded": true
+          },
+          "at_value|item_f73da247fafe49c5879688ae760c7cba|item_fc63f01653104e44b9b8707e90c12fe1": {
+            "_type": "text",
+            "value": "dim_39e5e2faccb340cd93e02331068e31e1",
+            "hardcoded": true
+          },
+          "at_value|item_f73da247fafe49c5879688ae760c7cba|item_f7bfa97dcecb4561845e76030d0d4a42": {
+            "_type": "number",
+            "value": 4,
+            "hardcoded": true
+          }
+        }
+      },
+      "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c": {
+        "id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "name": "C",
+        "dimension_ids": [
+          "@",
+          "dim_76c7b2b48a394ac08408ccab57068efe",
+          "dim_39e5e2faccb340cd93e02331068e31e1",
+          "dim_059d89580d3442bb874c927f32839b21",
+          "dim_16b27f50d2534f93975c27e123e844f5"
+        ],
+        "data": {
+          "at_value|item_805dba8c8a5244898edc4d8d5af37845|item_a2fdd0e250624dc9bc5cd9b0eb725558|item_ad982efe16b24446bf27cbc6c9f33b38|item_c3b06c3dd8ac4a71900f21c3bf0be9fd": {
+            "_type": "number",
+            "value": 110,
+            "hardcoded": true
+          }
+        }
+      }
+    },
+    "rules": {
+      "r_b13a945f5aca422498bdd50e8d28432f": {
+        "id": "r_b13a945f5aca422498bdd50e8d28432f",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "Geo.US + Geo.UK + Geo.NZ",
+        "addr_mask": [
+          null,
+          null,
+          null,
+          "item_c808b2582823438289d22662072fd0d3",
+          null
+        ],
+        "targets": [
+          [
+            "Geo",
+            "Global"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_e5eed051b8634c0fabbab10630b6528d": {
+        "id": "r_e5eed051b8634c0fabbab10630b6528d",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "100",
+        "addr_mask": [
+          null,
+          "item_805dba8c8a5244898edc4d8d5af37845",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "revenue"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_289751fe34b942748de997956cbe3b44": {
+        "id": "r_289751fe34b942748de997956cbe3b44",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "0.5 * pl.revenue",
+        "addr_mask": [
+          null,
+          "item_d86067904ca64358adb5a006944e8897",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "cos"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_782dd73838874855a53d6b3b4260d6fe": {
+        "id": "r_782dd73838874855a53d6b3b4260d6fe",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "pl.revenue - pl.cos",
+        "addr_mask": [
+          null,
+          "item_fd7a8840b0c240b1b43a808e48053eb6",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "gp"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_c85a60de19c8480c8f7404d94ffb209f": {
+        "id": "r_c85a60de19c8480c8f7404d94ffb209f",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#ffd966\"",
+        "addr_mask": [
+          "at_font_color",
+          null,
+          null,
+          "item_45e4db640c9f4e6eacbe7b51583d6b32",
+          null
+        ],
+        "targets": [
+          [
+            "B",
+            "*"
+          ],
+          [
+            "Geo",
+            "NZ"
+          ],
+          [
+            "@",
+            "font_color"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_d37377308b2d4786bf4d040da7a0ca53": {
+        "id": "r_d37377308b2d4786bf4d040da7a0ca53",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"\"",
+        "addr_mask": [
+          "at_font_color",
+          null,
+          "item_a2fdd0e250624dc9bc5cd9b0eb725558",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "PL",
+            "*"
+          ],
+          [
+            "Quarter",
+            "Q1"
+          ],
+          [
+            "@",
+            "font_color"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_60b8fd4c89f145aba4c91174b2f9a7e5": {
+        "id": "r_60b8fd4c89f145aba4c91174b2f9a7e5",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#8f2a52\"",
+        "addr_mask": [
+          "at_fill",
+          null,
+          null,
+          "item_c808b2582823438289d22662072fd0d3",
+          null
+        ],
+        "targets": [
+          [
+            "Geo",
+            "Global"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_2fbd4a1777114568bfd0b1f40b0cfa8d": {
+        "id": "r_2fbd4a1777114568bfd0b1f40b0cfa8d",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#ffe599\"",
+        "addr_mask": [
+          "at_font_color",
+          null,
+          null,
+          "item_c808b2582823438289d22662072fd0d3",
+          null
+        ],
+        "targets": [
+          [
+            "Geo",
+            "Global"
+          ],
+          [
+            "B",
+            "*"
+          ],
+          [
+            "@",
+            "font_color"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_9d77afb8a4e34111a2854b406d700abb": {
+        "id": "r_9d77afb8a4e34111a2854b406d700abb",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#aaaaaa\"",
+        "addr_mask": [
+          "at_fill",
+          null,
+          null,
+          "item_45e4db640c9f4e6eacbe7b51583d6b32",
+          null
+        ],
+        "targets": [
+          [
+            "Geo",
+            "NZ"
+          ],
+          [
+            "Quarter",
+            "*"
+          ],
+          [
+            "SalesReps",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_c95cdca5dd6e4aae9e534f568126f1e9": {
+        "id": "r_c95cdca5dd6e4aae9e534f568126f1e9",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#e87196\"",
+        "addr_mask": [
+          "at_fill",
+          null,
+          null,
+          "item_ad982efe16b24446bf27cbc6c9f33b38",
+          null
+        ],
+        "targets": [
+          [
+            "Geo",
+            "UK"
+          ],
+          [
+            "Quarter",
+            "*"
+          ],
+          [
+            "SalesReps",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_852060944eb94941a4014c5147f0f5bd": {
+        "id": "r_852060944eb94941a4014c5147f0f5bd",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#5e97f6\"",
+        "addr_mask": [
+          "at_fill",
+          null,
+          null,
+          "item_48673b5929464ccd9db82c69393b505e",
+          null
+        ],
+        "targets": [
+          [
+            "Geo",
+            "US"
+          ],
+          [
+            "Quarter",
+            "*"
+          ],
+          [
+            "SalesReps",
+            "*"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_76503d9680a6429eb4d9fec24485e53c": {
+        "id": "r_76503d9680a6429eb4d9fec24485e53c",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "salesreps.alice + salesreps.bob + salesreps.charlie",
+        "addr_mask": [
+          null,
+          null,
+          null,
+          null,
+          "item_4d40dc33b7cf48be93a5ca8c0eb82bf4"
+        ],
+        "targets": [
+          [
+            "Salesreps",
+            "Total"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_362e9ecec88c4882b01020e0bb2bd73e": {
+        "id": "r_362e9ecec88c4882b01020e0bb2bd73e",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#4f9652\"",
+        "addr_mask": [
+          "at_fill",
+          null,
+          null,
+          null,
+          "item_4d40dc33b7cf48be93a5ca8c0eb82bf4"
+        ],
+        "targets": [
+          [
+            "Geo",
+            "*"
+          ],
+          [
+            "SalesReps",
+            "Total"
+          ],
+          [
+            "@",
+            "fill"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_58596734190f46d99f348c61be4c5ef4": {
+        "id": "r_58596734190f46d99f348c61be4c5ef4",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "\"#000000\"",
+        "addr_mask": [
+          "at_font_color",
+          null,
+          null,
+          null,
+          "item_4d40dc33b7cf48be93a5ca8c0eb82bf4"
+        ],
+        "targets": [
+          [
+            "Geo",
+            "*"
+          ],
+          [
+            "SalesReps",
+            "Total"
+          ],
+          [
+            "@",
+            "font_color"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_8627d670d870499ab438a7ee1c98bdc3": {
+        "id": "r_8627d670d870499ab438a7ee1c98bdc3",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "pl.gp - pl.sga - pl.marketing",
+        "addr_mask": [
+          null,
+          "item_dd74171670ed4e09b8621bbea66947a3",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "ebitda"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_888e5dd0165a4062921f437763ca0de3": {
+        "id": "r_888e5dd0165a4062921f437763ca0de3",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "pl.ebitda - pl.tax",
+        "addr_mask": [
+          null,
+          "item_8b9b8ca914194b50a6df16a8ca7e396d",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "ni"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_04732f3bcd35498a88294b4168712b8e": {
+        "id": "r_04732f3bcd35498a88294b4168712b8e",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "sum(quarter.year)",
+        "addr_mask": [
+          null,
+          null,
+          "item_2b6f588045ca40dcb6082ebefbc32961",
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "quarter",
+            "total"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_44164407e8a74dcba08a56f18ac6308c": {
+        "id": "r_44164407e8a74dcba08a56f18ac6308c",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "pl.gp * 0.15",
+        "addr_mask": [
+          null,
+          "item_a9b74378189b4db2bd95d844499e70ef",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "sga"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_aa270d7efe94456ba0fbb4925f1875fc": {
+        "id": "r_aa270d7efe94456ba0fbb4925f1875fc",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "pl.revenue * 0.25",
+        "addr_mask": [
+          null,
+          "item_e481f04339064389b7a20939b3262228",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "marketing"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_03184331a5b948c38c7bb4ee14c5dad7": {
+        "id": "r_03184331a5b948c38c7bb4ee14c5dad7",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "pl.ebitda * 0.25",
+        "addr_mask": [
+          null,
+          "item_fbc63fa6fe2d4938a2bf6b4330ae93e3",
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "pl",
+            "tax"
+          ]
+        ],
+        "is_anchored": false
+      },
+      "r_1aad3b62fa114866b630a2171b782322": {
+        "id": "r_1aad3b62fa114866b630a2171b782322",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "expression": "'preset:number(decimals=1; group=true; negative=parentheses; zero=dash)'",
+        "addr_mask": [
+          "at_format_number",
+          null,
+          null,
+          null,
+          null
+        ],
+        "targets": [
+          [
+            "@",
+            "format_number"
+          ]
+        ],
+        "is_anchored": false
+      }
+    },
+    "rule_order": [
+      "r_1aad3b62fa114866b630a2171b782322",
+      "r_e5eed051b8634c0fabbab10630b6528d",
+      "r_289751fe34b942748de997956cbe3b44",
+      "r_782dd73838874855a53d6b3b4260d6fe",
+      "r_d37377308b2d4786bf4d040da7a0ca53",
+      "r_60b8fd4c89f145aba4c91174b2f9a7e5",
+      "r_2fbd4a1777114568bfd0b1f40b0cfa8d",
+      "r_9d77afb8a4e34111a2854b406d700abb",
+      "r_c95cdca5dd6e4aae9e534f568126f1e9",
+      "r_b13a945f5aca422498bdd50e8d28432f",
+      "r_c85a60de19c8480c8f7404d94ffb209f",
+      "r_852060944eb94941a4014c5147f0f5bd",
+      "r_362e9ecec88c4882b01020e0bb2bd73e",
+      "r_58596734190f46d99f348c61be4c5ef4",
+      "r_8627d670d870499ab438a7ee1c98bdc3",
+      "r_888e5dd0165a4062921f437763ca0de3",
+      "r_04732f3bcd35498a88294b4168712b8e",
+      "r_44164407e8a74dcba08a56f18ac6308c",
+      "r_aa270d7efe94456ba0fbb4925f1875fc",
+      "r_03184331a5b948c38c7bb4ee14c5dad7",
+      "r_76503d9680a6429eb4d9fec24485e53c"
+    ],
+    "views": {
+      "view_de56f2c9de9c4780a8e4fbbcdd22f462": {
+        "id": "view_de56f2c9de9c4780a8e4fbbcdd22f462",
+        "name": "%CFG",
+        "cube_id": "cube_d051abcc035942d4a7afd09e04b1374b",
+        "row_dim_ids": [
+          "dim_984a7a466a4b4c5fbd688dcb3e64be74"
+        ],
+        "col_dim_ids": [
+          "dim_df70f391fb7b4648a4f68b1e01fb9775"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_d6989da2f8bc4bacbee8bf1b06c5656f": {
+        "id": "view_d6989da2f8bc4bacbee8bf1b06c5656f",
+        "name": "%SIG",
+        "cube_id": "cube_4704fd59af3d4ff1a3a98ae56e6ddb8a",
+        "row_dim_ids": [
+          "dim_ec8ed113713c43e49110fcf375496c76"
+        ],
+        "col_dim_ids": [
+          "dim_86b70bcaf8474bb3b76b4f936f78b4af"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_7cab216c68044af29e444f2ab41af663": {
+        "id": "view_7cab216c68044af29e444f2ab41af663",
+        "name": "%TYP",
+        "cube_id": "cube_ff16e27fd0ff4864be640a01042a2307",
+        "row_dim_ids": [
+          "dim_ca58f9dc773f4e6bb57e2a0919c758de"
+        ],
+        "col_dim_ids": [
+          "dim_0244ee63f36942e2b8366a3c67509022"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_7fb95d4eaf234b96a5bf0b342e4f5c96": {
+        "id": "view_7fb95d4eaf234b96a5bf0b342e4f5c96",
+        "name": "%RECNOD",
+        "cube_id": "cube_e96fac47b108447eb9c8d99d98d72825",
+        "row_dim_ids": [
+          "dim_2a479624aa2f4b2584cfa1efd0ac20e9"
+        ],
+        "col_dim_ids": [
+          "dim_d671781843d843679de639f123bda6e8"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_b8d5d078b46f4335aa501fca218a267b": {
+        "id": "view_b8d5d078b46f4335aa501fca218a267b",
+        "name": "%RECEDG",
+        "cube_id": "cube_a8cd768b56a24f67987d7c3fff931aa1",
+        "row_dim_ids": [
+          "dim_6f40d835c5024b62832be1625f859062"
+        ],
+        "col_dim_ids": [
+          "dim_d5332cb392f74301a4bea9f55334a642"
+        ],
+        "page_dim_ids": [
+          "@"
+        ],
+        "col_widths": {},
+        "row_header_widths": {}
+      },
+      "view_293f32aa238a4ef199c7be5c0be260bc": {
+        "id": "view_293f32aa238a4ef199c7be5c0be260bc",
+        "name": "C",
+        "cube_id": "cube_7d3a51e4a9c644f79bb2ecf5d4730b6c",
+        "row_dim_ids": [
+          "dim_76c7b2b48a394ac08408ccab57068efe"
+        ],
+        "col_dim_ids": [
+          "dim_39e5e2faccb340cd93e02331068e31e1"
+        ],
+        "page_dim_ids": [
+          "@",
+          "dim_059d89580d3442bb874c927f32839b21",
+          "dim_16b27f50d2534f93975c27e123e844f5"
+        ],
+        "col_widths": {},
+        "row_header_widths": {
+          "1": 90
+        }
+      }
+    },
+    "views_order": [
+      "view_de56f2c9de9c4780a8e4fbbcdd22f462",
+      "view_d6989da2f8bc4bacbee8bf1b06c5656f",
+      "view_7cab216c68044af29e444f2ab41af663",
+      "view_7fb95d4eaf234b96a5bf0b342e4f5c96",
+      "view_b8d5d078b46f4335aa501fca218a267b",
+      "view_293f32aa238a4ef199c7be5c0be260bc"
+    ],
+    "udfs": [],
+    "active_view_id": "view_293f32aa238a4ef199c7be5c0be260bc"
+  }
+}
