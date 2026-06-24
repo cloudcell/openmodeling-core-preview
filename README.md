@@ -1,4 +1,6 @@
-# OpenModeling Core Preview
+# OpenModeling Core v0.1.1-alpha.1
+
+⚠️ Not production-ready.
 
 Preview builds of OM Core™, a multidimensional modeling environment built around dimensions, groups, cubes, and rules.
 
