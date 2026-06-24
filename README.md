@@ -1,14 +1,48 @@
-# OpenModeling Core preview builds
+# OpenModeling Core Preview
 
-This repository contains preview builds of OM Core™.  The source code is not public yet. I plan to release it soon after this initial alpha preview period, once packaging, licensing, and repository cleanup are complete.
+Preview builds of OM Core™, a multidimensional modeling environment built around dimensions, groups, cubes, and rules.
 
-## Alpha feedback
+> Source code is not public yet. Builds are available for early testing, with source planned for release after the initial alpha preview period.
 
-OM Core is still early. If you try the preview build, I’d really like to hear what works, what breaks, and what feels confusing.
+## Download
 
-## Links
+Get the latest build from [GitHub Releases](../../releases).
 
-- Demo video: [YouTube](https://youtu.be/9txqmXQFRXc)
-- Download: [GitHub Releases](../../releases)
-- Discord: [Join the community](https://discord.gg/GfU5ypAbaD)
+## Demo
 
+Watch the demo video: [YouTube](https://youtu.be/9txqmXQFRXc).
+
+## Community
+
+Join the Discord: [Discord invite](https://discord.gg/GfU5ypAbaD).
+
+## What is OM Core?
+
+OM Core is for people who build financial models, budgets, forecasts, operational models, and complex spreadsheet-based tools.
+
+Instead of burying business logic in copied cell formulas, OM Core lets you define dimensions, groups, cubes, and rules directly.
+
+## Current status
+
+This is alpha software. Expect bugs, rough edges, incomplete documentation, and missing features.
+
+See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for the current list of known problems.
+
+## What to try
+
+- Open a sample model from the [`samples/`](samples/) directory.
+- Change a driver.
+- Watch dependent cubes update.
+- Try dimensions, groups, and rules.
+- Report anything confusing or broken.
+
+## Feedback
+
+- **Bugs:** open a [GitHub issue](../../issues).
+- **Discussion:** join the [Discord](https://discord.gg/GfU5ypAbaD).
+
+## License
+
+This preview build is provided for evaluation and feedback only. Source code is not public yet.
+
+See [PREVIEW-LICENSE.md](PREVIEW-LICENSE.md) for full terms.
